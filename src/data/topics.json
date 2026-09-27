@@ -1,0 +1,72 @@
+[
+  {
+    "id": "grundbegriffe",
+    "title": "Grundbegriffe",
+    "icon": "📜",
+    "color": "indigo",
+    "description": "Grundbuch, Notar, Auflassung, Grundschuld, Erbbaurecht – das Fundament."
+  },
+  {
+    "id": "makler",
+    "title": "Makler",
+    "icon": "🤝",
+    "color": "amber",
+    "description": "Aufgaben, Erlaubnis nach §34c GewO, Provision und Maklervertrag."
+  },
+  {
+    "id": "vermietung",
+    "title": "Vermietung",
+    "icon": "🔑",
+    "color": "teal",
+    "description": "Mietvertrag, Kaution, Nebenkostenabrechnung, Mietspiegel."
+  },
+  {
+    "id": "weg",
+    "title": "Wohnungseigentum",
+    "icon": "🏢",
+    "color": "sky",
+    "description": "WEG, Teilungserklärung, Hausgeld, Eigentümerversammlung."
+  },
+  {
+    "id": "finanzierung",
+    "title": "Finanzierung",
+    "icon": "🏦",
+    "color": "emerald",
+    "description": "Eigenkapital, Zins, Tilgung, Zinsbindung, Sondertilgung."
+  },
+  {
+    "id": "bewertung",
+    "title": "Bewertung",
+    "icon": "⚖️",
+    "color": "violet",
+    "description": "Vergleichswert-, Ertragswert- und Sachwertverfahren."
+  },
+  {
+    "id": "energie",
+    "title": "Energie",
+    "icon": "⚡",
+    "color": "orange",
+    "description": "Energieausweis, Effizienzklassen, GEG und Heizung."
+  },
+  {
+    "id": "architektur",
+    "title": "Architektur & Bauepochen",
+    "icon": "🏛️",
+    "color": "rose",
+    "description": "Woran man Fachwerk, Gründerzeit, Bauhaus & Co. erkennt – und was sie beim Verkauf bedeuten."
+  },
+  {
+    "id": "kaufen",
+    "title": "Immobilie kaufen",
+    "icon": "🏠",
+    "color": "indigo",
+    "description": "Das große Thema: vom Budget bis zur Eintragung ins Grundbuch."
+  },
+  {
+    "id": "rechnen",
+    "title": "Rechen-Challenges",
+    "icon": "🧮",
+    "color": "emerald",
+    "description": "Kaufnebenkosten, Grunderwerbsteuer, Rendite, Warmmiete und Annuität – mit vollständigem Rechenweg."
+  }
+]

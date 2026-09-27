@@ -1,0 +1,339 @@
+{
+  "titel": "Kaufprozess-Simulation",
+  "intro": "Du begleitest eine Familie vom Budget bis zur Schlüsselübergabe. An jeder Station musst du die richtige Entscheidung treffen – danach erklärt die App, warum.",
+  "kaeufer": {
+    "name": "Familie Krause",
+    "beschreibung": "Jonas (34) und Mia (32) wohnen mit Tochter Lena (3) zur Miete in Hannover. Sie wollen zum ersten Mal eine Immobilie kaufen und verlassen sich auf deinen Rat als Makler oder Berater.",
+    "fakten": [
+      { "label": "Netto-Einkommen", "wert": "4.600 € pro Monat" },
+      { "label": "Eigenkapital", "wert": "65.000 €" },
+      { "label": "Wunschobjekt", "wert": "Reihenendhaus, Bj. 1994, 118 m²" },
+      { "label": "Angebotspreis", "wert": "340.000 €" }
+    ]
+  },
+  "abschluss": "Geschafft: Familie Krause ist im Grundbuch eingetragen und hat die Schlüssel in der Hand. Wenn du die Stationen mit Erklärung durchgegangen bist, kennst du jetzt jeden Schritt des Immobilienkaufs. Die Zahlen (Steuer, Fristen, Kosten) findest du auf der Lernseite „Kaufprozess von A bis Z“ mit Stand-Angabe.",
+  "stationen": [
+    {
+      "id": "sim-01",
+      "station": "Budget planen",
+      "icon": "💰",
+      "difficulty": 1,
+      "scenario": "Herr Krause sagt: „Wir haben 65.000 € Eigenkapital und verdienen zusammen 4.600 € netto. Das Haus kostet 340.000 € – das schaffen wir locker. Die Nebenkosten übernimmt ja die Bank.“",
+      "question": "Was rätst du der Familie?",
+      "options": [
+        "Die Nebenkosten (rund 10,5 % oder ca. 36.000 €) zusätzlich einplanen, sie möglichst aus dem Eigenkapital zahlen und dann das Darlehen samt Monatsrate prüfen",
+        "Die Nebenkosten spielen keine Rolle, nur der Kaufpreis zählt",
+        "Das ganze Eigenkapital in den Kaufpreis stecken und die Nebenkosten später mit einem Konsumkredit zahlen",
+        "Erst kaufen, danach in Ruhe das Budget rechnen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Zum Kaufpreis kommen in Niedersachsen mit Makler rund 10,5 % Nebenkosten (Grunderwerbsteuer 5 %, Notar/Grundbuch ca. 2 %, Käuferprovision 3,57 %). Das sind hier etwa 36.000 €. Banken erwarten meist, dass diese aus Eigenkapital bezahlt werden. Von den 65.000 € Eigenkapital bleiben dann etwa 29.000 € für den Kaufpreis, und das Darlehen liegt bei ca. 311.000 €.",
+      "wrongExplanations": [
+        null,
+        "Nebenkosten müssen bezahlt werden, und zwar zusätzlich zum Kaufpreis. Wer sie vergisst, steht später ohne Geld da.",
+        "Ein Konsumkredit für die Nebenkosten ist teuer und macht die Finanzierung riskant. Banken sehen das kritisch.",
+        "Ohne Budgetplanung kann die Bank keine Zusage geben, und die Familie riskiert, sich zu übernehmen."
+      ],
+      "practiceTip": "Zeige Kunden zu Beginn eine einfache Tabelle: Kaufpreis + Nebenkosten − Eigenkapital = Darlehen. Danach rechnest du die Monatsrate."
+    },
+    {
+      "id": "sim-02",
+      "station": "Finanzierung bestätigen",
+      "icon": "🏦",
+      "difficulty": 1,
+      "scenario": "Die Krauses haben ein Reihenendhaus gefunden. Der Verkäufer möchte wissen, ob die Familie den Preis überhaupt finanzieren kann, bevor er weitere Besichtigungstermine vergibt.",
+      "question": "Welche Unterlage sollte die Familie vorlegen?",
+      "options": [
+        "Eine Finanzierungsbestätigung der Bank mit der Summe, die sie voraussichtlich finanzieren kann",
+        "Sofort einen unterschriebenen Kreditvertrag, bevor das Objekt feststeht",
+        "Den Kaufvertrag vom Notar, obwohl noch nichts vereinbart ist",
+        "Gar nichts, der Verkäufer soll einfach vertrauen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eine Finanzierungsbestätigung (Finanzierungszusage in Aussicht) zeigt, dass die Bank die Finanzierung bis zu einer bestimmten Summe für möglich hält. Sie ist unverbindlich, aber ein guter Ernsthaftigkeitsnachweis für Verkäufer und Makler.",
+      "wrongExplanations": [
+        null,
+        "Ein Kreditvertrag ohne konkretes Objekt ist ungewöhnlich. Die Bank braucht das Objekt und die Grundschuld als Sicherheit.",
+        "Einen Kaufvertrag gibt es erst, wenn beide sich einig sind. Der Notar erstellt ihn erst später.",
+        "Ohne Nachweis vergeben Verkäufer und Makler ihre Termine oft an andere, besser vorbereitete Interessenten."
+      ],
+      "practiceTip": "Frage Interessenten schon beim ersten Kontakt nach der Finanzierungsbestätigung. Das spart Termine mit Kunden, die es sich nicht leisten können."
+    },
+    {
+      "id": "sim-03",
+      "station": "Besichtigung",
+      "icon": "🔍",
+      "difficulty": 2,
+      "scenario": "Im Keller entdeckt Frau Krause an der Außenwand einen dunklen Fleck, es riecht muffig, und eine Stelle ist auffallend frisch gestrichen. Der Verkäufer sagt: „Das ist nichts, da hat mal ein Rohr getropft.“",
+      "question": "Wie reagiert ihr am besten?",
+      "options": [
+        "Nachfragen, Fotos machen, einen Sachverständigen oder Fachbetrieb hinzuziehen und das Ergebnis für die Preisverhandlung nutzen",
+        "Ignorieren – die Farbe ist ja frisch, also alles in Ordnung",
+        "Den Verkäufer beschuldigen und die Besichtigung sofort abbrechen",
+        "Nichts sagen und erst nach dem Kauf reklamieren"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Feuchtigkeit im Keller kann teuer werden (Abdichtung, Drainage). Frisch gestrichene Stellen sind ein Warnsignal. Sinnvoll ist, Fotos zu machen, nachzufragen und einen Fachmann prüfen zu lassen. Das Ergebnis dient als Argument für den Preis oder als Grund, vom Kauf Abstand zu nehmen.",
+      "wrongExplanations": [
+        null,
+        "Frische Farbe kann eine Ursache nur verdecken. Ohne Prüfung besteht das Risiko eines teuren Mangels.",
+        "Vorwürfe ohne Beweise verhärten die Fronten. Sachliches Nachfragen und Prüfen führt weiter.",
+        "Bei Bestandsimmobilien ist die Gewährleistung meist ausgeschlossen. Nach dem Kauf reklamieren bringt dann oft nichts."
+      ],
+      "practiceTip": "Als Makler solltest du bekannte Mängel selbst ansprechen. Ehrlichkeit schützt vor Haftung und erhöht das Vertrauen beider Seiten."
+    },
+    {
+      "id": "sim-04",
+      "station": "Unterlagen prüfen",
+      "icon": "📑",
+      "difficulty": 2,
+      "scenario": "Der Verkäufer hat den Krauses einen Grundbuchauszug, den Energieausweis und Grundrisse gegeben. Familie Krause fragt: „Haben wir jetzt alles, oder fehlt noch etwas Wichtiges?“",
+      "question": "Welche wichtige Unterlage fehlt noch?",
+      "options": [
+        "Ein Auszug aus dem Baulastenverzeichnis, dazu Flurkarte und Wohnflächenberechnung",
+        "Nichts, das Grundbuch enthält alles",
+        "Der Mietspiegel der Stadt",
+        "Die Schufa-Auskunft des Verkäufers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Baulasten stehen nicht im Grundbuch, sondern im Baulastenverzeichnis der Bauaufsichtsbehörde. Sie können Anbauten oder die Nutzung einschränken. Die Flurkarte zeigt die Grenzen, die Wohnflächenberechnung belegt die Größe des Hauses.",
+      "wrongExplanations": [
+        null,
+        "Das Grundbuch zeigt Eigentum und Rechte Dritter, aber keine Baulasten. Deshalb muss das Baulastenverzeichnis extra angefordert werden.",
+        "Der Mietspiegel ist für eine selbst genutzte Immobilie nicht wichtig. Er betrifft Mieten.",
+        "Die Schufa-Auskunft des Verkäufers ist datenschutzrechtlich nicht üblich und beim Kauf nicht nötig."
+      ],
+      "practiceTip": "Lege dir eine feste Unterlagen-Checkliste an (Grundbuch, Baulasten, Flurkarte, Energieausweis, Grundrisse, Flächenberechnung). Sie spart dir Rückfragen."
+    },
+    {
+      "id": "sim-05",
+      "station": "Preis verhandeln",
+      "icon": "🤝",
+      "difficulty": 2,
+      "scenario": "Das Haus hat 118 m² und kostet 340.000 € (rund 2.880 € pro m²). Vergleichbare, modernisierte Häuser in der Umgebung liegen bei 2.900 bis 3.100 € pro m². Die Heizung ist 30 Jahre alt, der Keller ist feucht. Ein Fachbetrieb schätzt die Kosten für Heizung und Kellerabdichtung auf zusammen rund 20.000 €.",
+      "question": "Wie gehen die Krauses in die Preisverhandlung?",
+      "options": [
+        "Mit einem Vorschlag von etwa 325.000 €, begründet durch Vergleichspreise und die Kostenschätzung für Heizung und Keller",
+        "Den Angebotspreis zahlen, damit der Verkäufer sich nicht ärgert",
+        "Die Hälfte des Preises bieten, ohne Begründung",
+        "Nur mit Gefühlen argumentieren: „Wir mögen das Haus so sehr“"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sachliche Argumente überzeugen: Das Haus ist nicht modernisiert und hat konkrete Mängel. Mit Vergleichspreisen und einer Kostenschätzung kann man einen Abschlag begründen. Hier sind 15.000 € (rund 4,4 %) ein realistischer Vorschlag, den der Verkäufer nachvollziehen kann.",
+      "wrongExplanations": [
+        null,
+        "Der Angebotspreis ist meist ein Verhandlungspreis. Ohne Verhandlung verschenken die Käufer Geld.",
+        "Ein Angebot ohne Begründung wirkt unseriös und kann zum Abbruch der Gespräche führen.",
+        "Emotionale Aussagen schwächen die Verhandlungsposition. Der Verkäufer kann den Preis dann hoch halten."
+      ],
+      "practiceTip": "Bereite als Makler beide Seiten vor: Der Verkäufer bekommt die Vergleichszahlen, der Käufer die Begründung. So wird ein Ergebnis in der Mitte leichter."
+    },
+    {
+      "id": "sim-06",
+      "station": "Reservierung",
+      "icon": "📌",
+      "difficulty": 2,
+      "scenario": "Der Makler bietet eine Reservierungsvereinbarung an: 3.000 € Gebühr, das Haus wird vier Wochen für die Krauses freigehalten. Herr Krause meint: „Dann haben wir ja praktisch schon gekauft.“",
+      "question": "Was ist zur Reservierung richtig?",
+      "options": [
+        "Sie hält das Objekt oft für eine Zeit frei, verpflichtet aber rechtlich nicht zum Kauf. Bindend wird erst der notarielle Kaufvertrag, und hohe Gebühren sollte man kritisch prüfen",
+        "Eine Reservierung ist bereits ein wirksamer Kaufvertrag",
+        "Nach der Reservierung kann niemand mehr anderweitig kaufen, das ist gesetzlich garantiert",
+        "Reservierungsgebühren sind immer in jeder Höhe zulässig"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ein Kaufvertrag über eine Immobilie braucht den Notar (§ 311b BGB). Eine Reservierung ist eine Absprache, die dem Interessenten Zeit gibt. Der Verkäufer ist rechtlich nicht gebunden, und für hohe Gebühren gelten enge Grenzen. Deshalb sollten solche Vereinbarungen genau gelesen werden.",
+      "wrongExplanations": [
+        null,
+        "Ohne notarielle Beurkundung ist ein Grundstückskaufvertrag unwirksam. Die Reservierung ersetzt ihn nicht.",
+        "Eine gesetzliche Garantie gibt es nicht. Der Verkäufer kann sich anders entscheiden, solange kein Vertrag besteht.",
+        "Übermäßige Gebühren ohne echte Gegenleistung können unwirksam sein. Sie sollten geprüft werden."
+      ],
+      "practiceTip": "Erkläre Käufern klar: Eine Reservierung gibt Zeit, keine Sicherheit. Halte Fristen und Bedingungen schriftlich fest."
+    },
+    {
+      "id": "sim-07",
+      "station": "Kaufvertragsentwurf",
+      "icon": "📝",
+      "difficulty": 2,
+      "scenario": "Der Notar meldet sich: Der Termin ist übermorgen, den Entwurf des Kaufvertrags schickt er erst heute. Die Krauses sind unsicher, ob sie ihn in dieser kurzen Zeit lesen und verstehen können.",
+      "question": "Wie ist die Rechtslage und was sollten die Krauses tun?",
+      "options": [
+        "Verbrauchern soll der Entwurf in der Regel mindestens zwei Wochen vor dem Termin vorliegen. Sie sollten den Termin verschieben lassen und den Entwurf in Ruhe prüfen",
+        "Das ist normal, sie sollten trotzdem unterschreiben",
+        "Die Bank entscheidet, ob der Vertrag gut ist, die Familie muss ihn nicht lesen",
+        "Der Verkäufer kann bestimmen, wann der Notartermin stattfindet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach § 17 Abs. 2a BeurkG soll bei Verbraucherverträgen der Entwurf in der Regel mindestens zwei Wochen vor der Beurkundung zur Verfügung stehen. So haben Käufer Zeit, den Vertrag zu lesen, Fragen zu stellen und sich beraten zu lassen. Bei zu kurzer Frist sollte der Termin verschoben werden.",
+      "wrongExplanations": [
+        null,
+        "Unterschreiben ohne Prüfung kann teuer werden, weil man sich an alles bindet, was im Vertrag steht.",
+        "Die Bank prüft ihre eigenen Interessen (Grundschuld), nicht den ganzen Vertrag für den Käufer.",
+        "Der Termin muss mit dem Käufer abgestimmt werden. Er kann Zeit für die Prüfung verlangen."
+      ],
+      "practiceTip": "Plane als Makler früh genug den Entwurf ein: Sag dem Notar rechtzeitig Bescheid, sobald Preis und Eckdaten stehen."
+    },
+    {
+      "id": "sim-08",
+      "station": "Notartermin",
+      "icon": "✍️",
+      "difficulty": 2,
+      "scenario": "Beim Beurkundungstermin liest der Notar den Vertrag vor. Bei der Klausel „Ausschluss der Gewährleistung“ zögert Herr Krause. Er denkt an den feuchten Keller. Der Verkäufer sagt: „Das ist üblich, lesen Sie einfach weiter.“",
+      "question": "Was sollten die Krauses jetzt tun?",
+      "options": [
+        "Nachfragen, sich die Klausel vom Notar erklären lassen und bekannte Mängel offen im Vertrag oder beim Preis berücksichtigen, bevor sie unterschreiben",
+        "Schweigen und unterschreiben, damit es schnell geht",
+        "Den Termin verlassen und den Makler unterschreiben lassen",
+        "Die Klausel ignorieren, weil sie sowieso nicht gilt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Notar ist neutral und muss beide Seiten belehren. Der Gewährleistungsausschluss ist bei gebrauchten Immobilien üblich, gilt aber nicht bei arglistig verschwiegenen Mängeln. Wer einen Mangel kennt, sollte ihn offen ansprechen und im Preis berücksichtigen. Unterschrieben wird erst, wenn alles verstanden ist.",
+      "wrongExplanations": [
+        null,
+        "Wer nicht nachfragt, bindet sich an Regelungen, die er nicht verstanden hat. Das ist bei einer so großen Entscheidung riskant.",
+        "Der Makler ist nicht Vertragspartei und darf nicht für die Käufer unterschreiben.",
+        "Die Klausel gilt grundsätzlich. Ausnahmen bestehen nur bei Arglist oder Garantie."
+      ],
+      "practiceTip": "Bereite Kunden vor dem Termin darauf vor: Fragen sind ausdrücklich erwünscht. Ein guter Notar erklärt jede Klausel."
+    },
+    {
+      "id": "sim-09",
+      "station": "Auflassungsvormerkung",
+      "icon": "🛡️",
+      "difficulty": 2,
+      "scenario": "Nach dem Notartermin fragt Frau Krause: „Wir sind ja noch nicht im Grundbuch eingetragen. Was passiert, wenn der Verkäufer das Haus jetzt an jemand anderen verkauft?“",
+      "question": "Was antwortest du?",
+      "options": [
+        "Der Notar beantragt eine Auflassungsvormerkung. Sie wird in Abt. II eingetragen und sichert den Anspruch der Krauses auf das Eigentum",
+        "Sie sind ab dem Notartermin bereits Eigentümer",
+        "Dafür ist der Makler zuständig",
+        "Einen solchen Schutz gibt es nicht"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Vormerkung (§ 883 BGB) sichert den Anspruch des Käufers auf Übertragung des Eigentums. Nach der Eintragung kann der Verkäufer das Grundstück nicht mehr wirksam an einen anderen verkaufen oder belasten, ohne dass der Käufer das verhindern kann.",
+      "wrongExplanations": [
+        null,
+        "Eigentümer wird man erst mit der Eintragung im Grundbuch, nicht schon mit dem Notartermin.",
+        "Der Notar beantragt die Vormerkung. Der Makler hat damit nichts zu tun.",
+        "Der Schutz gibt es: Genau dafür ist die Auflassungsvormerkung da."
+      ],
+      "practiceTip": "Sag Käufern: Zahlt erst, wenn der Notar die Vormerkung bestätigt hat. Damit ist der Kaufpreis sicher angelegt."
+    },
+    {
+      "id": "sim-10",
+      "station": "Vorkaufsrecht",
+      "icon": "🏛️",
+      "difficulty": 2,
+      "scenario": "Der Notar erklärt, dass er bei der Gemeinde anfragen wird, ob sie ihr Vorkaufsrecht ausübt. Ein Nachbar meint: „Die Gemeinde kann noch nach einem halben Jahr das Haus an sich ziehen.“",
+      "question": "Was stimmt?",
+      "options": [
+        "Die Gemeinde hat, wenn ein Vorkaufsrecht besteht, in der Regel zwei Monate Zeit. Meist bestätigt sie schneller schriftlich, dass sie verzichtet (Negativzeugnis)",
+        "Die Gemeinde kann ohne Frist jederzeit eintreten",
+        "Die Krauses müssen die Gemeinde selbst anrufen und bitten",
+        "Vorkaufsrechte der Gemeinde gibt es nie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach den §§ 24 ff. BauGB haben Gemeinden in bestimmten Gebieten ein Vorkaufsrecht. Die Ausübung ist auf zwei Monate nach Mitteilung des Kaufvertrags beschränkt (§ 28 BauGB). Der Notar meldet den Vertrag und holt meist ein Negativzeugnis ein, damit es schneller geht.",
+      "wrongExplanations": [
+        null,
+        "Eine Frist gibt es: zwei Monate ab Mitteilung. Ohne Frist gäbe es keine Rechtssicherheit für Käufer und Verkäufer.",
+        "Die Anfrage stellt der Notar. Käufer müssen sich darum nicht kümmern.",
+        "Vorkaufsrechte gibt es sehr wohl, vor allem in Sanierungsgebieten und Gebieten mit besonderen Planungen."
+      ],
+      "practiceTip": "Erkläre Käufern: Das Vorkaufsrecht wird selten ausgeübt. Dennoch kann es den Ablauf verzögern, wenn die Erklärung noch fehlt."
+    },
+    {
+      "id": "sim-11",
+      "station": "Grunderwerbsteuer",
+      "icon": "🧾",
+      "difficulty": 2,
+      "scenario": "Der Kaufpreis wurde auf 325.000 € verhandelt. Zwei Wochen nach dem Notartermin kommt ein Bescheid des Finanzamts über 16.250 € Grunderwerbsteuer. Herr Krause meint: „Das kann warten, wir zahlen erst, wenn wir im Grundbuch stehen.“",
+      "question": "Wie reagierst du?",
+      "options": [
+        "Fristgerecht zahlen. Danach stellt das Finanzamt die Unbedenklichkeitsbescheinigung aus, die für die Eintragung ins Grundbuch nötig ist",
+        "Erst nach der Grundbucheintragung zahlen",
+        "Der Verkäufer muss die Steuer zahlen, sie ignorieren",
+        "Die Bank zahlt die Steuer automatisch"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Grunderwerbsteuer beträgt in Niedersachsen 5 % (Stand 2025): 325.000 € × 5 % = 16.250 €. Sie ist in der im Bescheid genannten Frist zu zahlen. Erst danach erteilt das Finanzamt die Unbedenklichkeitsbescheinigung, ohne die das Grundbuchamt den Käufer nicht als Eigentümer einträgt.",
+      "wrongExplanations": [
+        null,
+        "Ohne Zahlung gibt es keine Unbedenklichkeitsbescheinigung und damit keine Eintragung. Späte Zahlung kann zusätzlich Säumniszuschläge kosten.",
+        "Gesetzlich haften beide, im Vertrag trägt sie aber üblicherweise der Käufer. Ignorieren ist keine Lösung.",
+        "Die Bank zahlt die Steuer nicht von selbst. Der Käufer muss sie überweisen."
+      ],
+      "practiceTip": "Erinnere Käufer schon beim Notartermin daran, das Geld für die Steuer bereitzuhalten. Der Bescheid kommt oft kurz danach und die Frist ist knapp."
+    },
+    {
+      "id": "sim-12",
+      "station": "Kaufpreis zahlen",
+      "icon": "💶",
+      "difficulty": 3,
+      "scenario": "Der Verkäufer ruft die Krauses an: „Überweist doch schon mal, dann geht es schneller mit der Übergabe.“ Der Notar hat die Fälligkeitsmitteilung noch nicht verschickt. Die Vormerkung ist noch nicht bestätigt.",
+      "question": "Was solltet ihr tun?",
+      "options": [
+        "Erst zahlen, wenn die Fälligkeitsmitteilung des Notars vorliegt, und dann auf das dort genannte Konto innerhalb der Frist",
+        "Sofort überweisen, damit der Verkäufer zufrieden ist",
+        "Den Betrag bar am Wochenende übergeben",
+        "Auf ein Privatkonto einer dritten Person überweisen, das der Verkäufer nennt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Kaufpreis wird erst fällig, wenn der Notar bestätigt: Vormerkung ist eingetragen, das Vorkaufsrecht ist erledigt, die Löschung alter Grundschulden ist gesichert. Dann schickt er die Fälligkeitsmitteilung mit den Kontodaten. Vorher zu zahlen ist riskant, weil die Sicherheiten noch fehlen.",
+      "wrongExplanations": [
+        null,
+        "Zahlt man zu früh, hat man noch keine Sicherheit. Geht etwas schief, ist das Geld weg oder schwer zurückzuholen.",
+        "Bargeld bei Immobilienkäufen ist unüblich und wegen der Geldwäscheregeln stark eingeschränkt. Der Notar beurkundet gar nicht, wenn der Kaufpreis bar bezahlt werden soll.",
+        "Nur das im Vertrag oder in der Fälligkeitsmitteilung genannte Konto ist richtig. Fremde Privatkonten sind ein häufiger Betrugsversuch."
+      ],
+      "practiceTip": "Rufe Käufer kurz vor der Fälligkeit an und erinnere sie: Konto nur aus der Mitteilung des Notars, Frist beachten, Bank informieren."
+    },
+    {
+      "id": "sim-13",
+      "station": "Übergabe",
+      "icon": "🔑",
+      "difficulty": 2,
+      "scenario": "Übergabetag: Der Verkäufer legt Schlüssel auf den Tisch, drei statt der vereinbarten fünf. Die Einbauküche, die im Vertrag mitverkauft wurde, fehlt zur Hälfte, und die Zählerstände hat noch niemand notiert.",
+      "question": "Was ist jetzt am wichtigsten?",
+      "options": [
+        "Ein Übergabeprotokoll mit Zählerständen, Schlüsselanzahl, Zustand, Mängeln und mitverkauftem Zubehör ausfüllen, Fotos machen und beide unterschreiben lassen",
+        "Nur die Schlüssel nehmen und den Rest später klären",
+        "Alles nur mündlich vereinbaren",
+        "Gar nichts festhalten, denn der Notarvertrag reicht"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Das Übergabeprotokoll ist der Beweis für den Zustand der Immobilie am Tag der Übergabe. Es hält Zählerstände (Strom, Gas, Wasser), die Zahl der Schlüssel, sichtbare Mängel und mitverkaufte Gegenstände fest. Fehlende Teile und Abweichungen vom Vertrag werden so dokumentiert.",
+      "wrongExplanations": [
+        null,
+        "Was nicht festgehalten wird, lässt sich später schwer beweisen. Zählerstände für die Abrechnung fehlen sonst auch.",
+        "Mündliche Absprachen sind schwer zu beweisen und führen oft zu Streit.",
+        "Der Notarvertrag regelt die Rechte und Pflichten, aber nicht den tatsächlichen Zustand bei der Übergabe."
+      ],
+      "practiceTip": "Bring als Makler eine Vorlage für das Protokoll und einen Zollstock mit. Der Termin verläuft ruhiger, wenn alle wissen, was zu prüfen ist."
+    },
+    {
+      "id": "sim-14",
+      "station": "Eintragung",
+      "icon": "🏠",
+      "difficulty": 1,
+      "scenario": "Einige Wochen später bekommen die Krauses vom Notar eine Nachricht: Die Umschreibung ist erledigt. Lena fragt: „Papa, ist das Haus jetzt wirklich unseres?“",
+      "question": "Wann sind die Krauses rechtlich Eigentümer geworden?",
+      "options": [
+        "Mit der Eintragung als Eigentümer im Grundbuch (Abteilung I)",
+        "Schon beim Notartermin",
+        "Mit der Schlüsselübergabe",
+        "Mit dem Zahlungseingang beim Verkäufer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Eigentümer eines Grundstücks wird man erst mit der Eintragung im Grundbuch (§ 873 BGB). Notartermin, Zahlung und Schlüsselübergabe sind wichtige Schritte, ändern aber das Eigentum noch nicht. Nach der Eintragung sollte man den neuen Grundbuchauszug prüfen und Versicherungen, Versorger und Gemeinde informieren.",
+      "wrongExplanations": [
+        null,
+        "Beim Notartermin wird nur der Vertrag geschlossen und die Auflassung erklärt. Das Eigentum geht noch nicht über.",
+        "Mit den Schlüsseln geht nur der Besitz über. Eigentum und Besitz sind verschiedene Dinge.",
+        "Die Zahlung ist die Pflicht des Käufers. Sie führt aber nicht automatisch zum Eigentum."
+      ],
+      "practiceTip": "Zum Abschluss gehört ein kleiner Service: Gib den Krauses eine Checkliste für die ersten Wochen mit (Versicherung, Strom, Grundsteuer, Ummeldung). Das bleibt in Erinnerung."
+    }
+  ]
+}

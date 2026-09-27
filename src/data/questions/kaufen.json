@@ -1,0 +1,1015 @@
+{
+  "topic": "kaufen",
+  "stand": "Stand 2025",
+  "hinweis": "Grunderwerbsteuer (Niedersachsen 5 %), Provisionsregeln (§§ 656a–d BGB), Fristen (2 Wochen Entwurf, 2 Monate Vorkaufsrecht) und Gebühren können sich ändern. Aktuelle Werte stehen zentral in src/data/legal.ts.",
+  "questions": [
+    {
+      "id": "ka-01",
+      "difficulty": 1,
+      "category": "Budget",
+      "question": "Was gehört zu den Kaufnebenkosten beim Immobilienkauf?",
+      "options": [
+        "Nur der Kaufpreis",
+        "Grunderwerbsteuer, Notar- und Grundbuchkosten und ggf. Maklerprovision",
+        "Nur die monatliche Kreditrate",
+        "Nur die Grundsteuer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neben dem Kaufpreis fallen einmalige Nebenkosten an: Grunderwerbsteuer, Notar- und Grundbuchkosten und bei Einschaltung eines Maklers die Provision. Sie machen in Niedersachsen meist rund 10 bis 12 % des Kaufpreises aus.",
+      "wrongExplanations": [
+        "Der Kaufpreis ist nur ein Teil der Kosten. Die Nebenkosten kommen zusätzlich.",
+        null,
+        "Die Rate ist eine laufende Zahlung an die Bank, nicht Teil der Kaufnebenkosten.",
+        "Die Grundsteuer ist eine laufende Steuer und gehört nicht zu den einmaligen Kaufnebenkosten."
+      ],
+      "practiceTip": "Sag Käufern gleich beim ersten Gespräch: Plane zum Kaufpreis rund 10 % drauf. Wer das vergisst, merkt es oft erst bei der Bank."
+    },
+    {
+      "id": "ka-02",
+      "difficulty": 1,
+      "category": "Budget",
+      "question": "Welche Größenordnung haben die Kaufnebenkosten in Niedersachsen, wenn ein Makler mit 3,57 % Käuferprovision beteiligt ist?",
+      "options": [
+        "Etwa 2 % des Kaufpreises",
+        "Etwa 5 % des Kaufpreises",
+        "Etwa 10,5 % des Kaufpreises",
+        "Etwa 25 % des Kaufpreises"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Grunderwerbsteuer 5,0 % + Notar und Grundbuch ca. 2,0 % + Maklerprovision 3,57 % ergibt etwa 10,57 %. Ohne Makler sind es rund 7 %. Die Werte gelten als Faustregel und können sich ändern.",
+      "wrongExplanations": [
+        "2 % wären allein Notar und Grundbuch. Steuer und Provision fehlen noch.",
+        "5 % ist nur die Grunderwerbsteuer in Niedersachsen. Es kommen weitere Kosten dazu.",
+        null,
+        "25 % wäre deutlich zu hoch. Normal sind etwa 7 bis 12 %."
+      ],
+      "practiceTip": "Rechne bei 300.000 € Kaufpreis mit ca. 31.700 € Nebenkosten. Dieses Beispiel kannst du Kunden sofort nennen."
+    },
+    {
+      "id": "ka-03",
+      "difficulty": 1,
+      "category": "Budget",
+      "question": "Was ist eine Finanzierungsbestätigung?",
+      "options": [
+        "Eine Bestätigung der Bank, dass eine Finanzierung bis zu einer bestimmten Höhe voraussichtlich möglich ist",
+        "Der Kaufvertrag",
+        "Ein Zuschuss vom Staat",
+        "Eine Steuerbescheinigung"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mit einer Finanzierungsbestätigung teilt die Bank mit, dass der Käufer voraussichtlich bis zu einem bestimmten Betrag finanzieren kann. Sie ist meist unverbindlich, aber ein wichtiger Nachweis für Verkäufer und Makler, dass der Interessent ernsthaft ist.",
+      "wrongExplanations": [
+        null,
+        "Der Kaufvertrag wird erst beim Notar geschlossen und ist etwas völlig anderes.",
+        "Ein Zuschuss wäre eine Förderung, keine Bestätigung.",
+        "Steuerbescheinigungen kommen vom Finanzamt und haben mit Finanzierung nichts zu tun."
+      ],
+      "practiceTip": "Bitte Interessenten schon vor der ersten Besichtigung um die Finanzierungsbestätigung. Das spart Zeit, denn du siehst sofort, ob der Preis passt."
+    },
+    {
+      "id": "ka-04",
+      "difficulty": 2,
+      "category": "Budget",
+      "question": "Welche Kosten sollte ein Käufer zusätzlich zur Kreditrate für die monatliche Belastung einplanen?",
+      "options": [
+        "Keine weiteren Kosten",
+        "Nur Strom für den Kühlschrank",
+        "Nur die Urlaubsreise",
+        "Nebenkosten bzw. Hausgeld, Grundsteuer, Versicherungen und eine Rücklage für Reparaturen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Zu den Kosten gehören Betriebskosten (bei Wohnungen das Hausgeld), Grundsteuer, Gebäude- und Haftpflichtversicherung, Heizung und eine Rücklage für Reparaturen. Wer nur die Kreditrate rechnet, plant zu knapp.",
+      "wrongExplanations": [
+        "Es fallen sehr wohl weitere Kosten an, die man in die Rechnung einbeziehen muss.",
+        "Strom ist ein Teil der Lebenshaltungskosten, aber nicht der eigentliche Punkt der Immobilienkosten.",
+        "Urlaub gehört zum Lebensstil, nicht zur Kostenplanung der Immobilie.",
+        null
+      ],
+      "practiceTip": "Als Faustregel rechnest du für Instandhaltung etwa 1 % des Gebäudewerts pro Jahr ein. So bleibt im Budget Luft, wenn eine Heizung oder ein Dach ansteht."
+    },
+    {
+      "id": "ka-05",
+      "difficulty": 2,
+      "category": "Budget",
+      "question": "Wie viel Eigenkapital sollte ein Käufer mindestens einplanen?",
+      "options": [
+        "Kein Eigenkapital ist nötig",
+        "Mindestens die Kaufnebenkosten, besser zusätzlich 10–20 % des Kaufpreises",
+        "Genau 100 % des Kaufpreises",
+        "Nur 1 %"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Banken erwarten meist, dass der Käufer die Nebenkosten aus eigenen Mitteln zahlt. Zusätzlich ist ein Eigenkapitalanteil von 10–20 % des Kaufpreises üblich und verbessert die Zinskonditionen. Eine Finanzierung mit 100 % oder mehr ist teuer und riskant.",
+      "wrongExplanations": [
+        "Ohne Eigenkapital ist eine Finanzierung zwar teilweise möglich, aber teuer und für viele Banken ein Ausschlusskriterium.",
+        null,
+        "100 % Eigenkapital wäre ein Kauf ohne Kredit. Das ist möglich, aber nicht die Regel.",
+        "1 % wäre viel zu wenig und würde die Nebenkosten nicht abdecken."
+      ],
+      "practiceTip": "Frage im Erstgespräch nach den Ersparnissen und möglichen Zuschüssen der Familie. Manche Kunden vergessen Bausparverträge oder Rentenverträge, die mitzählen."
+    },
+    {
+      "id": "ka-06",
+      "difficulty": 1,
+      "category": "Besichtigung",
+      "question": "Worauf sollte man bei der Besichtigung im Keller besonders achten?",
+      "options": [
+        "Auf die Farbe der Wände",
+        "Auf Feuchtigkeit, Salzausblühungen, muffigen Geruch und Schimmel",
+        "Auf die Anzahl der Steckdosen",
+        "Auf den Preis des Nachbarhauses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Feuchtigkeit im Keller ist einer der häufigsten und teuersten Mängel. Anzeichen sind dunkle Flecken, weiße Ausblühungen, abgeplatzter Putz, ein muffiger Geruch und verdächtig frisch gestrichene Stellen. Ursachen können fehlende Abdichtung oder defekte Regenrinnen sein.",
+      "wrongExplanations": [
+        "Farben lassen sich leicht ändern. Sie sagen nichts über bauliche Probleme aus.",
+        null,
+        "Steckdosen sind nützlich, aber ein Mangel wäre hier meist günstig zu beheben.",
+        "Der Preis des Nachbarhauses hat mit dem Zustand des Kellers nichts zu tun."
+      ],
+      "practiceTip": "Nimm bei Besichtigungen eine Taschenlampe mit und leuchte in Ecken und hinter Regale. So siehst du Feuchtigkeitsspuren, die gern verdeckt werden."
+    },
+    {
+      "id": "ka-07",
+      "difficulty": 1,
+      "category": "Besichtigung",
+      "question": "Worauf schaut man beim Dach?",
+      "options": [
+        "Auf gebrochene oder verrutschte Dachziegel, Dachrinnen, Dämmung und Feuchtigkeitsspuren im Dachboden",
+        "Nur auf die Farbe der Ziegel",
+        "Auf die Position der Sonne",
+        "Auf das Wetter im Urlaub"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ein Dach muss dicht sein. Prüft man Ziegel, Rinnen, Kamin und Anschlüsse und schaut im Dachboden nach Wasserflecken, Schimmel und Dämmung, sieht man schnell, ob große Kosten drohen. Eine Dachsanierung kostet schnell fünfstellige Summen.",
+      "wrongExplanations": [
+        null,
+        "Die Farbe ist für die Funktion egal. Wichtig ist der Zustand.",
+        "Die Sonnenposition ist für die Ausrichtung interessant, nicht für den Zustand des Daches.",
+        "Das Wetter im Urlaub ist ohne Bezug zur Immobilie."
+      ],
+      "practiceTip": "Frage den Verkäufer nach dem Baujahr des Daches und nach Rechnungen. Fehlen Nachweise, kann ein Dachdecker vor dem Kauf eine kurze Einschätzung geben."
+    },
+    {
+      "id": "ka-08",
+      "difficulty": 2,
+      "category": "Besichtigung",
+      "question": "Woran erkennt man defekte Isolierglasfenster?",
+      "options": [
+        "An Kondenswasser oder Beschlag zwischen den Scheiben",
+        "An sauberem Glas",
+        "An dicken Rahmen",
+        "An bunten Vorhängen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Isolierglas hat zwischen den Scheiben ein Gas- oder Luftpolster. Wird die Dichtung undicht, kann Feuchtigkeit eindringen und sich als Beschlag oder Kondenswasser zwischen den Scheiben zeigen. Dann ist die Dämmwirkung dahin und die Scheibe oder das Fenster muss ersetzt werden.",
+      "wrongExplanations": [
+        null,
+        "Sauberes Glas ist kein Hinweis auf einen Defekt.",
+        "Dicke Rahmen sagen nichts über den Zustand der Scheibe aus.",
+        "Vorhänge sind Einrichtung und haben nichts mit dem Fenster zu tun."
+      ],
+      "practiceTip": "Schau bei mehreren Fenstern genau hin, besonders auf der Wetterseite. Notiere auch das Alter der Fenster. Über 30 Jahre alte Fenster sind meist ersetzungsreif."
+    },
+    {
+      "id": "ka-09",
+      "difficulty": 2,
+      "category": "Besichtigung",
+      "question": "Was sollte man bei der Heizung erfragen?",
+      "options": [
+        "Wer sie gekauft hat",
+        "Alter, Energieträger, Wartungsnachweise und Schornsteinfegerprotokolle",
+        "Nur die Farbe des Heizkörpers",
+        "Ob die Nachbarn eine ähnliche Heizung haben"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Heizung ist ein großer Kostenfaktor. Wichtig sind Baujahr, Energieträger (Gas, Öl, Wärmepumpe, Fernwärme), Wartungsnachweise und Messprotokolle des Schornsteinfegers. Sehr alte Anlagen müssen bald ersetzt werden, was oft 15.000 € oder mehr kostet.",
+      "wrongExplanations": [
+        "Wer sie gekauft hat, spielt für den Zustand keine Rolle.",
+        null,
+        "Die Farbe ist für die Funktion egal.",
+        "Was die Nachbarn haben, sagt nichts über die eigene Anlage aus."
+      ],
+      "practiceTip": "Bei Ölheizungen zusätzlich nach dem Öltank fragen: Alter, Zustand und Prüfprotokolle. Ein alter Tank kann bei Undichtigkeit hohe Folgekosten auslösen."
+    },
+    {
+      "id": "ka-10",
+      "difficulty": 2,
+      "category": "Besichtigung",
+      "question": "Warum sollte man ein Objekt mehr als einmal und zu verschiedenen Zeiten besichtigen?",
+      "options": [
+        "Damit der Makler mehr Termine hat",
+        "Damit man Lärm, Verkehr, Licht und Nachbarschaft zu unterschiedlichen Tageszeiten und bei verschiedenem Wetter kennenlernt",
+        "Damit der Preis fällt",
+        "Damit der Notar warten kann"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eine Wohnung wirkt am Vormittag anders als abends. Wer mehrmals kommt, erlebt Lärm, Parkplatzsituation, Sonneneinfall und Nachbarschaft und sieht bei Regen, ob es undicht ist. Das senkt das Risiko, später überrascht zu werden.",
+      "wrongExplanations": [
+        "Mehr Termine sind kein Ziel. Es geht um das Kennenlernen der Immobilie.",
+        null,
+        "Der Preis sinkt nicht durch mehr Besuche. Besichtigungen dienen der Prüfung.",
+        "Mit dem Notar hat die Besichtigung noch nichts zu tun."
+      ],
+      "practiceTip": "Empfiehl Kunden, bei der zweiten Besichtigung Handwerker oder Freunde mit Bauerfahrung mitzunehmen. Ein zweiter Blick findet oft Dinge, die man selbst übersieht."
+    },
+    {
+      "id": "ka-11",
+      "difficulty": 2,
+      "category": "Besichtigung",
+      "question": "Was gehört zur Prüfung der Lage und Infrastruktur?",
+      "options": [
+        "Nur die Größe des Balkons",
+        "Anbindung an ÖPNV, Schulen, Einkauf, Ärzte, Lärmquellen und Entwicklungspläne der Gemeinde",
+        "Nur die Farbe der Haustür",
+        "Nur die Einwohnerzahl Deutschlands"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Lage bestimmt maßgeblich den Wert und die Lebensqualität. Neben der Anbindung an Bus und Bahn zählen Schulen, Einkaufen, Ärzte, Lärm (Straße, Bahn, Flughafen) und die Frage, was in der Nachbarschaft gebaut werden soll (Bebauungsplan).",
+      "wrongExplanations": [
+        "Der Balkon ist ein Detail, nicht die Lage.",
+        null,
+        "Die Farbe der Haustür ist ein Schönheitsdetail.",
+        "Die Einwohnerzahl ganz Deutschlands sagt nichts über die konkrete Lage."
+      ],
+      "practiceTip": "Frag bei der Gemeinde nach dem Bebauungsplan und geplanten Bauprojekten. Ein Neubaugebiet oder eine neue Umgehungsstraße kann die Lage stark verändern."
+    },
+    {
+      "id": "ka-12",
+      "difficulty": 1,
+      "category": "Unterlagen",
+      "question": "Was zeigt der Grundbuchauszug?",
+      "options": [
+        "Die Höhe der Miete",
+        "Den Eigentümer, Lasten und Rechte Dritter sowie Grundpfandrechte",
+        "Den Energieverbrauch",
+        "Die Farbe des Hauses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Grundbuchauszug zeigt, wem die Immobilie gehört (Abt. I), welche Rechte Dritter darauf lasten (Abt. II) und welche Grundschulden eingetragen sind (Abt. III). Außerdem beschreibt das Bestandsverzeichnis das Grundstück.",
+      "wrongExplanations": [
+        "Mieten stehen im Mietvertrag, nicht im Grundbuch.",
+        null,
+        "Energieverbrauch steht im Energieausweis.",
+        "Die Farbe steht in keinem Register."
+      ],
+      "practiceTip": "Lies zuerst Abteilung II. Wegerechte, Wohnrechte oder Vorkaufsrechte können den Kaufpreis deutlich beeinflussen."
+    },
+    {
+      "id": "ka-13",
+      "difficulty": 2,
+      "category": "Unterlagen",
+      "question": "Was ist im Baulastenverzeichnis zu finden?",
+      "options": [
+        "Kaufpreise der Nachbarn",
+        "Öffentlich-rechtliche Verpflichtungen des Eigentümers gegenüber der Bauaufsichtsbehörde",
+        "Schulden des Verkäufers",
+        "Mietverträge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Im Baulastenverzeichnis stehen Verpflichtungen des Eigentümers gegenüber der Baubehörde, zum Beispiel Zufahrts- oder Abstandsflächenrechte für Nachbarn. Es wird bei der Bauaufsichtsbehörde geführt, nicht beim Grundbuchamt, und bindet auch spätere Eigentümer.",
+      "wrongExplanations": [
+        "Kaufpreise stehen in der Kaufpreissammlung des Gutachterausschusses.",
+        null,
+        "Schulden stehen im Grundbuch in Abt. III und bei der Bank, nicht im Baulastenverzeichnis.",
+        "Mietverträge sind private Verträge und in keinem öffentlichen Verzeichnis."
+      ],
+      "practiceTip": "Bestelle den Baulastenauszug rechtzeitig, denn die Behörde braucht oft mehrere Tage. Ohne ihn ist ein Kauf riskant."
+    },
+    {
+      "id": "ka-14",
+      "difficulty": 2,
+      "category": "Unterlagen",
+      "question": "Wofür braucht man die Flurkarte (Liegenschaftskarte)?",
+      "options": [
+        "Um den Verlauf der Grundstücksgrenzen, Zuschnitt und Lage zu sehen",
+        "Um die Miete zu berechnen",
+        "Um die Grunderwerbsteuer zu bestimmen",
+        "Um die Heizkosten zu prüfen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Flurkarte zeigt die Flurstücke mit ihren Grenzen, Nummern, Größe und die Lage der Gebäude. Damit prüft der Käufer, ob das Grundstück zur Beschreibung passt, ob Zufahrten gesichert sind und ob Nachbargebäude an der Grenze stehen.",
+      "wrongExplanations": [
+        null,
+        "Mit der Miete hat die Flurkarte nichts zu tun.",
+        "Die Steuer richtet sich nach dem Kaufpreis, nicht nach der Karte.",
+        "Heizkosten stehen im Energieausweis oder in den Abrechnungen."
+      ],
+      "practiceTip": "Gehe mit der Flurkarte über das Grundstück und vergleiche mit den Grenzsteinen und Zäunen. Nicht selten weicht die Praxis von der Karte ab."
+    },
+    {
+      "id": "ka-15",
+      "difficulty": 2,
+      "category": "Unterlagen",
+      "question": "Warum ist die Wohnflächenberechnung wichtig?",
+      "options": [
+        "Weil sie den Wert und den Preis pro Quadratmeter beeinflusst und Abweichungen zu Streit führen können",
+        "Weil sie die Stromkosten bestimmt",
+        "Weil sie das Baujahr festlegt",
+        "Weil sie die Grunderwerbsteuer senkt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Kaufpreis wird oft mit dem Preis pro Quadratmeter verglichen. Deshalb ist eine korrekte Berechnung nach der Wohnflächenverordnung wichtig. Balkone zählen meist nur mit einem Viertel, Dachschrägen unter 2 m Höhe nur teilweise. Falsche Angaben können zu Preisminderung oder Streit führen.",
+      "wrongExplanations": [
+        null,
+        "Stromkosten hängen vom Verbrauch ab, nicht von der Berechnung.",
+        "Das Baujahr ist unabhängig von der Berechnung.",
+        "Die Steuer richtet sich nach dem Kaufpreis, nicht nach der Fläche."
+      ],
+      "practiceTip": "Lass dir bei jedem Objekt eine nachvollziehbare Wohnflächenberechnung geben. Eigene Messungen und ‚gefühlte‘ Angaben führen später zu Streit."
+    },
+    {
+      "id": "ka-16",
+      "difficulty": 2,
+      "category": "Unterlagen",
+      "question": "Welche Unterlagen sollte der Käufer einer Eigentumswohnung zusätzlich prüfen?",
+      "options": [
+        "Nur den Mietvertrag der Nachbarn",
+        "Teilungserklärung, Protokolle der letzten Eigentümerversammlungen, Wirtschaftsplan und Erhaltungsrücklage",
+        "Nur den Führerschein",
+        "Nur das Kfz-Kennzeichen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bei Eigentumswohnungen reicht das Grundbuch nicht. Die Teilungserklärung zeigt, was Sonder- und Gemeinschaftseigentum ist. Protokolle verraten Streit und geplante Maßnahmen. Wirtschaftsplan und Abrechnungen zeigen Kosten und Hausgeld, die Rücklage zeigt, wie gut die Gemeinschaft vorgesorgt hat.",
+      "wrongExplanations": [
+        "Der Mietvertrag der Nachbarn ist privat und für den Kauf unwichtig.",
+        null,
+        "Der Führerschein ist für den Kauf irrelevant.",
+        "Das Kfz-Kennzeichen hat mit der Wohnung nichts zu tun."
+      ],
+      "practiceTip": "Bitte den Verwalter frühzeitig um diese Unterlagen. Ein Käufer, der sie nicht liest, kauft sonst blind in eine mögliche Sonderumlage hinein."
+    },
+    {
+      "id": "ka-17",
+      "difficulty": 3,
+      "category": "Unterlagen",
+      "question": "Ein Protokoll der Eigentümerversammlung erwähnt eine geplante Dachsanierung für 120.000 €. Die Rücklage beträgt 20.000 €. Was bedeutet das für einen Käufer?",
+      "options": [
+        "Nichts, das zahlt der Verkäufer",
+        "Eine Sonderumlage ist wahrscheinlich, bei der jeder Eigentümer nach Miteigentumsanteil mitzahlen muss",
+        "Der Notar zahlt es",
+        "Die Gemeinde übernimmt alles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reicht die Rücklage nicht, beschließen die Eigentümer eine Sonderumlage. Sie zahlen nach Miteigentumsanteil oder Kostenschlüssel. Je nach Beschluss trägt der Käufer die Kosten, wenn sie nach dem Eigentumsübergang fällig werden. Deshalb ist die Vereinbarung im Kaufvertrag wichtig.",
+      "wrongExplanations": [
+        "Ob der Verkäufer zahlt, hängt vom Beschluss und vom Vertrag ab. Ohne Regelung trifft es meist den Eigentümer zum Zeitpunkt der Fälligkeit.",
+        null,
+        "Der Notar bezahlt keine Sanierung.",
+        "Die Gemeinde ist für private Gebäude nicht zuständig."
+      ],
+      "practiceTip": "Regele im Kaufvertrag, wer beschlossene Sonderumlagen trägt. Das lässt sich verhandeln und spart später Diskussionen."
+    },
+    {
+      "id": "ka-18",
+      "difficulty": 1,
+      "category": "Kaufpreis",
+      "question": "Woher bekommt man Vergleichspreise für einen Immobilienpreis?",
+      "options": [
+        "Vom Bäcker",
+        "Aus Immobilienportalen, Marktberichten und Bodenrichtwerten des Gutachterausschusses",
+        "Aus dem Fernsehprogramm",
+        "Aus dem Telefonbuch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sinnvolle Quellen sind Immobilienportale (Angebotspreise), die Marktberichte des Gutachterausschusses (tatsächliche Kaufpreise) und Bodenrichtwerte. Angebotspreise sind oft höher als tatsächliche Verkaufspreise, weil noch verhandelt wird.",
+      "wrongExplanations": [
+        "Der Bäcker kennt sich mit Backwaren aus, nicht mit Immobilienpreisen.",
+        null,
+        "Das Fernsehen liefert keine Marktdaten zu einem konkreten Objekt.",
+        "Das Telefonbuch enthält keine Kaufpreise."
+      ],
+      "practiceTip": "Rechne beim Vergleichen immer in €/m² und ordne nach Lage, Baujahr und Zustand. Ein Vergleich von Äpfeln mit Birnen führt zu falschen Preisen."
+    },
+    {
+      "id": "ka-19",
+      "difficulty": 2,
+      "category": "Kaufpreis",
+      "question": "Wann lohnt sich ein Gutachter beim Kauf?",
+      "options": [
+        "Nie",
+        "Bei Verdacht auf Mängel, unklarem Zustand oder wenn der Preis schwer einzuordnen ist",
+        "Nur wenn die Immobilie neu ist",
+        "Nur wenn der Verkäufer es will"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ein Bausachverständiger prüft Bausubstanz, Feuchtigkeit, Dach, Elektrik und Heizung und schätzt Sanierungskosten. Bei älteren Häusern oder auffälligen Mängeln lohnt sich das, weil man mit dem Ergebnis den Preis verhandeln kann. Die Kosten liegen meist im dreistelligen bis niedrigen vierstelligen Bereich.",
+      "wrongExplanations": [
+        "Bei größeren Investitionen ist ein Gutachten oft eine sehr sinnvolle Absicherung.",
+        null,
+        "Bei Neubauten gibt es eher Bauabnahmen, aber ein Gutachten kann auch dort helfen.",
+        "Der Käufer entscheidet selbst, ob er ein Gutachten beauftragt."
+      ],
+      "practiceTip": "Empfiehl Käufern, die Kosten für einen Gutachter als Versicherung zu sehen. Ein Fehlkauf kostet leicht das Zehnfache."
+    },
+    {
+      "id": "ka-20",
+      "difficulty": 2,
+      "category": "Kaufpreis",
+      "question": "Wie verhandelt man den Kaufpreis am überzeugendsten?",
+      "options": [
+        "Mit Emotionen und Drohungen",
+        "Mit sachlichen Argumenten wie Vergleichspreisen, Gutachten und einer Kostenschätzung für Sanierungen",
+        "Mit möglichst wenigen Informationen",
+        "Mit dem Hinweis, dass man den Verkäufer nicht mag"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Verkäufer reagieren am besten auf belegte Argumente: Vergleichspreise, festgestellter Sanierungsbedarf mit Kostenschätzung, lange Vermarktungsdauer. Das zeigt, dass der Vorschlag nicht willkürlich ist. Auch Bedingungen wie Übergabetermin oder Inventar sind verhandelbar.",
+      "wrongExplanations": [
+        "Emotionen und Druck verhärten die Fronten und führen selten zum Erfolg.",
+        null,
+        "Wenig Informationen schwächen die eigene Position.",
+        "Sympathie ist kein Argument. Sie kann sogar den Verkäufer verärgern."
+      ],
+      "practiceTip": "Als Makler bereitest du beide Seiten vor: Der Verkäufer soll wissen, warum ein Angebot fair ist, der Käufer, warum ein Rabatt nicht ohne Grund kommt."
+    },
+    {
+      "id": "ka-21",
+      "difficulty": 2,
+      "category": "Reservierung",
+      "question": "Was bringt eine Reservierung einer Immobilie?",
+      "options": [
+        "Sie verpflichtet beide Seiten zum Abschluss des Kaufvertrags",
+        "Sie hält die Immobilie oft für eine bestimmte Zeit für den Interessenten frei, verpflichtet aber rechtlich nicht zum Kauf oder Verkauf",
+        "Sie ersetzt den Notar",
+        "Sie senkt die Grunderwerbsteuer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eine Reservierung schafft Zeit für Finanzierung und Prüfung. Sie ist aber kein Kaufvertrag. Ein wirksamer Vertrag über ein Grundstück braucht die notarielle Beurkundung. Eine hohe Reservierungsgebühr ist nur zulässig, wenn sie angemessen ist und der Kunde dafür etwas bekommt.",
+      "wrongExplanations": [
+        "Ohne Notar entsteht keine Pflicht zum Kauf.",
+        null,
+        "Der Notar ist für die Beurkundung zwingend.",
+        "Steuern werden durch die Reservierung nicht berührt."
+      ],
+      "practiceTip": "Sag Kunden klar: Eine Reservierung gibt Zeit, aber keine Sicherheit. Ein anderer Interessent kann bis zum Notartermin noch dazwischenkommen, wenn der Verkäufer sich anders entscheidet."
+    },
+    {
+      "id": "ka-22",
+      "difficulty": 1,
+      "category": "Notar",
+      "question": "Wann muss der Käufer den Kaufvertragsentwurf spätestens vom Notar bekommen?",
+      "options": [
+        "Erst bei der Beurkundung",
+        "Mindestens zwei Wochen vor dem Beurkundungstermin (bei Verbrauchern in der Regel)",
+        "Einen Tag vorher",
+        "Gar nicht"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bei Verbraucherverträgen soll der Notar dem Käufer den Entwurf in der Regel mindestens zwei Wochen vor der Beurkundung zur Verfügung stellen (§ 17 Abs. 2a BeurkG). So hat man Zeit zum Lesen, für Rückfragen und um sich beraten zu lassen.",
+      "wrongExplanations": [
+        "Erst bei der Beurkundung wäre zu spät. Der Käufer soll den Vertrag vorher prüfen können.",
+        null,
+        "Ein Tag wäre viel zu kurz und entspräche nicht dem Verbraucherschutz.",
+        "Ohne Entwurf gibt es keinen fairen Vertrag."
+      ],
+      "practiceTip": "Rate Käufern, den Entwurf mit einer Vertrauensperson und der Bank durchzugehen. Bei Unklarheiten dürfen sie den Notar direkt anrufen."
+    },
+    {
+      "id": "ka-23",
+      "difficulty": 1,
+      "category": "Notar",
+      "question": "Wer trägt üblicherweise die Notar- und Grundbuchkosten beim Immobilienkauf?",
+      "options": [
+        "Der Käufer",
+        "Der Verkäufer",
+        "Der Makler",
+        "Die Gemeinde"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Im Kaufvertrag wird meist vereinbart, dass der Käufer die Kosten für Notar und Grundbuchamt trägt. Gesetzlich haften beide dem Notar gegenüber, im Innenverhältnis übernimmt jedoch üblicherweise der Käufer die Kosten.",
+      "wrongExplanations": [
+        null,
+        "Der Verkäufer zahlt üblicherweise nur die Kosten, die für die Löschung seiner Belastungen anfallen.",
+        "Der Makler ist an diesen Kosten nicht beteiligt.",
+        "Die Gemeinde zahlt keine Kosten für private Käufe."
+      ],
+      "practiceTip": "Erkläre Käufern, dass der Notar nach einer gesetzlichen Gebührentabelle abrechnet. Verhandeln lassen sich diese Gebühren nicht, man kann aber Angebote vergleichen."
+    },
+    {
+      "id": "ka-24",
+      "difficulty": 2,
+      "category": "Notar",
+      "question": "Was passiert beim Beurkundungstermin?",
+      "options": [
+        "Der Notar liest den gesamten Vertrag vor, erklärt ihn, beantwortet Fragen und alle Beteiligten unterschreiben",
+        "Man trinkt zusammen Kaffee und unterschreibt einen Zettel",
+        "Nur der Käufer muss anwesend sein",
+        "Der Makler unterschreibt für alle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beim Notartermin liest der Notar den Vertrag vollständig vor und erklärt ihn. Alle Beteiligten können Fragen stellen. Danach unterschreiben Käufer und Verkäufer (oder ihre Vertreter mit Vollmacht) und der Notar. Erst dann ist der Vertrag wirksam.",
+      "wrongExplanations": [
+        null,
+        "Ein formloser Zettel reicht nicht. Es braucht die notarielle Beurkundung.",
+        "Käufer und Verkäufer müssen anwesend oder wirksam vertreten sein.",
+        "Der Makler ist nicht Vertragspartei und unterschreibt nicht."
+      ],
+      "practiceTip": "Bring zum Termin immer Personalausweis und die Steuer-ID mit. Ohne diese Unterlagen kann der Notar nicht beurkunden."
+    },
+    {
+      "id": "ka-25",
+      "difficulty": 2,
+      "category": "Notar",
+      "question": "Wie ist die Gewährleistung bei gebrauchten Immobilien im Kaufvertrag meist geregelt?",
+      "options": [
+        "Es gibt immer 5 Jahre Gewährleistung",
+        "Sie ist häufig ausgeschlossen, außer der Verkäufer verschweigt einen Mangel arglistig",
+        "Der Notar haftet für alle Mängel",
+        "Der Makler haftet für alle Mängel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bei Bestandsimmobilien wird die Gewährleistung meist ausgeschlossen (‚gekauft wie gesehen‘). Dieser Ausschluss gilt aber nicht, wenn der Verkäufer einen Mangel arglistig verschwiegen oder eine Garantie übernommen hat. Deshalb ist es so wichtig, den Zustand vorher zu prüfen.",
+      "wrongExplanations": [
+        "5 Jahre gelten meist nur bei neu errichteten Häusern vom Bauträger.",
+        null,
+        "Der Notar haftet nicht für Baumängel. Er berät zum Recht, nicht zum Zustand.",
+        "Der Makler haftet nur für eigene Pflichtverletzungen, nicht für Baumängel."
+      ],
+      "practiceTip": "Rate Verkäufern, bekannte Mängel offen im Kaufvertrag zu erwähnen. Was im Vertrag steht, kann später nicht als Verschweigen gelten."
+    },
+    {
+      "id": "ka-26",
+      "difficulty": 3,
+      "category": "Notar",
+      "question": "Was gehört typischerweise in einen Immobilienkaufvertrag?",
+      "options": [
+        "Kaufpreis, Zubehör (z. B. Einbauküche), Fälligkeit, Übergabe, Gewährleistungsregelung und Belastungen",
+        "Nur der Name des Käufers",
+        "Nur der Kaufpreis",
+        "Nur die Adresse des Notars"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ein Kaufvertrag regelt das Objekt, den Preis, mitverkauftes Zubehör, die Fälligkeit des Kaufpreises, den Zeitpunkt der Übergabe, die Verteilung der Kosten, die Gewährleistung, die Auflassung und Vormerkung sowie die Löschung bestehender Grundschulden. Er ist meist mehrere Seiten lang.",
+      "wrongExplanations": [
+        null,
+        "Der Name allein genügt nicht. Zu regeln sind viele weitere Punkte.",
+        "Der Preis ist wichtig, aber nicht das Einzige.",
+        "Die Adresse des Notars ist für den Vertrag unerheblich."
+      ],
+      "practiceTip": "Lass mitverkaufte Gegenstände (Küche, Einbauschränke, Gartenhaus) einzeln auflisten. Das vermeidet Streit bei der Übergabe und kann Grunderwerbsteuer sparen."
+    },
+    {
+      "id": "ka-27",
+      "difficulty": 2,
+      "category": "Notar",
+      "question": "Wozu dient die Auflassungsvormerkung im Ablauf des Kaufs?",
+      "options": [
+        "Sie schützt den Käufer, bis er im Grundbuch als Eigentümer eingetragen ist",
+        "Sie verhindert, dass Käufer den Preis verhandeln",
+        "Sie ersetzt die Zahlung",
+        "Sie verkürzt die Ladefrist"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Vormerkung wird nach dem Notartermin beim Grundbuchamt beantragt und in Abteilung II eingetragen. Sie sichert den Anspruch des Käufers auf Übertragung des Eigentums. Der Verkäufer kann das Grundstück dann nicht mehr wirksam an jemand anderen verkaufen oder belasten.",
+      "wrongExplanations": [
+        null,
+        "Die Preisverhandlung ist längst abgeschlossen, wenn der Vertrag beurkundet wird.",
+        "Bezahlt wird nach der Fälligkeitsmitteilung des Notars. Die Vormerkung ersetzt die Zahlung nicht.",
+        "Mit Fristen hat die Vormerkung nichts zu tun."
+      ],
+      "practiceTip": "Die Vormerkung ist eine Voraussetzung für die Fälligkeit des Kaufpreises. Käufer sollen also nicht vor der Fälligkeitsmitteilung zahlen."
+    },
+    {
+      "id": "ka-28",
+      "difficulty": 2,
+      "category": "Vorkaufsrecht",
+      "question": "Was bedeutet das gesetzliche Vorkaufsrecht der Gemeinde?",
+      "options": [
+        "Die Gemeinde darf in bestimmten Fällen (z. B. in Sanierungsgebieten oder bei Flächen für öffentliche Zwecke) statt des Käufers in den Kaufvertrag eintreten",
+        "Die Gemeinde muss jede Immobilie kaufen",
+        "Die Gemeinde bestimmt den Kaufpreis",
+        "Die Gemeinde übernimmt die Grundschulden"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach den §§ 24 ff. BauGB hat die Gemeinde in bestimmten Gebieten ein Vorkaufsrecht, etwa in Sanierungsgebieten oder bei Flächen, die für öffentliche Zwecke gebraucht werden. Sie kann innerhalb von zwei Monaten nach Mitteilung des Kaufvertrags entscheiden, ob sie zu den gleichen Bedingungen eintritt.",
+      "wrongExplanations": [
+        null,
+        "Eine Pflicht zum Kaufen besteht nicht. Es ist ein Recht.",
+        "Der Kaufpreis wird zwischen Käufer und Verkäufer vereinbart. Die Gemeinde übernimmt ihn nur, wenn sie eintritt.",
+        "Grundschulden bleiben Sache von Verkäufer und Bank."
+      ],
+      "practiceTip": "Der Notar fragt bei der Gemeinde an und bekommt in den meisten Fällen eine Erklärung, dass sie auf das Vorkaufsrecht verzichtet (‚Negativzeugnis‘). Ohne die geht die Abwicklung nicht weiter."
+    },
+    {
+      "id": "ka-29",
+      "difficulty": 3,
+      "category": "Vorkaufsrecht",
+      "question": "Wie lange hat die Gemeinde Zeit, ihr Vorkaufsrecht auszuüben?",
+      "options": [
+        "1 Woche",
+        "2 Monate ab Mitteilung des Kaufvertrags",
+        "1 Jahr",
+        "5 Jahre"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Gemeinde kann das Vorkaufsrecht nur innerhalb von zwei Monaten nach Mitteilung des Kaufvertrags ausüben (§ 28 BauGB). In der Praxis holt der Notar oft schon vorher ein Negativzeugnis ein, damit es schneller geht.",
+      "wrongExplanations": [
+        "Eine Woche wäre für die Gemeinde zu kurz.",
+        null,
+        "Ein Jahr würde alle Verkäufe stark verzögern.",
+        "Fünf Jahre wären für Käufer und Verkäufer unzumutbar."
+      ],
+      "practiceTip": "Sag Käufern: Die Frist verzögert den Eintrag im Grundbuch nur, wenn kein Negativzeugnis vorliegt. Sie sollen sich davon nicht verunsichern lassen."
+    },
+    {
+      "id": "ka-30",
+      "difficulty": 1,
+      "category": "Steuern & Kosten",
+      "question": "Wie hoch ist die Grunderwerbsteuer in Niedersachsen (Stand 2025)?",
+      "options": [
+        "3,5 %",
+        "5,0 %",
+        "6,5 %",
+        "10 %"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Niedersachsen beträgt die Grunderwerbsteuer seit 2014 5,0 % des Kaufpreises. Andere Bundesländer verlangen zwischen 3,5 % (Bayern) und 6,5 %. Bei einem Kaufpreis von 300.000 € sind das 15.000 €.",
+      "wrongExplanations": [
+        "3,5 % gilt in Bayern.",
+        null,
+        "6,5 % gilt zum Beispiel in Nordrhein-Westfalen, aber nicht in Niedersachsen.",
+        "10 % wären viel zu hoch. Kein Bundesland verlangt so viel."
+      ],
+      "practiceTip": "Der Satz ist Ländersache und kann sich ändern. Schau vor jedem Beratungsgespräch kurz auf der Seite des Finanzamts nach dem aktuellen Satz."
+    },
+    {
+      "id": "ka-31",
+      "difficulty": 2,
+      "category": "Steuern & Kosten",
+      "question": "Wofür braucht man die steuerliche Unbedenklichkeitsbescheinigung?",
+      "options": [
+        "Damit der Käufer im Grundbuch als neuer Eigentümer eingetragen werden kann",
+        "Damit die Bank den Kredit zahlt",
+        "Damit der Verkäufer die Steuer sparen kann",
+        "Damit die Gemeinde ihr Vorkaufsrecht ausübt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Das Finanzamt stellt die Unbedenklichkeitsbescheinigung aus, wenn die Grunderwerbsteuer bezahlt ist. Ohne sie darf das Grundbuchamt den Käufer nicht als Eigentümer eintragen. Der Notar schickt die Bescheinigung an das Grundbuchamt.",
+      "wrongExplanations": [
+        null,
+        "Die Bank zahlt aufgrund von Sicherheiten und Fälligkeitsmitteilung, nicht wegen der Bescheinigung.",
+        "Der Verkäufer spart durch sie keine Steuern.",
+        "Das Vorkaufsrecht wird von der Gemeinde geregelt, mit der Bescheinigung hat es nichts zu tun."
+      ],
+      "practiceTip": "Weise Käufer darauf hin, den Grunderwerbsteuerbescheid schnell zu bezahlen. Eine späte Zahlung verzögert die Eintragung ins Grundbuch."
+    },
+    {
+      "id": "ka-32",
+      "difficulty": 2,
+      "category": "Steuern & Kosten",
+      "question": "Wer zahlt üblicherweise die Grunderwerbsteuer?",
+      "options": [
+        "Der Käufer",
+        "Der Verkäufer",
+        "Der Makler",
+        "Der Notar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gesetzlich sind beide Vertragsparteien Steuerschuldner (Gesamtschuldner). Im Kaufvertrag wird aber üblicherweise geregelt, dass der Käufer sie trägt. Das Finanzamt schickt den Bescheid meist an den Käufer.",
+      "wrongExplanations": [
+        null,
+        "Zwar haftet der Verkäufer gesetzlich mit, im Vertrag übernimmt aber meist der Käufer die Steuer.",
+        "Der Makler ist an der Steuer nicht beteiligt.",
+        "Der Notar zeigt den Vertrag nur beim Finanzamt an, er zahlt die Steuer nicht."
+      ],
+      "practiceTip": "Damit es keine Überraschung gibt: Der Bescheid kommt ein paar Wochen nach dem Notartermin, und die Zahlungsfrist ist kurz. Rechne das Geld also vorher fest ein."
+    },
+    {
+      "id": "ka-33",
+      "difficulty": 3,
+      "category": "Steuern & Kosten",
+      "question": "Wie kann die Grunderwerbsteuer legal gesenkt werden?",
+      "options": [
+        "Indem man den Kaufpreis im Vertrag falsch angibt",
+        "Indem angemessen bewertetes mitverkauftes Inventar (z. B. Einbauküche) getrennt im Vertrag aufgeführt wird",
+        "Indem man den Notar wechselt",
+        "Indem man die Steuer später zahlt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Steuer wird nur auf das Grundstück und das Gebäude berechnet. Bewegliche Sachen wie Möbel oder eine Einbauküche gehören nicht dazu, wenn sie mit einem angemessenen Wert getrennt im Vertrag stehen. Übertriebene Werte prüft das Finanzamt und kann sie zurückweisen.",
+      "wrongExplanations": [
+        "Falsche Angaben sind Steuerhinterziehung und strafbar.",
+        null,
+        "Der Notar hat keinen Einfluss auf den Steuersatz.",
+        "Späte Zahlung spart nichts. Es kann sogar Säumniszuschläge geben."
+      ],
+      "practiceTip": "Setze für mitverkauftes Inventar realistische Werte an, zum Beispiel den Zeitwert einer gebrauchten Küche. Wer übertreibt, riskiert eine Prüfung."
+    },
+    {
+      "id": "ka-34",
+      "difficulty": 2,
+      "category": "Steuern & Kosten",
+      "question": "Wann wird die Maklerprovision im Kaufvertrag regelmäßig fällig?",
+      "options": [
+        "Schon bei der ersten Besichtigung",
+        "Wenn der wirksame Kaufvertrag zustande gekommen ist (meist mit der Beurkundung, wenn keine Bedingungen offen sind)",
+        "Erst nach 5 Jahren",
+        "Nach der Schlüsselübergabe"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Provision ist an den Erfolg gebunden. Sie wird fällig, wenn der Hauptvertrag wirksam abgeschlossen wurde. Hängt der Vertrag noch von einer Bedingung ab (z. B. Genehmigung), entsteht der Anspruch erst, wenn diese eintritt. Der Zeitpunkt der Schlüsselübergabe ist dafür nicht entscheidend.",
+      "wrongExplanations": [
+        "Eine Besichtigung reicht nicht. Es muss zum Vertrag kommen.",
+        null,
+        "Fünf Jahre wären viel zu spät und sind vom Gesetz nicht vorgesehen.",
+        "Die Übergabe ist ein späterer Schritt, der Vertrag ist schon vorher wirksam."
+      ],
+      "practiceTip": "Die Provision wird oft im Notarvertrag als Verpflichtung erwähnt. Das gibt dem Makler zusätzliche Sicherheit, ist aber kein Ersatz für einen eigenen Maklervertrag."
+    },
+    {
+      "id": "ka-35",
+      "difficulty": 2,
+      "category": "Zahlung",
+      "question": "Wann darf der Käufer den Kaufpreis überweisen?",
+      "options": [
+        "Sofort nach der Besichtigung",
+        "Wenn der Notar die Fälligkeitsmitteilung schickt und die Voraussetzungen erfüllt sind",
+        "Erst nach 10 Jahren",
+        "Nur bar am Notartisch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Kaufpreis wird fällig, wenn bestimmte Voraussetzungen erfüllt sind: Vormerkung ist eingetragen, das Vorkaufsrecht der Gemeinde ist erledigt, die Löschung alter Grundschulden ist gesichert und nötige Genehmigungen liegen vor. Dann schickt der Notar die Fälligkeitsmitteilung. Vorher zu zahlen ist riskant.",
+      "wrongExplanations": [
+        "Vor dem Vertrag darf und muss niemand zahlen.",
+        null,
+        "Zehn Jahre wären unzumutbar. Der Vertrag legt eine Zahlungsfrist von meist zwei bis vier Wochen nach der Fälligkeitsmitteilung fest.",
+        "Barzahlung ist bei Immobilien unüblich und wegen Geldwäsche stark eingeschränkt."
+      ],
+      "practiceTip": "Ist die Zahlungsfrist verstrichen, drohen Verzugszinsen. Erinnere Käufer, die Bank rechtzeitig um die Überweisung zu bitten."
+    },
+    {
+      "id": "ka-36",
+      "difficulty": 3,
+      "category": "Zahlung",
+      "question": "Was müssen finanzierende Banken in der Regel erfüllt haben, bevor sie das Darlehen auszahlen?",
+      "options": [
+        "Nichts, sie zahlen sofort",
+        "Eintragung der Grundschuld bzw. Nachweis der Sicherheit, Vormerkung und die Fälligkeitsmitteilung des Notars",
+        "Nur eine mündliche Zusage",
+        "Ein Foto des Hauses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Bank zahlt erst aus, wenn ihre Sicherheit steht: Die Grundschuld muss bestellt sein (die Eintragung ist meist gesichert), die Vormerkung eingetragen und der Notar hat die Fälligkeit bestätigt. Sonst würde sie Geld ohne Absicherung zahlen.",
+      "wrongExplanations": [
+        "Ohne Sicherheiten zahlt keine Bank aus.",
+        null,
+        "Mündliche Zusagen genügen nicht.",
+        "Fotos ersetzen keine rechtlichen Sicherheiten."
+      ],
+      "practiceTip": "Plane den Zeitpunkt der Auszahlung rechtzeitig mit der Bank. Wer zu spät reagiert, gerät in Verzug und zahlt Zinsen."
+    },
+    {
+      "id": "ka-37",
+      "difficulty": 1,
+      "category": "Übergabe",
+      "question": "Was gehört in ein Übergabeprotokoll?",
+      "options": [
+        "Zählerstände, Zahl der Schlüssel, Zustand der Räume, bekannte Mängel und mitverkauftes Zubehör",
+        "Nur das Wetter",
+        "Nur die Namen der Nachbarn",
+        "Nur die Telefonnummer des Notars"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Im Übergabeprotokoll halten beide Seiten den Zustand der Immobilie am Tag der Übergabe fest: Zählerstände für Strom, Gas und Wasser, Anzahl und Art der Schlüssel, Zustand der Räume, festgestellte Mängel und mitverkaufte Gegenstände. Es dient als Beweis bei späteren Fragen.",
+      "wrongExplanations": [
+        null,
+        "Das Wetter ist unwichtig.",
+        "Nachbarn haben mit der Übergabe nichts zu tun.",
+        "Telefonnummern gehören nicht zum Zustand der Immobilie."
+      ],
+      "practiceTip": "Fotografiere den Zustand und die Zählerstände zusätzlich. Ein Foto mit Datum ist bei Meinungsverschiedenheiten ein starkes Beweismittel."
+    },
+    {
+      "id": "ka-38",
+      "difficulty": 2,
+      "category": "Übergabe",
+      "question": "Was geht mit der Übergabe der Immobilie üblicherweise auf den Käufer über?",
+      "options": [
+        "Nur die Schulden des Verkäufers",
+        "Besitz, Nutzungen und Lasten wie Grundsteuer, Versicherungen und laufende Kosten (Hausgeld)",
+        "Nur das Eigentum",
+        "Nichts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mit der Übergabe geht der Besitz auf den Käufer über, damit auch Nutzungen (z. B. Mieteinnahmen) und Lasten wie Grundsteuer, Versicherungen und Hausgeld. Das Eigentum geht erst mit der Grundbucheintragung über. Beide Zeitpunkte können auseinanderfallen.",
+      "wrongExplanations": [
+        "Schulden des Verkäufers bleiben bei ihm. Sie werden mit dem Kaufpreis abgelöst.",
+        null,
+        "Das Eigentum geht erst mit der Eintragung über, nicht mit der Übergabe.",
+        "Es geht sehr wohl viel über: Besitz, Nutzungen und Kosten."
+      ],
+      "practiceTip": "Lege im Vertrag einen Stichtag für Lasten und Nutzungen fest. Das vermeidet Streit um die letzte Grundsteuerrate oder die Nebenkostenabrechnung."
+    },
+    {
+      "id": "ka-39",
+      "difficulty": 2,
+      "category": "Übergabe",
+      "question": "Was sollte der Käufer bei der Übergabe mit Mängeln tun?",
+      "options": [
+        "Nichts sagen, um den Verkäufer nicht zu verärgern",
+        "Sie im Protokoll festhalten und Fotos machen",
+        "Sofort das Haus zurückgeben",
+        "Den Notar anrufen und den Vertrag kündigen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mängel, die bei der Übergabe auffallen, müssen sauber dokumentiert werden, damit man später darauf verweisen kann. Ob daraus Ansprüche entstehen, hängt von Vertrag und Gewährleistung ab. Bei Bestandsimmobilien ist die Gewährleistung meist ausgeschlossen, bei Neubauten nicht.",
+      "wrongExplanations": [
+        "Schweigen kann später Ansprüche gefährden.",
+        null,
+        "Eine Rückgabe ist rechtlich nicht vorgesehen.",
+        "Der Notar kann den Vertrag nicht kündigen. Der Kaufvertrag ist bereits wirksam."
+      ],
+      "practiceTip": "Lass dir beim Übergabetermin Zeit. Gehe jeden Raum durch und notiere auch Kleinigkeiten wie Kratzer oder fehlende Griffe."
+    },
+    {
+      "id": "ka-40",
+      "difficulty": 2,
+      "category": "Eintragung",
+      "question": "Welche Schritte müssen erledigt sein, damit der Käufer als Eigentümer im Grundbuch eingetragen wird?",
+      "options": [
+        "Kaufpreiszahlung bestätigt, Grunderwerbsteuer bezahlt, Unbedenklichkeitsbescheinigung und Vorkaufsrechtsverzicht liegen vor",
+        "Nur die Schlüsselübergabe",
+        "Nur eine Nachricht an den Nachbarn",
+        "Nur die Zustimmung der Bank"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Notar beantragt die Umschreibung erst, wenn der Kaufpreis bezahlt ist und die Unbedenklichkeitsbescheinigung des Finanzamts vorliegt. Auch die Erklärung der Gemeinde zum Vorkaufsrecht und nötige Genehmigungen müssen da sein. Dann trägt das Grundbuchamt den Käufer als Eigentümer ein.",
+      "wrongExplanations": [
+        null,
+        "Die Schlüsselübergabe ist für die Eintragung nicht maßgeblich.",
+        "Nachbarn haben mit der Eintragung nichts zu tun.",
+        "Die Zustimmung der Bank ist für die Sicherung wichtig, aber nicht die einzige Voraussetzung."
+      ],
+      "practiceTip": "Rechne für die Umschreibung mit einigen Wochen bis Monaten. Frage den Notar nach dem Stand, wenn es länger dauert."
+    },
+    {
+      "id": "ka-41",
+      "difficulty": 2,
+      "category": "Eintragung",
+      "question": "Was sollte der Käufer nach der Eintragung ins Grundbuch tun?",
+      "options": [
+        "Nichts mehr",
+        "Einen neuen Grundbuchauszug prüfen, Versicherungen abschließen und Versorger, Grundsteuerstelle und Verwaltung informieren",
+        "Sofort wieder verkaufen",
+        "Den Notar wechseln"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nach der Eintragung sollte der Käufer prüfen, ob im Grundbuch alles richtig steht (neuer Eigentümer, Grundschulden der Bank). Zusätzlich sind Gebäudeversicherung, Strom, Gas, Wasser, Müll, Grundsteuer und ggf. die Hausverwaltung zu klären.",
+      "wrongExplanations": [
+        "Es gibt noch viele organisatorische Aufgaben, die man nicht vergessen darf.",
+        null,
+        "Ein sofortiger Weiterverkauf ist unpraktisch und kann steuerliche Nachteile haben.",
+        "Der Notar hat seine Aufgabe erfüllt. Ein Wechsel ist nicht nötig."
+      ],
+      "practiceTip": "Gib Käufern zum Abschluss eine Checkliste für die ersten Wochen mit. Das ist ein kleiner Service, der in Erinnerung bleibt und Empfehlungen bringt."
+    },
+    {
+      "id": "ka-42",
+      "difficulty": 2,
+      "category": "Neubau & Bestand",
+      "question": "Wie wird bei einer Neubau-Eigentumswohnung vom Bauträger meist bezahlt?",
+      "options": [
+        "Alles vor Baubeginn",
+        "In Raten nach Baufortschritt nach der Makler- und Bauträgerverordnung (höchstens sieben Raten)",
+        "Alles nach zehn Jahren",
+        "Nur mit Bargeld"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beim Kauf vom Bauträger regelt die MaBV, dass der Käufer den Preis in Raten nach Baufortschritt zahlt, zum Beispiel nach Rohbau, Dach, Fenstern und Fertigstellung. Das schützt den Käufer, weil er nur für tatsächlich erbrachte Leistungen zahlt.",
+      "wrongExplanations": [
+        "Alles vorab zu zahlen wäre riskant und ist nach der MaBV nicht zulässig.",
+        null,
+        "Zehn Jahre warten ist unrealistisch.",
+        "Barzahlung ist unüblich und wegen Geldwäschevorschriften eingeschränkt."
+      ],
+      "practiceTip": "Prüfe bei Neubauprojekten, ob eine Bürgschaft nach § 7 MaBV vorliegt und wie der Zeitplan aussieht. Viele Enttäuschungen entstehen durch Verzögerungen."
+    },
+    {
+      "id": "ka-43",
+      "difficulty": 2,
+      "category": "Neubau & Bestand",
+      "question": "Welcher Vorteil ist typisch für Bestandsimmobilien im Vergleich zu Neubauten?",
+      "options": [
+        "Der Preis pro Quadratmeter ist oft geringer und man kann sie sofort besichtigen",
+        "Sie haben immer die beste Energieeffizienz",
+        "Sie sind immer schadstofffrei",
+        "Sie haben immer Gewährleistung"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bestandsimmobilien sind meist günstiger pro Quadratmeter, gut gelegen und sofort besichtigbar. Man sieht, was man kauft. Nachteile können Sanierungsbedarf, ältere Technik und ein höherer Energieverbrauch sein. Neubauten punkten bei Energie und Gewährleistung, sind aber oft teurer.",
+      "wrongExplanations": [
+        null,
+        "Die Energieeffizienz von Bestandsbauten ist oft schlechter als bei Neubauten.",
+        "Ältere Gebäude können Schadstoffe enthalten (z. B. Asbest).",
+        "Bei gebrauchten Immobilien ist die Gewährleistung häufig ausgeschlossen."
+      ],
+      "practiceTip": "Stelle dem Kunden die Frage: ‚Was ist Ihnen wichtiger – Lage und Preis oder modernste Technik?‘ Daraus ergibt sich meist die passende Richtung."
+    },
+    {
+      "id": "ka-44",
+      "difficulty": 2,
+      "category": "Neubau & Bestand",
+      "question": "Worin unterscheidet sich ein Haus von einer Eigentumswohnung für den Eigentümer?",
+      "options": [
+        "Beim Haus ist der Eigentümer allein für das gesamte Gebäude und Grundstück verantwortlich, bei der Wohnung teilt er sich das Gemeinschaftseigentum mit anderen und zahlt Hausgeld",
+        "Es gibt keinen Unterschied",
+        "Eine Wohnung hat immer einen Garten",
+        "Ein Haus braucht keine Versicherung"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beim Haus entscheidet der Eigentümer allein und trägt alle Kosten selbst. Bei der Eigentumswohnung entscheidet die Eigentümergemeinschaft mit Mehrheit über das Gemeinschaftseigentum, und man zahlt Hausgeld. Häuser bieten mehr Freiheit, Wohnungen oft weniger Aufwand.",
+      "wrongExplanations": [
+        null,
+        "Es gibt deutliche Unterschiede in Rechten, Pflichten und Kosten.",
+        "Nicht jede Wohnung hat einen Garten. Er ist meist Gemeinschaftseigentum.",
+        "Jedes Haus braucht eine Gebäudeversicherung."
+      ],
+      "practiceTip": "Stelle Käufern dieselbe Frage: ‚Wollen Sie alles selbst entscheiden und pflegen oder lieber im Verbund mit anderen?‘ Das klärt viele Vorlieben."
+    },
+    {
+      "id": "ka-45",
+      "difficulty": 3,
+      "category": "Neubau & Bestand",
+      "question": "Was sollte man bei einem Neubau-Kaufpreis zusätzlich klären?",
+      "options": [
+        "Ob Erschließungs- und Anschlusskosten, Außenanlagen und Küche im Preis enthalten sind",
+        "Ob der Bauträger einen Hund hat",
+        "Ob der Nachbar Kinder hat",
+        "Nichts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beim Neubau sind oft Positionen im Preis nicht enthalten, zum Beispiel Erschließung, Anschlüsse, Außenanlagen, Küche oder Bodenbeläge. Die Baubeschreibung listet auf, was geliefert wird. Fehlen Positionen, können später viele tausend Euro zusätzlich anfallen.",
+      "wrongExplanations": [
+        null,
+        "Das Haustier des Bauträgers ist für den Vertrag unerheblich.",
+        "Die Nachbarschaft ist eine andere Frage. Sie beeinflusst den Preis nicht direkt.",
+        "Es gibt viele wichtige Punkte, die man vorher klären sollte."
+      ],
+      "practiceTip": "Lies die Baubeschreibung Zeile für Zeile. Alles, was dort nicht steht, ist meist nicht im Preis enthalten."
+    },
+    {
+      "id": "ka-46",
+      "difficulty": 1,
+      "category": "Typische Fehler",
+      "question": "Was ist ein typischer Fehler von Käufern bei der Budgetplanung?",
+      "options": [
+        "Die Kaufnebenkosten vergessen oder zu niedrig ansetzen",
+        "Zu viele Vergleichsangebote einholen",
+        "Zu früh mit der Bank sprechen",
+        "Zu viele Besichtigungen machen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Viele Käufer planen nur den Kaufpreis und vergessen, dass Steuer, Notar, Grundbuch und Provision zusätzlich kommen, ebenso Umzug, Renovierung und Möbel. Dadurch wird das Budget schnell zu eng.",
+      "wrongExplanations": [
+        null,
+        "Mehr Vergleiche sind gut, weil sie bessere Konditionen bringen.",
+        "Früh mit der Bank zu sprechen ist sehr sinnvoll und hilft bei der Planung.",
+        "Viele Besichtigungen helfen beim Vergleichen und sind kein Fehler."
+      ],
+      "practiceTip": "Lege Kunden eine einfache Tabelle vor: Kaufpreis + Nebenkosten + Renovierung + Puffer = Gesamtbudget. Diese Rechnung überzeugt fast jeden."
+    },
+    {
+      "id": "ka-47",
+      "difficulty": 2,
+      "category": "Typische Fehler",
+      "question": "Welcher Fehler passiert oft bei Eigentumswohnungen?",
+      "options": [
+        "Die Käufer lesen Teilungserklärung, Protokolle und Wirtschaftsplan nicht",
+        "Die Käufer prüfen zu viele Unterlagen",
+        "Die Käufer fragen zu viel beim Verwalter nach",
+        "Die Käufer wollen zu viele Fotos"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Viele Käufer verlassen sich auf das Exposé und prüfen die Gemeinschaftsunterlagen nicht. Dabei stehen dort Sonderumlagen, Streit in der Gemeinschaft, Nutzungsverbote und die Höhe der Rücklage. Diese Dinge werden erst nach dem Kauf sichtbar, wenn es zu spät ist.",
+      "wrongExplanations": [
+        null,
+        "Man kann kaum zu viele Unterlagen prüfen. Sie sind die wichtigste Informationsquelle.",
+        "Fragen beim Verwalter sind erlaubt und sinnvoll.",
+        "Fotos sind hilfreich und kein Fehler."
+      ],
+      "practiceTip": "Bereite als Makler die Unterlagen vollständig vor. Wer als Verkäufer alles vorlegt, schafft Vertrauen und verkauft schneller."
+    },
+    {
+      "id": "ka-48",
+      "difficulty": 2,
+      "category": "Typische Fehler",
+      "question": "Warum ist es riskant, nur mit der maximalen Kreditrate zu planen, die die Bank erlaubt?",
+      "options": [
+        "Weil dann kein Puffer für Reparaturen, Zinsänderungen oder Einkommensausfälle bleibt",
+        "Weil die Bank dann kündigt",
+        "Weil das Haus dann nicht mehr versichert ist",
+        "Weil man dann keine Steuern zahlen darf"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Bank prüft nur, ob der Kredit formal tragbar ist. Reparaturen, Nachwuchs, Jobverlust oder höhere Zinsen nach Ende der Zinsbindung kann man aber nur bewältigen, wenn ein Puffer bleibt. Wer alles ausreizt, gerät bei der ersten Überraschung in Not.",
+      "wrongExplanations": [
+        null,
+        "Die Bank kündigt nicht, solange die Raten bezahlt werden.",
+        "Versicherungen haben mit der Höhe der Rate nichts zu tun.",
+        "Steuern sind unabhängig von der Kreditrate."
+      ],
+      "practiceTip": "Rate Käufern, mit einer Rate zu planen, die auch bei höherem Zins nach der Zinsbindung noch tragbar bleibt. Ein Stresstest schafft Ruhe."
+    }
+  ]
+}

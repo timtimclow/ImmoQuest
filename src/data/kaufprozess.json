@@ -1,0 +1,390 @@
+{
+  "stand": "Stand 2025 – Steuersätze, Fristen, Gebühren und Provisionsregeln können sich ändern. Vor einem echten Kauf beim Notar, Finanzamt oder Rechtsberater aktuell nachfragen. Zentral gepflegt in src/data/legal.ts.",
+  "steps": [
+    {
+      "nr": 1,
+      "titel": "Budget planen",
+      "icon": "💰",
+      "kurz": "Rechne, was du dir leisten kannst: Eigenkapital, Kaufnebenkosten und die monatliche Belastung.",
+      "details": [
+        "Eigenkapital: Ersparnisse, Wertpapiere, Bausparvertrag, Hilfe der Familie. Faustregel: mindestens die Nebenkosten plus 10–20 % des Kaufpreises.",
+        "Kaufnebenkosten in Niedersachsen: ca. 7 % ohne Makler, ca. 10,5 % mit Makler (Grunderwerbsteuer 5 %, Notar und Grundbuch ca. 2 %, Käuferprovision 3,57 %).",
+        "Monatliche Belastung: Kreditrate, Nebenkosten oder Hausgeld und eine Rücklage für Reparaturen. Sie sollte möglichst unter 35–40 % des Netto-Haushaltseinkommens liegen.",
+        "Puffer für Umzug, Renovierung und Möbel einplanen."
+      ],
+      "tipp": "Rechne mit dem Budget-Rechner in dieser App. Ein Puffer von 10.000 bis 20.000 € schützt vor Überraschungen.",
+      "link": "rechner"
+    },
+    {
+      "nr": 2,
+      "titel": "Finanzierungsbestätigung der Bank",
+      "icon": "🏦",
+      "kurz": "Die Bank prüft Einkommen und Eigenkapital und bestätigt, bis zu welcher Summe sie finanzieren würde.",
+      "details": [
+        "Unterlagen für die Bank: Gehaltsnachweise, Steuerbescheid, Kontoauszüge, Nachweis über das Eigenkapital, Selbstauskunft.",
+        "Die Finanzierungsbestätigung ist meist unverbindlich. Für Verkäufer und Makler ist sie ein wichtiger Nachweis.",
+        "Angebote vergleichen: Effektivzins, Zinsbindung, Tilgung, Sondertilgung. Kleine Zinsunterschiede kosten über Jahre viel Geld.",
+        "Die endgültige Kreditzusage gibt es erst, wenn Objekt und Unterlagen geprüft sind."
+      ],
+      "tipp": "Hol dir mehrere Angebote und lass dir alle Kosten nennen, nicht nur den Zins."
+    },
+    {
+      "nr": 3,
+      "titel": "Suche und Besichtigung",
+      "icon": "🔍",
+      "kurz": "Objekte suchen, besichtigen und genau hinschauen: Zustand, Feuchtigkeit, Dach, Fenster, Heizung, Lage.",
+      "details": [
+        "Suche über Portale, Makler, Aushänge und dein Netzwerk. Lege Muss- und Kann-Kriterien fest (Lage, Größe, Budget).",
+        "Besichtige mehrmals, zu verschiedenen Tageszeiten und bei verschiedenem Wetter.",
+        "Nimm die Checkliste, eine Taschenlampe und eine Kamera mit. Frag nach Baujahr und Modernisierungen.",
+        "Bei Altbauten einen Bausachverständigen oder Handwerker mitnehmen."
+      ],
+      "tipp": "Unterschätze die Lage nicht: Einen schlechten Zustand kann man verbessern, eine schlechte Lage nicht.",
+      "link": "checkliste"
+    },
+    {
+      "nr": 4,
+      "titel": "Wichtige Unterlagen prüfen",
+      "icon": "📑",
+      "kurz": "Grundbuchauszug, Energieausweis, Flurkarte, Baulastenverzeichnis, Grundrisse und Wohnflächenberechnung – bei Wohnungen zusätzlich die Unterlagen der Eigentümergemeinschaft.",
+      "details": [
+        "Grundbuchauszug: Eigentümer, Lasten (Abt. II), Grundschulden (Abt. III).",
+        "Baulastenverzeichnis: wird bei der Bauaufsichtsbehörde geführt, nicht im Grundbuch.",
+        "Energieausweis: Effizienzklasse, Energieträger, Baujahr. Ist bei der Besichtigung vorzulegen.",
+        "Flurkarte, Grundrisse und Wohnflächenberechnung.",
+        "Bei Eigentumswohnungen: Teilungserklärung, Protokolle der Eigentümerversammlungen (mindestens die letzten drei Jahre), Wirtschaftsplan, Jahresabrechnung und Stand der Erhaltungsrücklage."
+      ],
+      "tipp": "Fehlende Unterlagen sind selbst ein Warnsignal. Bitte den Verkäufer oder Verwalter sofort darum.",
+      "link": "unterlagen"
+    },
+    {
+      "nr": 5,
+      "titel": "Kaufpreis prüfen und verhandeln",
+      "icon": "🤝",
+      "kurz": "Vergleichspreise sammeln, ggf. einen Gutachter beauftragen und den Preis mit sachlichen Argumenten verhandeln.",
+      "details": [
+        "Vergleichspreise pro m² aus Portalen, Marktbericht des Gutachterausschusses und Bodenrichtwerten.",
+        "Ein Bausachverständiger schätzt Sanierungskosten. Diese Zahlen sind das beste Verhandlungsargument.",
+        "Auch Nebenpunkte sind verhandelbar: Übergabetermin, Einbauküche, Reparaturen vor der Übergabe.",
+        "Maklerprovision: Höhe und Aufteilung vorher klären."
+      ],
+      "tipp": "Verhandle mit Zahlen statt mit Gefühlen. Ein schriftliches Angebot mit Begründung wird ernster genommen."
+    },
+    {
+      "nr": 6,
+      "titel": "Reservierung",
+      "icon": "📌",
+      "kurz": "Mit einer Reservierung wird das Objekt für begrenzte Zeit für dich freigehalten.",
+      "details": [
+        "Was sie bringt: Zeit für Finanzierung und Prüfung, oft weniger Konkurrenz bei Besichtigungen.",
+        "Was sie nicht bringt: Sie ist kein Kaufvertrag und verpflichtet nicht zum Kauf oder Verkauf. Bindend wird erst der notarielle Vertrag.",
+        "Reservierungsgebühren sind rechtlich riskant. Hohe Beträge ohne Gegenleistung sind oft unwirksam. Genau lesen, was bei einem geplatzten Kauf passiert.",
+        "Fristen und Bedingungen schriftlich festhalten."
+      ],
+      "tipp": "Lass dich nicht durch ‚Reservieren Sie jetzt, sonst ist es weg‘ unter Druck setzen."
+    },
+    {
+      "nr": 7,
+      "titel": "Kaufvertragsentwurf und Prüffrist",
+      "icon": "📝",
+      "kurz": "Der Notar erstellt den Entwurf. Verbraucher sollen ihn in der Regel zwei Wochen vor dem Termin bekommen.",
+      "details": [
+        "Der Notar wird meist vom Käufer gewählt, der Käufer trägt auch die Kosten.",
+        "Beide Seiten geben dem Notar Daten: Personalien, Steuer-ID, Objekt, Preis, Finanzierung.",
+        "Entwurf in Ruhe lesen und Fragen sammeln, bei Bedarf Bank oder Rechtsberatung einbeziehen (§ 17 Abs. 2a BeurkG, Frist in der Regel zwei Wochen).",
+        "Wichtige Punkte: Kaufpreis, Zubehör, Fälligkeit, Übergabe, Gewährleistung, Kostenverteilung, Sonderumlagen."
+      ],
+      "tipp": "Ist die Frist zu kurz, verlange einen neuen Termin. Der Notar hilft gern."
+    },
+    {
+      "nr": 8,
+      "titel": "Notartermin und Beurkundung",
+      "icon": "✍️",
+      "kurz": "Der Notar liest den Vertrag vor, erklärt ihn, und beide unterschreiben. Erst dann ist er wirksam.",
+      "details": [
+        "Mitbringen: Personalausweis und Steuer-Identifikationsnummer.",
+        "Der Notar liest den ganzen Vertrag vor und belehrt neutral. Fragen sind ausdrücklich erwünscht.",
+        "Mit der Auflassung erklären beide, dass das Eigentum übergehen soll. Der Notar reicht sie aber erst später beim Grundbuchamt ein.",
+        "Ab jetzt sind beide Seiten gebunden. Ein Rücktritt ist nur unter engen Bedingungen möglich.",
+        "Bei Bankfinanzierung wird die Grundschuld meist im selben Termin bestellt."
+      ],
+      "tipp": "Erst unterschreiben, wenn alles verstanden ist."
+    },
+    {
+      "nr": 9,
+      "titel": "Auflassungsvormerkung im Grundbuch",
+      "icon": "🛡️",
+      "kurz": "Nach der Beurkundung beantragt der Notar die Auflassungsvormerkung. Sie schützt den Käufer.",
+      "details": [
+        "Eintrag in Abteilung II des Grundbuchs (§ 883 BGB).",
+        "Der Verkäufer kann das Grundstück dann nicht mehr wirksam an jemand anderen verkaufen oder belasten.",
+        "Die Vormerkung ist Voraussetzung dafür, dass der Kaufpreis fällig wird.",
+        "Die Kosten gehören zu den Grundbuchkosten und werden vom Käufer getragen."
+      ],
+      "tipp": "Zahle nichts, bevor der Notar die eingetragene Vormerkung bestätigt hat."
+    },
+    {
+      "nr": 10,
+      "titel": "Vorkaufsrecht der Gemeinde",
+      "icon": "🏛️",
+      "kurz": "Der Notar fragt bei der Gemeinde nach, ob sie ihr gesetzliches Vorkaufsrecht ausübt.",
+      "details": [
+        "Gemeinden haben in bestimmten Gebieten ein Vorkaufsrecht (§§ 24 ff. BauGB), z. B. in Sanierungsgebieten.",
+        "Nach Mitteilung des Kaufvertrags hat die Gemeinde in der Regel zwei Monate Zeit (§ 28 BauGB).",
+        "Meist stellt sie ein Negativzeugnis aus, dass sie verzichtet.",
+        "Übt sie das Recht aus, tritt sie zu denselben Bedingungen in den Vertrag ein. Der Käufer geht dann leer aus."
+      ],
+      "tipp": "Das Vorkaufsrecht wird selten ausgeübt, kann aber den Ablauf verzögern."
+    },
+    {
+      "nr": 11,
+      "titel": "Grunderwerbsteuer und Unbedenklichkeitsbescheinigung",
+      "icon": "🧾",
+      "kurz": "Der Käufer zahlt die Grunderwerbsteuer und bekommt danach vom Finanzamt die Unbedenklichkeitsbescheinigung.",
+      "details": [
+        "Niedersachsen: 5,0 % vom Kaufpreis (Stand 2025).",
+        "Das Finanzamt schickt den Bescheid meist einige Wochen nach dem Notartermin. Die Zahlungsfrist ist kurz.",
+        "Nach der Zahlung stellt das Finanzamt die Unbedenklichkeitsbescheinigung aus.",
+        "Ohne sie trägt das Grundbuchamt den Käufer nicht als Eigentümer ein.",
+        "Mitverkauftes Inventar (z. B. Einbauküche) kann bei angemessener Bewertung die Bemessungsgrundlage senken."
+      ],
+      "tipp": "Halte das Geld für die Steuer bereit. Bei 300.000 € Kaufpreis sind es 15.000 €."
+    },
+    {
+      "nr": 12,
+      "titel": "Kaufpreis fällig und Zahlung",
+      "icon": "💶",
+      "kurz": "Nach der Fälligkeitsmitteilung des Notars überweist der Käufer den Kaufpreis, meist über die Bank.",
+      "details": [
+        "Fälligkeit: Vormerkung ist eingetragen, das Vorkaufsrecht ist erledigt, die Löschung alter Grundschulden ist gesichert, nötige Genehmigungen liegen vor.",
+        "Der Notar schickt die Fälligkeitsmitteilung mit Zahlungsfrist (meist zwei bis vier Wochen) und Kontodaten.",
+        "Die Bank zahlt aus, wenn Grundschuld und Vormerkung stehen.",
+        "Zahlt der Käufer zu spät, drohen Verzugszinsen und Ärger.",
+        "Nur auf das genannte Konto zahlen – bei abweichenden Kontodaten misstrauisch werden (Betrugsgefahr)."
+      ],
+      "tipp": "Bank vorab informieren, damit die Überweisung fristgerecht ankommt."
+    },
+    {
+      "nr": 13,
+      "titel": "Übergabe mit Übergabeprotokoll",
+      "icon": "🔑",
+      "kurz": "Bei der Übergabe geht der Besitz auf den Käufer über. Ein Übergabeprotokoll hält den Zustand fest.",
+      "details": [
+        "Zählerstände (Strom, Gas, Wasser, Wärme), Anzahl und Art der Schlüssel.",
+        "Zustand der Räume, Mängel und mitverkauftes Zubehör (z. B. Einbauküche).",
+        "Fotos machen, beide Seiten unterschreiben.",
+        "Ab der Übergabe trägt der Käufer die laufenden Kosten (Grundsteuer, Versicherungen, Hausgeld).",
+        "Versorger ummelden und Gebäudeversicherung abschließen."
+      ],
+      "tipp": "Lass dir Zeit beim Rundgang und notiere auch Kleinigkeiten."
+    },
+    {
+      "nr": 14,
+      "titel": "Eintragung als Eigentümer",
+      "icon": "🏠",
+      "kurz": "Nach Zahlung und Unbedenklichkeitsbescheinigung beantragt der Notar die Umschreibung. Erst mit der Eintragung bist du Eigentümer.",
+      "details": [
+        "Voraussetzungen: Kaufpreis bezahlt, Unbedenklichkeitsbescheinigung liegt vor, Vorkaufsrecht erledigt, ggf. Genehmigungen.",
+        "Das Grundbuchamt trägt den Käufer in Abteilung I ein und löscht die Vormerkung.",
+        "Die Grundschuld der Bank wird in Abteilung III eingetragen.",
+        "Die Eintragung dauert meist einige Wochen bis Monate.",
+        "Danach den neuen Grundbuchauszug prüfen."
+      ],
+      "tipp": "Bewahre Kaufvertrag, Grundbuchauszug und Übergabeprotokoll sicher auf."
+    }
+  ],
+  "besichtigung": [
+    {
+      "id": "bes-zustand",
+      "titel": "Allgemeiner Zustand",
+      "icon": "🏠",
+      "items": [
+        { "id": "bes-zustand-1", "text": "Wände, Decken und Böden ohne größere Risse" },
+        { "id": "bes-zustand-2", "text": "Türen und Fenster schließen sauber" },
+        { "id": "bes-zustand-3", "text": "Elektrik: Zahl der Steckdosen, Sicherungskasten, Alter der Leitungen" },
+        { "id": "bes-zustand-4", "text": "Sanitär: Wasserdruck, Rohre, Bad und WC in Ordnung" },
+        { "id": "bes-zustand-5", "text": "Modernisierungen mit Rechnungen und Jahreszahlen nachgewiesen" }
+      ]
+    },
+    {
+      "id": "bes-feuchte",
+      "titel": "Feuchtigkeit und Schimmel",
+      "icon": "💧",
+      "items": [
+        { "id": "bes-feuchte-1", "text": "Keller: dunkle Flecken, Salzausblühungen, muffiger Geruch" },
+        { "id": "bes-feuchte-2", "text": "Ecken an Außenwänden ohne Schimmel" },
+        { "id": "bes-feuchte-3", "text": "Hinter Schränken und Möbeln nachsehen" },
+        { "id": "bes-feuchte-4", "text": "Einzelne frisch gestrichene Stellen hinterfragen" },
+        { "id": "bes-feuchte-5", "text": "Bad: Fugen, Silikon und Lüftung in Ordnung" }
+      ]
+    },
+    {
+      "id": "bes-dach",
+      "titel": "Dach und Fassade",
+      "icon": "🏚️",
+      "items": [
+        { "id": "bes-dach-1", "text": "Dachziegel, Rinnen und Kamin in gutem Zustand" },
+        { "id": "bes-dach-2", "text": "Dachboden: keine Wasserflecken, Dämmung vorhanden" },
+        { "id": "bes-dach-3", "text": "Fassade ohne Risse und Abplatzungen" },
+        { "id": "bes-dach-4", "text": "Alter des Daches erfragt, Rechnungen gesehen" }
+      ]
+    },
+    {
+      "id": "bes-fenster",
+      "titel": "Fenster und Türen",
+      "icon": "🪟",
+      "items": [
+        { "id": "bes-fenster-1", "text": "Alter und Verglasung (zwei- oder dreifach)" },
+        { "id": "bes-fenster-2", "text": "Kein Beschlag zwischen den Scheiben" },
+        { "id": "bes-fenster-3", "text": "Dichtungen intakt, Rahmen ohne Fäulnis" },
+        { "id": "bes-fenster-4", "text": "Rollläden und Beschläge funktionieren" }
+      ]
+    },
+    {
+      "id": "bes-heizung",
+      "titel": "Heizung und Energie",
+      "icon": "🔥",
+      "items": [
+        { "id": "bes-heizung-1", "text": "Alter und Energieträger der Heizung" },
+        { "id": "bes-heizung-2", "text": "Wartungsnachweise und Schornsteinfegerprotokoll" },
+        { "id": "bes-heizung-3", "text": "Energieausweis vorhanden und gültig (10 Jahre)" },
+        { "id": "bes-heizung-4", "text": "Warmwasserbereitung geklärt" },
+        { "id": "bes-heizung-5", "text": "Bei Ölheizung: Zustand des Öltanks" }
+      ]
+    },
+    {
+      "id": "bes-lage",
+      "titel": "Lage",
+      "icon": "📍",
+      "items": [
+        { "id": "bes-lage-1", "text": "Lärm: Straße, Bahn, Flugroute, Nachbarn" },
+        { "id": "bes-lage-2", "text": "Sonneneinfall und Ausrichtung" },
+        { "id": "bes-lage-3", "text": "Parkplatz und Zufahrt" },
+        { "id": "bes-lage-4", "text": "Bebauungsplan und geplante Bauvorhaben in der Umgebung" },
+        { "id": "bes-lage-5", "text": "Hochwasser- oder Starkregenrisiko geprüft" }
+      ]
+    },
+    {
+      "id": "bes-infra",
+      "titel": "Infrastruktur",
+      "icon": "🚌",
+      "items": [
+        { "id": "bes-infra-1", "text": "ÖPNV, Bahnhof, Autobahn" },
+        { "id": "bes-infra-2", "text": "Kita, Schule, Ärzte, Einkauf in der Nähe" },
+        { "id": "bes-infra-3", "text": "Internet (Glasfaser) und Mobilfunk" },
+        { "id": "bes-infra-4", "text": "Parks, Freizeit und Vereine" }
+      ]
+    }
+  ],
+  "unterlagen": [
+    {
+      "titel": "Für jedes Objekt",
+      "items": [
+        { "name": "Grundbuchauszug", "wozu": "Zeigt Eigentümer, Lasten und Rechte Dritter (Abt. II) und Grundschulden (Abt. III)." },
+        { "name": "Auszug aus dem Baulastenverzeichnis", "wozu": "Öffentlich-rechtliche Verpflichtungen wie Zufahrts- oder Abstandsflächenrechte. Stehen nicht im Grundbuch." },
+        { "name": "Energieausweis", "wozu": "Energiekennwerte und Effizienzklasse; hilft, die Heizkosten einzuschätzen." },
+        { "name": "Flurkarte (Liegenschaftskarte)", "wozu": "Grenzen, Größe und Lage des Grundstücks." },
+        { "name": "Grundrisse und Schnitte", "wozu": "Raumaufteilung prüfen und Umbaumöglichkeiten einschätzen." },
+        { "name": "Wohnflächenberechnung", "wozu": "Nachweis der Fläche nach der Wohnflächenverordnung." },
+        { "name": "Baugenehmigung und Bauunterlagen", "wozu": "Prüfen, ob Anbauten und Ausbauten genehmigt sind." },
+        { "name": "Nachweise über Modernisierung und Wartung", "wozu": "Alter und Zustand von Dach, Heizung, Fenstern und Leitungen belegen." }
+      ]
+    },
+    {
+      "titel": "Zusätzlich bei Eigentumswohnungen",
+      "items": [
+        { "name": "Teilungserklärung mit Gemeinschaftsordnung", "wozu": "Aufteilung in Sonder- und Gemeinschaftseigentum, Regeln der Gemeinschaft." },
+        { "name": "Protokolle der Eigentümerversammlungen (mindestens 3 Jahre)", "wozu": "Zeigen Streit, geplante Maßnahmen und Beschlüsse." },
+        { "name": "Beschluss-Sammlung", "wozu": "Alle gültigen Beschlüsse der Gemeinschaft." },
+        { "name": "Wirtschaftsplan und Jahresabrechnung", "wozu": "Höhe des Hausgelds, Kosten und Einnahmen der Gemeinschaft." },
+        { "name": "Stand der Erhaltungsrücklage", "wozu": "Zeigt, wie gut für künftige Reparaturen vorgesorgt ist." },
+        { "name": "Angaben zu geplanten Sonderumlagen oder Sanierungen", "wozu": "Welche Kosten auf den Käufer zukommen." },
+        { "name": "Name und Vertrag des Verwalters", "wozu": "Wer verwaltet, wie lange läuft der Vertrag?" }
+      ]
+    },
+    {
+      "titel": "Zusätzlich bei Neubau vom Bauträger",
+      "items": [
+        { "name": "Baubeschreibung", "wozu": "Legt fest, was geliefert wird und was nicht im Preis enthalten ist." },
+        { "name": "Bauzeitenplan und Ratenplan", "wozu": "Wann wird welche Rate fällig (MaBV, höchstens sieben Raten)?" },
+        { "name": "Sicherheit nach MaBV (z. B. Bürgschaft)", "wozu": "Schützt den Käufer, wenn der Bauträger ausfällt." },
+        { "name": "Teilungserklärung und Pläne", "wozu": "Bei Wohnungen: Aufteilung und Größe des Sondereigentums." }
+      ]
+    }
+  ],
+  "nebenkosten": [
+    {
+      "name": "Grunderwerbsteuer",
+      "satz": "5,0 % vom Kaufpreis (Niedersachsen, Stand 2025)",
+      "text": "Wird an das Finanzamt gezahlt. Üblicherweise trägt sie der Käufer. Andere Bundesländer haben andere Sätze (3,5 % bis 6,5 %). Der Steuersatz ist Ländersache und kann sich ändern."
+    },
+    {
+      "name": "Notarkosten",
+      "satz": "ca. 1,0–1,5 % vom Kaufpreis",
+      "text": "Nach dem Gerichts- und Notarkostengesetz (GNotKG) nach Tabelle. Umfasst Beurkundung, Beratung und Abwicklung. Die Gebühren sind gesetzlich festgelegt und nicht verhandelbar."
+    },
+    {
+      "name": "Grundbuchkosten",
+      "satz": "ca. 0,5 % vom Kaufpreis",
+      "text": "Gebühren des Grundbuchamts für Vormerkung, Eigentumsumschreibung und ggf. Grundschuld. Faustregel für Notar und Grundbuch zusammen: 1,5 bis 2 %."
+    },
+    {
+      "name": "Maklerprovision",
+      "satz": "in Niedersachsen üblich: 7,14 % gesamt (inkl. MwSt.), Käuferanteil 3,57 %",
+      "text": "Nicht gesetzlich festgelegt, sondern Verhandlungssache. Fällt nur an, wenn ein Makler beteiligt ist. Zur Aufteilung siehe die Regeln unten."
+    },
+    {
+      "name": "Weitere Kosten",
+      "satz": "je nach Fall",
+      "text": "Gutachter, Bearbeitungsgebühren der Bank, Umzug, Renovierung, Möbel und ggf. Erschließungskosten. Diese Posten sind in den rund 10 % Nebenkosten nicht enthalten."
+    }
+  ],
+  "provisionsregel": [
+    "Seit dem 23.12.2020 gelten die §§ 656a–656d BGB für den Kauf von Wohnungen und Einfamilienhäusern.",
+    "Der Maklervertrag braucht die Textform (z. B. E-Mail). Rein mündliche Verträge begründen keinen Provisionsanspruch.",
+    "Ist der Makler für beide Seiten tätig, dürfen Käufer und Verkäufer nur in gleicher Höhe zahlen (§ 656c BGB). Üblich ist die Teilung 50:50.",
+    "Beauftragt nur eine Seite den Makler, darf die andere höchstens die Hälfte der Provision übernehmen. Sie zahlt erst, wenn der Auftraggeber seinen Anteil nachweislich gezahlt hat (§ 656d BGB).",
+    "Für Gewerbeobjekte, Grundstücke und Mehrfamilienhäuser gilt diese Regel nicht. Dort ist die Aufteilung frei verhandelbar.",
+    "Die Höhe der Provision ist gesetzlich nicht festgelegt. In Niedersachsen sind 7,14 % inkl. MwSt. (3,57 % je Seite) üblich."
+  ],
+  "vergleiche": [
+    {
+      "titel": "Neubau oder Bestand?",
+      "spalten": ["Neubau", "Bestand"],
+      "zeilen": [
+        { "thema": "Preis", "a": "Meist höher pro m². Beim Bauträger wird die Grunderwerbsteuer oft auf den Gesamtpreis berechnet.", "b": "Oft günstiger pro m², dafür Renovierungs- und Sanierungskosten einplanen." },
+        { "thema": "Energie", "a": "Sehr gute Energiewerte, niedrige Nebenkosten, oft Wärmepumpe und Photovoltaik.", "b": "Sehr unterschiedlich. Dämmung und Heizung müssen oft nachgerüstet werden." },
+        { "thema": "Gewährleistung", "a": "Vom Bauträger meist 5 Jahre auf Bauwerksmängel.", "b": "Meist ausgeschlossen, außer bei arglistig verschwiegenen Mängeln." },
+        { "thema": "Zahlung", "a": "Ratenzahlung nach Baufortschritt (MaBV). Bereitstellungszinsen möglich.", "b": "Kaufpreis auf einmal nach Fälligkeitsmitteilung." },
+        { "thema": "Einzug", "a": "Erst nach Fertigstellung. Verzögerungen sind möglich.", "b": "Meist zügig nach der Übergabe." },
+        { "thema": "Lage", "a": "Häufig in Neubaugebieten am Ortsrand.", "b": "Oft in gewachsener Lage mit besserer Infrastruktur." }
+      ]
+    },
+    {
+      "titel": "Haus oder Eigentumswohnung?",
+      "spalten": ["Haus", "Eigentumswohnung"],
+      "zeilen": [
+        { "thema": "Entscheidungen", "a": "Du entscheidest allein, z. B. über Umbauten und Garten.", "b": "Die Gemeinschaft entscheidet mit Mehrheit über das Gemeinschaftseigentum." },
+        { "thema": "Kosten", "a": "Alle Instandhaltungskosten trägst du selbst und bildest deine eigene Rücklage.", "b": "Hausgeld inklusive Rücklage. Große Sanierungen tragen alle gemeinsam, ggf. per Sonderumlage." },
+        { "thema": "Platz und Freiheit", "a": "Mehr Platz, Garten, das Grundstück gehört dir.", "b": "Weniger Platz, oft Balkon oder Sondernutzungsrecht." },
+        { "thema": "Aufwand", "a": "Mehr Pflege: Dach, Garten, Winterdienst.", "b": "Weniger Aufwand, der Verwalter kümmert sich." },
+        { "thema": "Preis", "a": "Höherer Kaufpreis, hoher Bodenwertanteil.", "b": "Oft günstiger, dafür laufendes Hausgeld." },
+        { "thema": "Unterlagen", "a": "Grundbuch, Baulasten, Energieausweis, Flurkarte.", "b": "Zusätzlich Teilungserklärung, Protokolle, Wirtschaftsplan und Rücklage." }
+      ]
+    }
+  ],
+  "fehler": [
+    { "titel": "Nebenkosten vergessen", "text": "Zum Kaufpreis kommen rund 10,5 % Nebenkosten (mit Makler), dazu Renovierung, Umzug und Möbel." },
+    { "titel": "Zu knapp finanzieren", "text": "Wer mit der maximalen Rate ohne Puffer plant, gerät bei der ersten Reparatur oder einem Einkommensausfall in Not." },
+    { "titel": "Nur die Rate vergleichen", "text": "Effektivzins, Zinsbindung, Tilgung und Sondertilgung entscheiden über die Gesamtkosten, nicht nur die Monatsrate." },
+    { "titel": "Unterlagen nicht lesen", "text": "Grundbuch, Baulasten, Teilungserklärung und Protokolle zeigen viele Probleme schwarz auf weiß. Sie werden oft ungelesen abgeheftet." },
+    { "titel": "Ohne Gutachter bei Altbauten", "text": "Feuchtigkeit, Dachschäden und alte Leitungen werden schnell teuer. Ein Gutachter kostet nur einen Bruchteil davon." },
+    { "titel": "Emotional kaufen", "text": "Wer sich verliebt, übersieht Mängel und verhandelt schlecht. Nimm eine nüchterne Person zur Besichtigung mit." },
+    { "titel": "Reservierung überschätzen", "text": "Eine Reservierung ist kein Kaufvertrag und gibt keine Sicherheit. Erst der Notarvertrag bindet." },
+    { "titel": "Den Notarentwurf nicht prüfen", "text": "Wer den Entwurf ungelesen unterschreibt, bindet sich an alles, was drinsteht – auch an Gewährleistungsausschlüsse und Sonderumlagen." },
+    { "titel": "Zu früh zahlen", "text": "Der Kaufpreis wird erst nach der Fälligkeitsmitteilung des Notars fällig. Vorher zu zahlen nimmt dem Käufer die Sicherheit." },
+    { "titel": "Energiekosten und Pflichten unterschätzen", "text": "Alte Heizungen, fehlende Dämmung und Nachrüstpflichten nach dem Gebäudeenergiegesetz können in den ersten Jahren viel Geld kosten." },
+    { "titel": "Die Lage unterschätzen", "text": "Ein Haus kann man sanieren, die Lage nicht. Lärm, Anbindung und Entwicklung des Umfelds prüfen." },
+    { "titel": "Übergabeprotokoll vergessen", "text": "Ohne Protokoll fehlen Beweise für Zustand, Zählerstände und mitverkauftes Zubehör." }
+  ]
+}

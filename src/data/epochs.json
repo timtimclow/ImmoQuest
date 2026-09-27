@@ -1,0 +1,306 @@
+[
+  {
+    "id": "fachwerk",
+    "name": "Fachwerk",
+    "zeitraum": "bis ca. 1870",
+    "signature": "Sichtbares Holzgerüst, dessen Felder mit Lehm oder Ziegeln gefüllt sind.",
+    "photo": {
+      "src": "/images/epochs/fachwerk.jpg",
+      "alt": "Fachwerkhäuser mit Holzgerüst und Knaggen in der Celler Altstadt",
+      "author": "Karsten Ratzke",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Celle,_Poststra%C3%9Fe_7_und_8.jpg"
+    },
+    "hinweise": [
+      "Schau auf die Wände: Was ist außen zu sehen – nur Putz oder auch Holz?",
+      "Das Obergeschoss steht oft über das Erdgeschoss hinaus.",
+      "Das Dach ist steil, das Haus wirkt gedrungen und eher niedrig."
+    ],
+    "merkmale": [
+      { "text": "Sichtbares Holzgerüst mit Gefachen", "detail": "Balken tragen das Haus. Die Felder dazwischen sind mit Lehm, Flechtwerk oder Ziegeln gefüllt. Das Holz bleibt außen sichtbar – dazu gehören oft diagonale Streben (Andreaskreuz).", "x": 232, "y": 142 },
+      { "text": "Auskragendes Obergeschoss", "detail": "Das Obergeschoss ragt über das Erdgeschoss hinaus. So gewann man Fläche und schützte die Wände vor Regen.", "x": 322, "y": 165 },
+      { "text": "Steiles Satteldach", "detail": "Steile Dächer aus Ziegeln oder Reet leiten Regen und Schnee gut ab. Oft sitzt ein großer Schornstein darauf.", "x": 130, "y": 96 },
+      { "text": "Kleine Fenster mit Läden", "detail": "Kleine Fenster hielten die Wärme im Haus. Fensterläden schützten vor Wetter und Einbruch.", "x": 111, "y": 139 },
+      { "text": "Steinsockel unter dem Holz", "detail": "Holz darf nicht im Boden stehen, sonst fault es. Der Steinsockel schützt vor Nässe. Ist er defekt, sind Schwellen und Holz in Gefahr.", "x": 122, "y": 216 }
+    ],
+    "verkauf": [
+      { "thema": "Holzschäden und Feuchtigkeit", "text": "Prüfe Schwellen, Balkenköpfe und Gefache auf Nässe, Pilz und Insektenbefall (Holzwurm). Reparaturen sind oft teuer und aufwendig." },
+      { "thema": "Denkmalschutz", "text": "Viele Fachwerkhäuser stehen unter Denkmalschutz. Änderungen brauchen eine Genehmigung. Dafür gibt es steuerliche Vorteile und Fördermöglichkeiten." },
+      { "thema": "Dämmung und Heizung", "text": "Außendämmung ist meist nicht möglich, eine Innendämmung muss sorgfältig geplant werden. Der Energieausweis fällt oft schlecht aus." },
+      { "thema": "Grundriss und Raumhöhe", "text": "Niedrige Decken, kleine Räume und schiefe Wände sind charmant, aber nicht für jeden Käufer geeignet." }
+    ],
+    "verwechslung": {
+      "gruenderzeit": "Gründerzeithäuser haben eine glatte Putzfassade mit Stuck. Ein sichtbares Holzgerüst gibt es dort nicht.",
+      "jugendstil": "Beim Jugendstil siehst du Putz mit geschwungenen Ornamenten, nicht ein sichtbares Balkengerüst.",
+      "bauhaus": "Bauhaus hat ein Flachdach und glatte weiße Wände. Hier siehst du ein steiles Dach und Holzbalken.",
+      "wiederaufbau": "Die 50er haben schlichten Putz und flach geneigte Dächer, aber keine sichtbaren Holzbalken.",
+      "grossiedlung": "Betonfertigteile und riesige Blöcke gibt es hier nicht. Dieses Haus ist klein und aus Holz und Lehm.",
+      "achtziger": "Häuser der 80er/90er sind massiv gemauert. Aufgesetzte Zierbalken täuschen manchmal Fachwerk nur vor.",
+      "neubau": "Ein Neubau hätte dicke Dämmung, große Fenster und Technik wie Solarmodule. Hier siehst du jahrhundertealte Handwerkskunst."
+    }
+  },
+  {
+    "id": "gruenderzeit",
+    "name": "Gründerzeit",
+    "zeitraum": "ca. 1870–1914",
+    "signature": "Repräsentative Stadthäuser mit Stuckfassade, hohen Fenstern und hohen Decken.",
+    "photo": {
+      "src": "/images/epochs/gruenderzeit.jpg",
+      "alt": "Gründerzeit-Mietshaus mit gegliederter Fassade, Erkern und hohen Fenstern in Coswig",
+      "author": "NoRud",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coswig_Dresdner_Stra%C3%9Fe_60_Mietshaus_(mit_Apotheken-Laden)_in_halboffener_Bebauung_I.jpg"
+    },
+    "hinweise": [
+      "Die Fassade ist reich verziert – aber mit geraden, klassischen Formen.",
+      "Die hohen Fenster stehen in regelmäßigen Reihen.",
+      "Das Haus steht meist in einer geschlossenen Häuserzeile in der Stadt."
+    ],
+    "merkmale": [
+      { "text": "Stuck und Fensterverdachungen", "detail": "Über den Fenstern sitzen Dreiecks- oder Segmentgiebel aus Stuck. Sie zeigten den Wohlstand der Bauherren.", "x": 116, "y": 143 },
+      { "text": "Hohe Fenster in regelmäßigen Reihen", "detail": "Große, hochformatige Fenster bringen Licht in Räume mit etwa 3 bis 3,5 Metern Deckenhöhe.", "x": 200, "y": 122 },
+      { "text": "Kranzgesims und Gurtgesimse", "detail": "Ein kräftiges Gesims schließt die Fassade oben ab. Gurtgesimse gliedern die Geschosse.", "x": 300, "y": 44 },
+      { "text": "Kräftiges Erdgeschoss mit Portal", "detail": "Das Erdgeschoss ist oft mit Rustika (Steinfugen) gestaltet und hat ein Rundbogenportal oder Läden.", "x": 200, "y": 212 },
+      { "text": "Balkon aus Schmiedeeisen", "detail": "Kleine Balkone mit Eisengeländer betonen die Mittelachse der Fassade.", "x": 224, "y": 170 }
+    ],
+    "verkauf": [
+      { "thema": "Nachfrage und Preis", "text": "Altbau mit hohen Decken und Stuck ist in guten Lagen sehr gefragt und erzielt hohe Preise." },
+      { "thema": "Schallschutz", "text": "Holzbalkendecken leiten Trittschall stark weiter. Käufer sollten Geräusche im Haus prüfen." },
+      { "thema": "Leitungen", "text": "Elektrik, Wasser- und Abwasserleitungen sind oft veraltet. Bleirohre und alte Stromleitungen können teuer zu erneuern sein." },
+      { "thema": "Heizen und Fenster", "text": "Hohe Räume und alte Kastenfenster verbrauchen viel Energie. Heizung und Fenster prüfen." },
+      { "thema": "Keller", "text": "Feuchte Keller und fehlende Horizontalsperren sind bei alten Gebäuden häufig." }
+    ],
+    "verwechslung": {
+      "fachwerk": "Fachwerk zeigt sichtbares Holz und ist meist klein und ländlich. Hier siehst du eine große, verputzte Stadtfassade.",
+      "jugendstil": "Der Jugendstil hätte geschwungene Linien und Pflanzenornamente. Diese Fassade ist streng gegliedert, mit Dreiecksgiebeln und Gesimsen.",
+      "bauhaus": "Bauhaus hat keinen Schmuck und ein Flachdach mit Fensterbändern. Hier gibt es viel Stuck und hohe Einzelfenster.",
+      "wiederaufbau": "Die 50er sind viel schlichter, ohne Stuck und mit kleinen Fenstern.",
+      "grossiedlung": "Plattenbauten haben Betonfugen und wirken gleichförmig. Hier ist die Fassade individuell mit Stuck gestaltet.",
+      "achtziger": "Ein Haus der 80er wäre ein Einfamilienhaus mit Satteldach, Erker und Kunststofffenstern – kein Stadthaus mit Stuck.",
+      "neubau": "Neubauten haben glatte, gedämmte Fassaden ohne Stuck und mit Dreifachverglasung."
+    }
+  },
+  {
+    "id": "jugendstil",
+    "name": "Jugendstil",
+    "zeitraum": "ca. 1895–1914",
+    "signature": "Geschwungene Linien und Pflanzenornamente statt strenger Formen.",
+    "photo": {
+      "src": "/images/epochs/jugendstil.jpg",
+      "alt": "Wohnhaus mit Jugendstilfassade und Erker in Würzburg",
+      "author": "Parklife",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:W%C3%BCrzburg_-_Sanderstra%C3%9Fe_4a_Jugendstilfassade.jpg"
+    },
+    "hinweise": [
+      "Suche nach Blumen und Ranken an der Fassade oder im Eisenwerk.",
+      "Fenster und Türen sind oft rund oder bogenförmig.",
+      "Das Haus wirkt verspielt, nicht streng."
+    ],
+    "merkmale": [
+      { "text": "Geschwungene Linien („Peitschenhieb“)", "detail": "Fließende, S-förmige Linien an Fassade, Geländern und Türen sind das Markenzeichen des Jugendstils.", "x": 166, "y": 122 },
+      { "text": "Florale Ornamente", "detail": "Blüten, Ranken und Blätter schmücken Stuck, Fliesen und Buntglasfenster.", "x": 166, "y": 72 },
+      { "text": "Erker oder Türmchen mit geschwungener Haube", "detail": "Runde oder geschwungene Dächer geben dem Haus ein verspieltes Aussehen.", "x": 104, "y": 78 },
+      { "text": "Rundbogen- und Sonderfenster", "detail": "Fenster sind rund, bogenförmig oder haben geschwungene Sprossen. Oft mit farbigem Glas.", "x": 200, "y": 130 },
+      { "text": "Farbige Keramikfliesen-Bänder", "detail": "Farbige Fliesen und Bänder beleben die Fassade und den Eingangsbereich.", "x": 270, "y": 184 }
+    ],
+    "verkauf": [
+      { "thema": "Denkmalschutz", "text": "Viele Jugendstilhäuser sind denkmalgeschützt. Fassade, Fenster und Treppenhaus dürfen nicht einfach verändert werden." },
+      { "thema": "Originale Details", "text": "Originale Fliesen, Türen und Buntglas sind ein starkes Verkaufsargument – aber nur, wenn sie erhalten sind." },
+      { "thema": "Sanierungskosten", "text": "Spezielle Handwerker und Materialien machen Reparaturen teuer. Kostenvoranschläge vor dem Kauf einholen." },
+      { "thema": "Technik", "text": "Wie bei der Gründerzeit: Leitungen, Heizung, Fenster und Schallschutz prüfen." }
+    ],
+    "verwechslung": {
+      "fachwerk": "Fachwerk zeigt sichtbares Holz. Hier ist die Fassade verputzt und mit Ornamenten verziert.",
+      "gruenderzeit": "Die Gründerzeit setzt auf gerade, klassische Formen wie Dreiecksgiebel. Hier siehst du geschwungene Linien und Pflanzenmotive.",
+      "bauhaus": "Bauhaus verzichtet auf Schmuck. Hier ist alles voller Ornamente.",
+      "wiederaufbau": "Die 50er sind schlicht. Erker, Ranken und Fliesen passen nicht dazu.",
+      "grossiedlung": "Betonfertigteile sind gleichförmig. Hier ist alles individuell und verspielt.",
+      "achtziger": "Häuser der 80er haben Kunststofffenster mit Sprossen und wirken bürgerlich, nicht verspielt.",
+      "neubau": "Neubauten sind glatt und technisch. Ornamente wie Ranken gibt es dort nicht."
+    }
+  },
+  {
+    "id": "bauhaus",
+    "name": "20er / Bauhaus",
+    "zeitraum": "ca. 1919–1933",
+    "signature": "Schlichte Kuben mit Flachdach, glatten weißen Wänden und Fensterbändern.",
+    "photo": {
+      "src": "/images/epochs/bauhaus.jpg",
+      "alt": "Bauhaus-Meisterhaus Muche-Schlemmer in Dessau mit Flachdach und weißen Wänden",
+      "author": "Martavictor",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dessau,_Meisterhaus_Muche-Schlemmer.jpg"
+    },
+    "hinweise": [
+      "Es gibt keinerlei Schmuck an der Fassade.",
+      "Die Fenster sind lange Bänder, keine einzelnen Lochfenster.",
+      "Das Dach ist flach."
+    ],
+    "merkmale": [
+      { "text": "Flachdach", "detail": "Ein flaches Dach mit schmalem Rand betont die klare Würfelform. Es ist aber undichtigkeitsanfällig.", "x": 150, "y": 83 },
+      { "text": "Fensterband (Bandfenster)", "detail": "Lange, waagerechte Fensterbänder bringen viel Licht und betonen die Horizontale.", "x": 170, "y": 132 },
+      { "text": "Glatte, weiße Putzfassade", "detail": "Keine Gesimse, keine Ornamente: Die Form folgt der Funktion.", "x": 105, "y": 206 },
+      { "text": "Verglastes Treppenhaus", "detail": "Das Treppenhaus wird als verglaster Turm gezeigt – ein typisches Motiv des Neuen Bauens.", "x": 252, "y": 160 },
+      { "text": "Versetzte Kuben mit rundem Fenster", "detail": "Mehrere Würfel schieben sich ineinander. Runde ‚Bullaugen‘ erinnern an Schiffsbau.", "x": 318, "y": 164 }
+    ],
+    "verkauf": [
+      { "thema": "Flachdach", "text": "Flachdächer sind ein Schwachpunkt: Abdichtung und Entwässerung prüfen. Undichtigkeiten kommen häufig vor." },
+      { "thema": "Dämmung und Wärmebrücken", "text": "Große Glasflächen und dünne Wände führen zu hohem Energieverbrauch und Wärmebrücken." },
+      { "thema": "Denkmalschutz", "text": "Viele Bauhaus-Bauten sind denkmalgeschützt oder liegen in geschützten Siedlungen." },
+      { "thema": "Originalfenster", "text": "Originale Stahl- oder Holzfenster sind wertvoll, aber selten dicht. Erhalt oder Austausch mit der Behörde klären." }
+    ],
+    "verwechslung": {
+      "fachwerk": "Fachwerk hat ein steiles Dach und sichtbares Holz. Hier gibt es ein Flachdach und glatte Wände.",
+      "gruenderzeit": "Die Gründerzeit ist mit Stuck verziert. Hier fehlt jeder Schmuck.",
+      "jugendstil": "Der Jugendstil ist voller Ornamente. Hier sind die Wände glatt und die Formen streng.",
+      "wiederaufbau": "Die 50er haben ein Satteldach und kleine Lochfenster. Hier siehst du ein Flachdach und Fensterbänder.",
+      "grossiedlung": "Eine Großsiedlung besteht aus Betonfertigteilen mit vielen gleichen Wohnungen. Bauhaus-Häuser sind meist kleiner und individueller.",
+      "achtziger": "Häuser der 80er haben Satteldach, Erker und Sprossenfenster.",
+      "neubau": "Ein Neubau sieht ähnlich kubisch aus, hat aber Dreifachverglasung, Photovoltaik und Wärmepumpe. Diese Zeichen moderner Haustechnik fehlen hier."
+    }
+  },
+  {
+    "id": "wiederaufbau",
+    "name": "50er Wiederaufbau",
+    "zeitraum": "ca. 1949–1960",
+    "signature": "Schlichter, sparsamer Bau mit kleinen Fenstern und flach geneigtem Satteldach.",
+    "photo": null,
+    "hinweise": [
+      "Die Bauweise ist einfach und sparsam.",
+      "Die Fenster sind klein und gleichmäßig verteilt.",
+      "Das Dach hat nur eine geringe Neigung."
+    ],
+    "merkmale": [
+      { "text": "Flach geneigtes Satteldach", "detail": "Leichte Dachkonstruktion mit wenig Material. Die Neigung ist gering, oft nur etwa 25 bis 35 Grad.", "x": 200, "y": 96 },
+      { "text": "Kleine Lochfenster in Reihen", "detail": "Kleine Fenster mit Sprossen sitzen in gleichmäßigen Reihen übereinander.", "x": 133, "y": 135 },
+      { "text": "Schlichte Putzfassade", "detail": "Kein Zierrat, glatter, meist heller Putz und ein dunkler Sockel.", "x": 76, "y": 182 },
+      { "text": "Geschwungenes Vordach am Eingang", "detail": "Schwungvolle Vordächer sind fast die einzige Verzierung der Zeit. Sonst wurde gespart.", "x": 201, "y": 190 },
+      { "text": "Schmales, hohes Treppenhausfenster", "detail": "Das Treppenhaus zeigt sich in der Fassade als senkrechtes Fenster.", "x": 201, "y": 156 }
+    ],
+    "verkauf": [
+      { "thema": "Schadstoffe", "text": "Asbest (z. B. Dach- und Fassadenplatten) und PAK im Parkettkleber sind möglich. Vor Umbauten untersuchen lassen." },
+      { "thema": "Dämmung und Fenster", "text": "Kaum Dämmung, oft alte Fenster. Eine energetische Sanierung ist meist nötig." },
+      { "thema": "Feuchtigkeit", "text": "Fehlende Horizontalsperre und feuchte Keller sind typisch." },
+      { "thema": "Grundriss", "text": "Kleine Zimmer, niedrige Decken (oft 2,40 bis 2,50 m) und kleine Bäder. Umbauten sind möglich, aber aufwendig." },
+      { "thema": "Heizung", "text": "Ofen- oder ältere Ölheizung, Kaminzüge und Leitungen prüfen." }
+    ],
+    "verwechslung": {
+      "fachwerk": "Fachwerk zeigt sichtbares Holz. Hier ist die Wand verputzt.",
+      "gruenderzeit": "Die Gründerzeit hat Stuck und hohe Fenster. Hier ist alles schlicht und klein.",
+      "jugendstil": "Für Jugendstil fehlen Ranken und geschwungene Formen.",
+      "bauhaus": "Bauhaus hat ein Flachdach und Fensterbänder. Hier siehst du ein Satteldach und einzelne kleine Fenster.",
+      "grossiedlung": "Plattenbauten sind größer und aus sichtbaren Betonplatten. Dieses Haus ist verputzt und deutlich kleiner.",
+      "achtziger": "Häuser der 80er haben Erker, Gauben und Kunststofffenster mit Sprossen. Hier ist alles einfacher.",
+      "neubau": "Ein Neubau hat große Fenster und moderne Technik. Hier sind die Fenster klein."
+    }
+  },
+  {
+    "id": "grossiedlung",
+    "name": "60er/70er Großsiedlung",
+    "zeitraum": "ca. 1960–1979",
+    "signature": "Große Fertigteilblöcke aus Beton mit Flachdach, Waschbeton und Balkonreihen.",
+    "photo": {
+      "src": "/images/epochs/grossiedlung.jpg",
+      "alt": "Wohnblöcke der High-Deck-Siedlung in Berlin-Neukölln aus den 1970er/80er Jahren",
+      "author": "Lienhard Schulz",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:High-Deck-Siedlung_02.jpg"
+    },
+    "hinweise": [
+      "Das Haus ist sehr groß und wirkt gleichförmig.",
+      "Man sieht Fugen zwischen Betonplatten.",
+      "Die Balkone sind in Reihen angeordnet, die Brüstungen sind aus Beton."
+    ],
+    "merkmale": [
+      { "text": "Betonfertigteile mit Plattenfugen", "detail": "Die Fassade besteht aus vorgefertigten Platten. Die Fugen sind als Raster sichtbar.", "x": 150, "y": 92 },
+      { "text": "Flachdach mit Aufbauten", "detail": "Flachdach mit Aufzugsmaschinenraum oder Lüftungsanlagen. Abdichtung ist ein häufiger Schwachpunkt.", "x": 210, "y": 14 },
+      { "text": "Balkone mit Beton- oder Waschbetonbrüstung", "detail": "Waschbeton (Kiesel im Beton) und kräftige Farben wie Orange sind typisch für die 70er.", "x": 309, "y": 90 },
+      { "text": "Gleichförmiges Fensterraster", "detail": "Viele gleiche Wohnungen führen zu einem streng wiederholten Fensterraster.", "x": 215, "y": 130 },
+      { "text": "Garagen und Parkflächen", "detail": "Große Wohnanlagen haben Garagenhöfe und Parkplätze direkt vor den Blöcken.", "x": 355, "y": 196 }
+    ],
+    "verkauf": [
+      { "thema": "Asbest und Schadstoffe", "text": "In Fassadenplatten, Bodenbelägen und Fugen können Asbest, PCB oder Formaldehyd stecken. Das Asbestverbot gilt erst seit 1993." },
+      { "thema": "Dämmung und Wärmebrücken", "text": "Kaum Dämmung. Betonbalkone sind Wärmebrücken, die Energie kosten und Schimmel begünstigen." },
+      { "thema": "Hausgeld und Sanierungsstau", "text": "Aufzüge, Fassade und Leitungen sind oft sanierungsbedürftig. Rücklage, Protokolle und Wirtschaftsplan prüfen." },
+      { "thema": "Lage und Image", "text": "Manche Siedlungen sind wieder gefragt, andere schwierig. Lage, Nachbarschaft und Zukunftsperspektiven prüfen." }
+    ],
+    "verwechslung": {
+      "fachwerk": "Fachwerk ist klein und aus Holz und Lehm. Hier siehst du einen großen Betonblock.",
+      "gruenderzeit": "Die Gründerzeit hat Stuck und individuelle Fassaden. Hier ist alles gleichförmig aus Platten.",
+      "jugendstil": "Jugendstil ist verspielt. Hier siehst du nüchterne Betonplatten.",
+      "bauhaus": "Bauhaus-Häuser sind kubisch, aber klein und individuell. Hier ist ein riesiger Serienbau.",
+      "wiederaufbau": "Die 50er sind niedriger und verputzt, mit Satteldach. Hier siehst du Flachdach und Betonplatten.",
+      "achtziger": "Häuser der 80er sind meist Einfamilienhäuser mit Satteldach. Hier ist eine Hochhausscheibe.",
+      "neubau": "Neubauten sind gedämmt und hochwertiger gestaltet. Hier sieht man ungedämmten Beton."
+    }
+  },
+  {
+    "id": "achtziger",
+    "name": "80er/90er",
+    "zeitraum": "ca. 1980–1999",
+    "signature": "Klassisches Einfamilienhaus mit Satteldach, Gauben, Erker und Kunststofffenstern mit Sprossen.",
+    "photo": null,
+    "hinweise": [
+      "Rotes Ziegeldach mit Gauben.",
+      "Erker oder Wintergarten am Haus.",
+      "Weiße Kunststofffenster mit Sprossen."
+    ],
+    "merkmale": [
+      { "text": "Satteldach mit Gaube", "detail": "Der ausgebaute Dachraum bekommt Licht durch Gauben. Rote oder braune Dachziegel sind typisch.", "x": 140, "y": 104 },
+      { "text": "Erker", "detail": "Ein vorspringender Erker vergrößert den Wohnraum und bringt Licht ins Haus.", "x": 204, "y": 152 },
+      { "text": "Wintergarten", "detail": "Angebaute Wintergärten aus Glas waren in den 80ern und 90ern sehr beliebt.", "x": 320, "y": 170 },
+      { "text": "Kunststofffenster mit Sprossen", "detail": "Weiße Kunststofffenster mit Zweifachverglasung und aufgesetzten Sprossen gibt es seit den 70ern.", "x": 131, "y": 150 },
+      { "text": "Klinker- oder Putzfassade mit Sockel", "detail": "Rote Klinker im Sockelbereich und pastellfarbener Putz darüber sind typische Farben der Zeit.", "x": 120, "y": 204 }
+    ],
+    "verkauf": [
+      { "thema": "Heizung", "text": "Heizungen aus dieser Zeit sind oft 25 bis 35 Jahre alt. Austausch und gesetzliche Pflichten (GEG) einplanen." },
+      { "thema": "Holzschutzmittel", "text": "In Dachstühlen wurden bis Ende der 80er teils Holzschutzmittel wie PCP oder Lindan verwendet. Verdacht klären lassen." },
+      { "thema": "Fenster und Dach", "text": "Kunststofffenster mit Zweifachverglasung sind oft älter als 25 Jahre und undicht. Auch Dachdämmung prüfen." },
+      { "thema": "Dämmung", "text": "Gedämmt nach den Standards von damals (WSchV 1982/1995). Der Energieausweis liegt häufig bei Klasse D bis F." }
+    ],
+    "verwechslung": {
+      "fachwerk": "Fachwerk hat sichtbares Balkenwerk. Hier ist die Wand massiv verputzt oder verklinkert.",
+      "gruenderzeit": "Gründerzeithäuser sind Stadthäuser mit Stuck. Hier steht ein freistehendes Einfamilienhaus.",
+      "jugendstil": "Für Jugendstil fehlen Ranken und geschwungene Linien.",
+      "bauhaus": "Bauhaus hat ein Flachdach und Fensterbänder. Hier siehst du Satteldach, Gauben und Erker.",
+      "wiederaufbau": "Die 50er sind schlichter, ohne Erker, Wintergarten und Kunststofffenster.",
+      "grossiedlung": "Großsiedlungen sind riesige Betonblöcke. Hier ist ein kleines Einfamilienhaus.",
+      "neubau": "Ein Neubau hat Dreifachverglasung, Photovoltaik und oft ein Flach- oder Pultdach."
+    }
+  },
+  {
+    "id": "neubau",
+    "name": "Neubau / KfW-Standard",
+    "zeitraum": "ab ca. 2002 (EnEV) bzw. GEG",
+    "signature": "Hoch gedämmte Kuben mit großen Fenstern, oft Photovoltaik und Wärmepumpe.",
+    "photo": null,
+    "hinweise": [
+      "Auf dem Dach liegen dunkle Module.",
+      "Die Fenster sind sehr groß und tief in die Wand gesetzt.",
+      "Draußen steht ein Gerät der Haustechnik."
+    ],
+    "merkmale": [
+      { "text": "Photovoltaik auf dem Dach", "detail": "Solarmodule erzeugen Strom für das Haus und die Wärmepumpe. Überschüsse werden eingespeist.", "x": 206, "y": 76 },
+      { "text": "Große Fenster mit Dreifachverglasung", "detail": "Große Glasflächen bringen Licht und Solarwärme. Dreifachverglasung hält die Wärme im Haus.", "x": 110, "y": 185 },
+      { "text": "Wärmepumpe (Außeneinheit)", "detail": "Das Gerät vor dem Haus holt Wärme aus der Luft und heizt damit. Es ist oft an einem Ventilator zu erkennen.", "x": 336, "y": 176 },
+      { "text": "Kubische Formen mit Materialmix", "detail": "Helle Putzfläche und dunkle Verkleidung, Pult- oder Flachdach: klare Formen und hochwertiges Design.", "x": 338, "y": 112 },
+      { "text": "Dicke Dämmung", "detail": "Mit 16 bis 24 cm Dämmung sind die Wände dick. Deshalb sitzen die Fenster tief in der Laibung.", "x": 78, "y": 180 }
+    ],
+    "verkauf": [
+      { "thema": "Gewährleistung", "text": "Beim Neubau vom Bauträger gelten 5 Jahre Gewährleistung auf Bauwerksmängel. Abnahmeprotokoll und Fristen dokumentieren." },
+      { "thema": "Energie und Förderung", "text": "Sehr gute Energieklassen (A oder B) und niedrige Nebenkosten. Förderprogramme ändern sich – aktuellen Stand prüfen." },
+      { "thema": "Technik und Wartung", "text": "Lüftung, Wärmepumpe und Photovoltaik brauchen Wartung. Wartungsverträge und Garantien prüfen." },
+      { "thema": "Baubeschreibung", "text": "Was ist im Preis enthalten (Außenanlagen, Erschließung, Küche)? Klare Absprachen vermeiden spätere Nachforderungen." }
+    ],
+    "verwechslung": {
+      "fachwerk": "Fachwerk ist Jahrhunderte alt. Hier siehst du moderne Technik wie Solarmodule.",
+      "gruenderzeit": "Die Gründerzeit hat Stuck und hohe Fenster in Putzfassaden. Hier ist alles glatt und technisch.",
+      "jugendstil": "Jugendstil hat Ornamente. Hier gibt es keinen Schmuck, dafür moderne Technik.",
+      "bauhaus": "Bauhaus ist ähnlich kubisch, aber ohne Photovoltaik, Wärmepumpe und Dreifachverglasung.",
+      "wiederaufbau": "Die 50er haben kleine Fenster. Hier siehst du riesige Glasflächen.",
+      "grossiedlung": "Plattenbauten sind ungedämmt und gleichförmig. Hier ist die Fassade gedämmt und vielfältig gestaltet.",
+      "achtziger": "Häuser der 80er haben Satteldach, Gauben und Sprossenfenster. Hier siehst du Pultdach, Solarmodule und Wärmepumpe."
+    }
+  }
+]

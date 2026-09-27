@@ -1,0 +1,327 @@
+{
+  "topic": "energie",
+  "stand": "Stand 2025 (GEG 2024)",
+  "hinweis": "Das Gebäudeenergiegesetz (GEG) und die Energieausweis-Skala werden gerade an die EU-Gebäuderichtlinie angepasst. Neue Klassen, Pflichten und Förderungen sind möglich – immer aktuell prüfen.",
+  "questions": [
+    {
+      "id": "en-01",
+      "difficulty": 1,
+      "question": "Wozu dient der Energieausweis?",
+      "options": [
+        "Er zeigt die energetische Qualität eines Gebäudes und macht Objekte vergleichbar",
+        "Er ist der Nachweis über die Miete",
+        "Er ersetzt den Grundbuchauszug",
+        "Er zeigt die Höhe der Grundsteuer"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Energieausweis informiert über den Energiebedarf oder -verbrauch eines Gebäudes. Käufer und Mieter können damit Objekte vergleichen und die zu erwartenden Heizkosten grob einschätzen. Er ist kein Gütesiegel, sondern eine Kennzahl.",
+      "wrongExplanations": [
+        null,
+        "Mieten stehen im Mietvertrag, nicht im Energieausweis.",
+        "Der Grundbuchauszug zeigt Eigentum und Belastungen, nicht Energiewerte.",
+        "Die Grundsteuer wird von der Gemeinde festgesetzt und hat mit der Energie nichts zu tun."
+      ],
+      "practiceTip": "Bitte Eigentümer schon beim Aufnahmegespräch um den Energieausweis. Fehlt er, ist es besser, sofort einen zu beauftragen, als später Verkaufszeit zu verlieren."
+    },
+    {
+      "id": "en-02",
+      "difficulty": 1,
+      "question": "Wie lange ist ein Energieausweis gültig?",
+      "options": [
+        "1 Jahr",
+        "5 Jahre",
+        "10 Jahre",
+        "Unbegrenzt"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ein Energieausweis gilt 10 Jahre ab Ausstellung (§ 80 GEG). Danach muss für Verkauf oder Vermietung ein neuer erstellt werden. Wird das Gebäude vorher umfassend saniert, lohnt sich oft schon früher ein neuer Ausweis.",
+      "wrongExplanations": [
+        "Ein Jahr wäre zu kurz und würde ständig Kosten verursachen.",
+        "Fünf Jahre gelten nicht für den Energieausweis.",
+        null,
+        "Unbegrenzt gültig ist er nicht, weil sich Gebäude und Standards ändern."
+      ],
+      "practiceTip": "Notiere im Objektblatt das Ausstellungsdatum. Fast abgelaufene Ausweise solltest du vor dem Inserat erneuern lassen."
+    },
+    {
+      "id": "en-03",
+      "difficulty": 1,
+      "question": "Wann muss der Verkäufer oder Vermieter den Energieausweis dem Interessenten zeigen?",
+      "options": [
+        "Erst nach dem Notartermin",
+        "Spätestens bei der Besichtigung",
+        "Nur auf ausdrücklichen Antrag beim Gericht",
+        "Gar nicht"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Energieausweis muss dem Interessenten spätestens bei der Besichtigung vorgelegt oder gut sichtbar ausgehängt werden. Bei Vertragsabschluss ist er dem Käufer oder Mieter im Original oder als Kopie zu übergeben (§ 80 GEG).",
+      "wrongExplanations": [
+        "Nach dem Notartermin wäre es zu spät. Der Käufer soll seine Entscheidung vorher treffen.",
+        null,
+        "Man muss keine Klage abwarten. Die Pflicht besteht von Gesetzes wegen.",
+        "Die Pflicht besteht ausdrücklich, Verstöße können mit Bußgeld geahndet werden."
+      ],
+      "practiceTip": "Lege den Energieausweis bei jeder Besichtigung sichtbar in die Unterlagenmappe. So bist du auf der sicheren Seite und wirkst professionell."
+    },
+    {
+      "id": "en-04",
+      "difficulty": 1,
+      "question": "Wie ist die Skala der Effizienzklassen im Energieausweis aufgebaut?",
+      "options": [
+        "A+ (sehr gut) bis H (schlecht)",
+        "1 bis 10",
+        "Rot, Gelb, Grün",
+        "Gold, Silber, Bronze"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bei Wohngebäuden reicht die Skala von A+ (sehr niedriger Energiebedarf) bis H (sehr hoher Bedarf). Ein Farbverlauf von grün bis rot macht das sichtbar. Maßgeblich ist der Endenergiebedarf bzw. -verbrauch in kWh je m² und Jahr.",
+      "wrongExplanations": [
+        null,
+        "Zahlen von 1 bis 10 kommen im deutschen Energieausweis nicht vor.",
+        "Farben helfen bei der Darstellung, sind aber nicht die Klassen selbst.",
+        "Medaillen gibt es nicht. Es gibt Buchstaben."
+      ],
+      "practiceTip": "Hinweis für die Praxis: Die EU passt die Skala in den nächsten Jahren an. Frag bei Neuausstellungen nach den aktuellen Klassen."
+    },
+    {
+      "id": "en-05",
+      "difficulty": 1,
+      "question": "Welche Effizienzklasse ist die beste?",
+      "options": [
+        "H",
+        "D",
+        "A+",
+        "C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A+ ist die beste Klasse, sie steht für einen sehr niedrigen Energiebedarf (unter 30 kWh je m² und Jahr). H ist die schlechteste Klasse mit mehr als 250 kWh je m² und Jahr. Ein durchschnittliches Haus liegt oft bei D bis F.",
+      "wrongExplanations": [
+        "H ist die schlechteste Klasse.",
+        "D liegt im Mittelfeld.",
+        null,
+        "C ist gut, aber nicht die beste Klasse."
+      ],
+      "practiceTip": "Frage Käufer nicht nur nach der Klasse, sondern auch nach dem Energieträger. Ein Haus der Klasse D mit Wärmepumpe ist etwas völlig anderes als D mit Ölheizung."
+    },
+    {
+      "id": "en-06",
+      "difficulty": 2,
+      "question": "Was ist der Unterschied zwischen Bedarfsausweis und Verbrauchsausweis?",
+      "options": [
+        "Der Bedarfsausweis wird aus Bauteilen und Technik berechnet, der Verbrauchsausweis aus den tatsächlichen Verbräuchen der letzten Jahre",
+        "Der Verbrauchsausweis ist teurer",
+        "Beide sind gleich",
+        "Der Bedarfsausweis gilt nur für Gewerbe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Bedarfsausweis wird aus dem Zustand der Gebäudehülle und der Anlagentechnik berechnet und ist unabhängig vom Verhalten der Bewohner. Der Verbrauchsausweis nutzt die Abrechnungen von drei Jahren und wird deshalb vom Nutzerverhalten beeinflusst. Bei kleinen Altbauten ist der Bedarfsausweis teilweise Pflicht.",
+      "wrongExplanations": [
+        null,
+        "Der Bedarfsausweis ist in der Regel aufwendiger und teurer, nicht der Verbrauchsausweis.",
+        "Sie unterscheiden sich in Berechnung und Aussagekraft.",
+        "Beide Ausweise gibt es für Wohn- und Nichtwohngebäude."
+      ],
+      "practiceTip": "Der Verbrauchsausweis ist bei leer stehenden oder teilweise genutzten Häusern unzuverlässig. Rate dann zum Bedarfsausweis, damit der Käufer eine belastbare Zahl bekommt."
+    },
+    {
+      "id": "en-07",
+      "difficulty": 2,
+      "question": "Welche Angaben gehören laut GEG in eine Immobilienanzeige für ein Wohngebäude?",
+      "options": [
+        "Art des Energieausweises, Energiekennwert, wesentlicher Energieträger, Baujahr und Effizienzklasse",
+        "Nur der Kaufpreis",
+        "Nur die Farbe der Fassade",
+        "Keine besonderen Angaben"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wenn ein Energieausweis vorliegt, müssen in der Anzeige Art des Ausweises (Bedarf oder Verbrauch), der Energiekennwert, der wesentliche Energieträger, das Baujahr und bei Wohngebäuden die Effizienzklasse stehen. Fehlen die Angaben, kann das Bußgeld kosten.",
+      "wrongExplanations": [
+        null,
+        "Der Kaufpreis ist üblich, aber gesetzlich zusätzlich sind die Energieangaben vorgeschrieben.",
+        "Optische Angaben sind nicht Pflicht.",
+        "Doch, das GEG schreibt bestimmte Pflichtangaben vor."
+      ],
+      "practiceTip": "Nutze im Portal die Felder für Energieangaben vollständig aus. Viele Portale fragen alle Pflichtfelder ab – so vermeidest du Abmahnungen."
+    },
+    {
+      "id": "en-08",
+      "difficulty": 2,
+      "question": "Was bedeutet der U-Wert (Wärmedurchgangskoeffizient) eines Bauteils?",
+      "options": [
+        "Wie viel Wärme durch das Bauteil verloren geht – je kleiner der Wert, desto besser die Dämmung",
+        "Wie teuer das Bauteil ist",
+        "Wie alt das Bauteil ist",
+        "Wie viel Licht durch ein Fenster kommt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der U-Wert gibt an, wie viel Wärme pro Quadratmeter und Grad Temperaturunterschied durch ein Bauteil hindurchgeht (in W/(m²K)). Ein niedriger U-Wert bedeutet gute Dämmung. Dreifachverglaste Fenster haben zum Beispiel deutlich niedrigere U-Werte als alte Einfachfenster.",
+      "wrongExplanations": [
+        null,
+        "Der Preis hat mit dem U-Wert nichts zu tun.",
+        "Das Alter spielt zwar eine Rolle für die Qualität, ist aber nicht der U-Wert.",
+        "Lichtdurchlässigkeit wird mit einem anderen Wert (g-Wert oder Lichttransmission) angegeben."
+      ],
+      "practiceTip": "Wenn Kunden Fenster tauschen wollen, lass dir den U-Wert im Angebot zeigen. Er ist der schnellste Qualitätsvergleich."
+    },
+    {
+      "id": "en-09",
+      "difficulty": 2,
+      "question": "Was ist eine Wärmebrücke?",
+      "options": [
+        "Eine Stelle in der Gebäudehülle, an der mehr Wärme nach außen entweicht (z. B. Balkonplatte, Fensterlaibung)",
+        "Eine Brücke zwischen zwei Häusern",
+        "Ein Heizkörper mit Ventil",
+        "Ein Rohr für Warmwasser"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wärmebrücken sind Bereiche, an denen die Wärme schneller nach außen geleitet wird. Typisch sind auskragende Balkonplatten, Deckenauflager oder Fensteranschlüsse. An diesen kalten Stellen kann sich Feuchtigkeit niederschlagen, was zu Schimmel führen kann.",
+      "wrongExplanations": [
+        null,
+        "Mit einer Brücke im baulichen Sinn hat es nichts zu tun.",
+        "Ein Heizkörper gibt Wärme gezielt ab. Eine Wärmebrücke ist ein unerwünschter Verlust.",
+        "Ein Warmwasserrohr transportiert Wärme kontrolliert. Eine Wärmebrücke ist ein Fehler der Hülle."
+      ],
+      "practiceTip": "Bei Besichtigungen: Schau in Ecken, Fensterlaibungen und an Balkonanschlüssen nach dunklen Flecken. Das sind klassische Hinweise auf Wärmebrücken und Schimmel."
+    },
+    {
+      "id": "en-10",
+      "difficulty": 2,
+      "question": "Wie funktioniert eine Wärmepumpe grob?",
+      "options": [
+        "Sie verbrennt Öl",
+        "Sie entzieht der Umwelt (Luft, Erde, Wasser) Wärme und hebt sie mit Strom auf ein nutzbares Temperaturniveau",
+        "Sie erzeugt Strom aus Sonne",
+        "Sie speichert nur Wasser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eine Wärmepumpe nutzt Umweltwärme aus Luft, Erdreich oder Grundwasser und bringt sie mit Hilfe von Strom auf Heiztemperatur. Aus 1 kWh Strom entstehen so oft 3 bis 4 kWh Wärme. Sie arbeitet besonders effizient mit Flächenheizungen und niedrigen Vorlauftemperaturen.",
+      "wrongExplanations": [
+        "Ölheizungen verbrennen Heizöl, Wärmepumpen nutzen Umweltwärme.",
+        null,
+        "Strom aus Sonne erzeugt eine Photovoltaikanlage, nicht die Wärmepumpe.",
+        "Ein Speicher speichert Wärme, erzeugt sie aber nicht."
+      ],
+      "practiceTip": "Wärmepumpen funktionieren auch im Bestand, wenn Dämmung und Heizflächen passen. Rate Käufern, vor dem Kauf einen Energieberater um eine Einschätzung zu bitten."
+    },
+    {
+      "id": "en-11",
+      "difficulty": 2,
+      "question": "Welche Maßnahme ist bei Altbauten oft besonders wirtschaftlich, weil sie wenig kostet und viel spart?",
+      "options": [
+        "Dämmung der obersten Geschossdecke",
+        "Neue Fassade aus Naturstein",
+        "Ein zweiter Balkon",
+        "Ein Pool im Garten"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Über das Dach geht viel Wärme verloren. Wird die oberste Geschossdecke zum unbeheizten Dachboden gedämmt, ist das vergleichsweise günstig und spart spürbar Heizkosten. Es ist oft die erste Maßnahme, die Energieberater empfehlen.",
+      "wrongExplanations": [
+        null,
+        "Eine neue Natursteinfassade ist teuer und bringt keine wesentliche Dämmwirkung.",
+        "Ein Balkon erhöht den Wohnwert, spart aber keine Energie und kann sogar zur Wärmebrücke werden.",
+        "Ein Pool erhöht eher die Betriebskosten."
+      ],
+      "practiceTip": "Gib Käufern die Faustregel: Erst Hülle (Dach, Decke, Fenster), dann Heizung. So wird die neue Heizung kleiner und günstiger."
+    },
+    {
+      "id": "en-12",
+      "difficulty": 3,
+      "question": "Was ist der Unterschied zwischen Endenergie und Primärenergie?",
+      "options": [
+        "Endenergie ist die Energie, die im Gebäude ankommt und verbraucht wird. Primärenergie schließt den Aufwand für Gewinnung und Transport mit ein",
+        "Beide sind dasselbe",
+        "Primärenergie ist nur Strom",
+        "Endenergie ist nur Öl"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Endenergie ist die Energie, die am Gebäude ankommt (z. B. Gas, Strom, Pellets). Die Primärenergie berücksichtigt zusätzlich, wie viel Energie für Förderung, Umwandlung und Transport nötig war. Für die Effizienzklassen im Energieausweis zählt die Endenergie, für Förderprogramme oft die Primärenergie.",
+      "wrongExplanations": [
+        null,
+        "Sie unterscheiden sich deutlich, wichtig zum Beispiel bei Fernwärme oder Strom.",
+        "Primärenergie umfasst alle Energieträger, nicht nur Strom.",
+        "Endenergie gilt für alle Energieträger, nicht nur für Öl."
+      ],
+      "practiceTip": "Wenn Käufer sagen ‚KfW 55 heißt nur 55 kWh‘, korrigiere freundlich: Die 55 ist ein Prozentwert, gemessen an der Primärenergie eines Referenzgebäudes."
+    },
+    {
+      "id": "en-13",
+      "difficulty": 3,
+      "question": "Was bedeutet ‚Effizienzhaus 55‘?",
+      "options": [
+        "Das Haus braucht höchstens 55 % des Primärenergiebedarfs eines Referenzgebäudes",
+        "Das Haus ist 55 Jahre alt",
+        "Das Haus hat 55 m² Wohnfläche",
+        "Das Haus zahlt 55 % weniger Steuern"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Zahl ist ein Prozentwert. Ein Effizienzhaus 55 verbraucht höchstens 55 % der Primärenergie eines Referenzgebäudes nach Gebäudeenergiegesetz. Je kleiner die Zahl, desto besser: Effizienzhaus 40 ist effizienter als 55 oder 70.",
+      "wrongExplanations": [
+        null,
+        "Mit dem Baujahr hat die Bezeichnung nichts zu tun.",
+        "Die Zahl bezeichnet keine Fläche.",
+        "Steuern werden durch die Bezeichnung nicht verändert."
+      ],
+      "practiceTip": "Förderbedingungen ändern sich. Prüfe den aktuellen Stand auf den Seiten der KfW bzw. des Bundesamts für Wirtschaft und Ausfuhrkontrolle (BAFA)."
+    },
+    {
+      "id": "en-14",
+      "difficulty": 3,
+      "question": "Welche Pflicht kann auf den Käufer eines Ein- oder Zweifamilienhauses nach dem Eigentümerwechsel zukommen?",
+      "options": [
+        "Keine, das GEG betrifft nur Neubauten",
+        "Nachrüstpflichten, z. B. die Dämmung der obersten Geschossdecke und der Austausch sehr alter Heizkessel, meist innerhalb von zwei Jahren",
+        "Der Käufer muss das Haus abreißen",
+        "Der Käufer muss ein Solarkraftwerk bauen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Das Gebäudeenergiegesetz sieht für Ein- und Zweifamilienhäuser bei Eigentümerwechsel bestimmte Nachrüstpflichten vor, etwa die Dämmung zugänglicher oberster Geschossdecken, die Dämmung von Warmwasserrohren und den Austausch bestimmter alter Heizkessel. Die Frist beträgt meist zwei Jahre. Details ändern sich mit dem Gesetz.",
+      "wrongExplanations": [
+        "Das GEG gilt auch für Bestandsgebäude, nicht nur für Neubauten.",
+        null,
+        "Ein Abriss ist nicht verlangt.",
+        "Eine Solarpflicht besteht für Käufer nicht in dieser Form."
+      ],
+      "practiceTip": "Weise Käufer vor dem Notartermin auf die Nachrüstpflichten hin und lass sie Kosten einplanen. Das ist eine typische Falle bei älteren Häusern."
+    },
+    {
+      "id": "en-15",
+      "difficulty": 3,
+      "question": "Wie werden die CO₂-Kosten bei vermieteten Wohnungen seit 2023 grundsätzlich verteilt?",
+      "options": [
+        "Der Mieter zahlt alles",
+        "Der Vermieter zahlt alles",
+        "Nach einem Stufenmodell: je schlechter die Energiebilanz des Gebäudes, desto größer der Anteil des Vermieters",
+        "Der Staat zahlt alles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mit dem CO₂-Kostenaufteilungsgesetz teilen sich Vermieter und Mieter die CO₂-Abgabe für Heizung und Warmwasser. Ein Stufenmodell orientiert sich am CO₂-Ausstoß je m² des Gebäudes: In schlechten Gebäuden trägt der Vermieter einen hohen Anteil, in sehr guten Gebäuden kann der Mieter alles tragen. So entsteht ein Anreiz zur Sanierung.",
+      "wrongExplanations": [
+        "Ganz beim Mieter liegt die Last nur in sehr effizienten Gebäuden.",
+        "Ganz beim Vermieter liegt sie nur in besonders schlechten Gebäuden.",
+        null,
+        "Der Staat übernimmt die Abgabe nicht. Sie fließt sogar in den Haushalt."
+      ],
+      "practiceTip": "Für Kapitalanleger ist das ein Rechenfaktor: Ein schlecht gedämmtes Haus kostet den Vermieter jedes Jahr mehr. Das gehört in jede Renditeberechnung."
+    },
+    {
+      "id": "en-16",
+      "difficulty": 3,
+      "question": "Was ist bei Denkmälern und Fachwerkhäusern bei der energetischen Sanierung besonders zu beachten?",
+      "options": [
+        "Es gibt keine Besonderheiten",
+        "Außendämmung kann das Erscheinungsbild zerstören und ist oft nicht erlaubt; Innendämmung muss feuchtetechnisch sorgfältig geplant werden",
+        "Man darf gar nichts sanieren",
+        "Man muss immer neu bauen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bei Denkmälern und Fachwerkhäusern darf die Fassade oft nicht verändert werden. Eine Innendämmung ist möglich, muss aber gut geplant werden, weil sonst Feuchtigkeit im Holz oder Mauerwerk zu Schäden führen kann. Die Denkmalbehörde ist früh einzubinden. Es gibt oft steuerliche Vorteile und Fördermittel.",
+      "wrongExplanations": [
+        "Doch, gerade hier sind Fassade und Feuchtigkeit sehr heikel.",
+        null,
+        "Sanieren ist möglich, aber mit Auflagen und Abstimmung mit der Behörde.",
+        "Ein Neubau ist nicht vorgeschrieben. Erhalten ist oft gewünscht."
+      ],
+      "practiceTip": "Bei Denkmälern sollte der Käufer von Beginn an einen Fachplaner einbinden. Ein Kauf ohne Kostenschätzung kann sonst teuer enden."
+    }
+  ]
+}

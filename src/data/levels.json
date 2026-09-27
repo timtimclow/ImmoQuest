@@ -1,0 +1,10 @@
+[
+  { "level": 1, "xp": 0, "title": "Praktikant" },
+  { "level": 2, "xp": 100, "title": "Praktikant" },
+  { "level": 3, "xp": 250, "title": "Azubi" },
+  { "level": 4, "xp": 450, "title": "Azubi" },
+  { "level": 5, "xp": 700, "title": "Makler" },
+  { "level": 6, "xp": 1000, "title": "Makler" },
+  { "level": 7, "xp": 1400, "title": "Immobilienfachwirt" },
+  { "level": 8, "xp": 1900, "title": "Immobilienfachwirt" }
+]

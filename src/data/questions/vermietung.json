@@ -1,0 +1,327 @@
+{
+  "topic": "vermietung",
+  "stand": "Stand 2025",
+  "hinweis": "Mietrecht (BGB §§ 535 ff.) wird immer wieder angepasst, etwa bei Kappungsgrenzen und Mietpreisbremse. Vor Prüfungen und im Alltag den aktuellen Gesetzestext prüfen.",
+  "questions": [
+    {
+      "id": "vm-01",
+      "difficulty": 1,
+      "question": "Wie hoch darf die Mietkaution bei einer Wohnung höchstens sein?",
+      "options": [
+        "Eine Monatsmiete",
+        "Zwei Monatsmieten",
+        "Drei Nettokaltmieten",
+        "Sechs Monatsmieten"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die Kaution darf höchstens das Dreifache der monatlichen Nettokaltmiete betragen (§ 551 BGB). Betriebskosten-Vorauszahlungen zählen dabei nicht mit. Der Mieter darf die Kaution in drei gleichen Monatsraten zahlen.",
+      "wrongExplanations": [
+        "Eine Monatsmiete wäre erlaubt, ist aber nicht die Obergrenze. Höchstens drei sind zulässig.",
+        "Zwei Monatsmieten wären ebenfalls erlaubt, aber nicht die Grenze.",
+        null,
+        "Sechs Monatsmieten sind unzulässig. Das Gesetz begrenzt die Kaution deutlich niedriger."
+      ],
+      "practiceTip": "Rechne immer mit der Nettokaltmiete, nicht mit der Warmmiete. Bei 700 € Kaltmiete sind maximal 2.100 € zulässig."
+    },
+    {
+      "id": "vm-02",
+      "difficulty": 1,
+      "question": "Was versteht man unter „Nettokaltmiete“?",
+      "options": [
+        "Die Miete ohne Betriebs- und Heizkosten",
+        "Die Miete inklusive Heizung",
+        "Die Miete inklusive aller Nebenkosten und Strom",
+        "Die Kaution"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Nettokaltmiete ist die reine Miete für die Wohnung, ohne Betriebskosten und ohne Heizkosten. Mit den Nebenkosten-Vorauszahlungen wird daraus die Bruttokaltmiete, mit den Heizkosten die Bruttowarmmiete.",
+      "wrongExplanations": [
+        null,
+        "Das wäre die Warmmiete. Dort sind die Heizkosten schon enthalten.",
+        "Strom zahlt der Mieter meist direkt an seinen Anbieter und er ist nicht Teil der Miete.",
+        "Die Kaution ist eine Sicherheit, keine Miete."
+      ],
+      "practiceTip": "Frag Interessenten immer, ob sie Kalt- oder Warmmiete meinen. In Inseraten stehen oft beide Werte, und das führt schnell zu Verwechslungen."
+    },
+    {
+      "id": "vm-03",
+      "difficulty": 1,
+      "question": "Wie lange hat der Vermieter Zeit, die Nebenkostenabrechnung zu schicken?",
+      "options": [
+        "1 Monat",
+        "3 Monate",
+        "12 Monate nach Ende des Abrechnungszeitraums",
+        "5 Jahre"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die Betriebskostenabrechnung muss dem Mieter spätestens 12 Monate nach dem Ende des Abrechnungszeitraums zugehen (§ 556 Abs. 3 BGB). Kommt sie später, kann der Vermieter meist keine Nachzahlung mehr verlangen. Guthaben muss er trotzdem auszahlen.",
+      "wrongExplanations": [
+        "Ein Monat wäre viel zu kurz, der Vermieter braucht Rechnungen von Versorgern.",
+        "Drei Monate sind nicht gesetzlich vorgeschrieben.",
+        null,
+        "Fünf Jahre entsprechen keiner Frist im Mietrecht. Die Abrechnung muss deutlich früher kommen."
+      ],
+      "practiceTip": "Setze dir als Verwalter einen Termin für Jahresende plus neun Monate. So bleibt Puffer, damit keine Frist verstreicht."
+    },
+    {
+      "id": "vm-04",
+      "difficulty": 1,
+      "question": "Wie lange ist die gesetzliche Kündigungsfrist für Mieter bei einer unbefristeten Wohnraummiete?",
+      "options": [
+        "1 Monat",
+        "3 Monate",
+        "6 Monate",
+        "12 Monate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mieter können ohne Angabe von Gründen mit einer Frist von drei Monaten kündigen (§ 573c BGB). Die Kündigung muss dem Vermieter spätestens am dritten Werktag eines Monats zugehen, dann endet das Mietverhältnis zum Ende des übernächsten Monats.",
+      "wrongExplanations": [
+        "Eine so kurze Frist gilt nur in seltenen Sonderfällen, etwa bei möblierten Zimmern in der Wohnung des Vermieters.",
+        null,
+        "Sechs Monate sind für Vermieter erst nach 5 Jahren Mietdauer vorgesehen, nicht für Mieter.",
+        "Zwölf Monate gibt es im gesetzlichen Wohnraummietrecht nicht."
+      ],
+      "practiceTip": "Achte darauf, dass eine Kündigung schriftlich mit Unterschrift kommen muss. Eine E-Mail reicht nicht."
+    },
+    {
+      "id": "vm-05",
+      "difficulty": 1,
+      "question": "Wozu dient der Mietspiegel?",
+      "options": [
+        "Er zeigt die ortsübliche Vergleichsmiete",
+        "Er zeigt die Höhe der Grundsteuer",
+        "Er zeigt die Zinsen der Banken",
+        "Er zeigt den Energieverbrauch der Wohnungen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Mietspiegel ist eine Übersicht über die üblichen Mieten in einer Gemeinde, sortiert nach Lage, Größe, Baujahr und Ausstattung. Er dient als Grundlage, um zu prüfen, ob eine Miete angemessen ist oder erhöht werden darf (§ 558c BGB).",
+      "wrongExplanations": [
+        null,
+        "Die Grundsteuer legt die Gemeinde mit dem Hebesatz fest, das hat mit dem Mietspiegel nichts zu tun.",
+        "Zinsen finden sich bei Banken oder Vergleichsportalen, nicht im Mietspiegel.",
+        "Energiedaten stehen im Energieausweis, nicht im Mietspiegel."
+      ],
+      "practiceTip": "Hol dir den aktuellen Mietspiegel deiner Stadt (oft online) und übe damit, für einzelne Wohnungen die Vergleichsmiete zu bestimmen."
+    },
+    {
+      "id": "vm-06",
+      "difficulty": 2,
+      "question": "Welche Kosten darf der Vermieter NICHT auf den Mieter umlegen?",
+      "options": [
+        "Grundsteuer",
+        "Müllabfuhr",
+        "Kosten für die Hausverwaltung und für Reparaturen",
+        "Kosten für den Hausmeister"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Umlagefähig sind nur Betriebskosten, die laufend anfallen und in der Betriebskostenverordnung aufgeführt sind, zum Beispiel Grundsteuer, Wasser, Müll, Hausmeister, Gebäudeversicherung. Verwaltungskosten sowie Instandhaltung und Reparaturen muss der Vermieter selbst tragen.",
+      "wrongExplanations": [
+        "Die Grundsteuer ist ausdrücklich umlagefähig (§ 2 BetrKV).",
+        "Müllabfuhr ist umlagefähig.",
+        null,
+        "Hausmeisterkosten sind umlagefähig – aber nur der Teil für Pflege und Kontrolle, nicht für Reparaturen."
+      ],
+      "practiceTip": "Prüfe jede Abrechnung auf diese Klassiker: Verwaltung, Reparaturen, Bankgebühren. Sie tauchen erstaunlich oft auf und sind unzulässig."
+    },
+    {
+      "id": "vm-07",
+      "difficulty": 2,
+      "question": "Wie müssen Heiz- und Warmwasserkosten laut Heizkostenverordnung abgerechnet werden?",
+      "options": [
+        "Es gibt keine Regel",
+        "Mindestens 50 % und höchstens 70 % nach Verbrauch",
+        "Immer 100 % nach Fläche",
+        "Mindestens 90 % nach Verbrauch"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nach der Heizkostenverordnung müssen mindestens 50 % und höchstens 70 % der Heiz- und Warmwasserkosten nach Verbrauch abgerechnet werden. Der Rest wird meist nach Wohnfläche verteilt. Das soll zum Sparen anregen.",
+      "wrongExplanations": [
+        "Doch, die Heizkostenverordnung gibt den Rahmen genau vor.",
+        null,
+        "Eine reine Abrechnung nach Fläche ist nicht zulässig, weil dann kein Anreiz zum Sparen besteht.",
+        "Über 70 % ist nicht vorgesehen. Die Spanne liegt bei 50–70 %."
+      ],
+      "practiceTip": "Verstößt der Vermieter gegen die Regel, darf der Mieter seinen Kostenanteil um 15 % kürzen (§ 12 HeizkostenV). Gut zu wissen, wenn dich ein Mieter zu Rate zieht."
+    },
+    {
+      "id": "vm-08",
+      "difficulty": 2,
+      "question": "Ein Mietvertrag soll befristet werden. Was gilt?",
+      "options": [
+        "Jeder Vermieter darf frei befristen",
+        "Eine Befristung ist nur mit einem gesetzlichen Grund erlaubt, z. B. Eigenbedarf oder Umbau",
+        "Befristungen sind in Deutschland ganz verboten",
+        "Nur der Mieter darf befristen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ein befristeter Mietvertrag (Zeitmietvertrag) ist nur mit qualifiziertem Grund zulässig (§ 575 BGB): zum Beispiel, wenn der Vermieter die Wohnung später selbst braucht, umbauen will oder für einen Dienstverpflichteten braucht. Der Grund muss schon bei Vertragsabschluss schriftlich genannt werden.",
+      "wrongExplanations": [
+        "Freie Befristung ist im Wohnraummietrecht nicht erlaubt.",
+        null,
+        "Ganz verboten sind Befristungen nicht, sie brauchen aber einen Grund.",
+        "Ein Vertrag entsteht immer durch die Einigung beider Seiten. Ein Sonderrecht des Mieters zum Befristen gibt es nicht."
+      ],
+      "practiceTip": "Wenn Eigentümer ‚nur für zwei Jahre‘ vermieten wollen, frag nach dem Grund. Ohne gültigen Grund wird der Vertrag automatisch unbefristet."
+    },
+    {
+      "id": "vm-09",
+      "difficulty": 2,
+      "question": "Bis zu welcher Grenze darf die Miete bei einer Neuvermietung in einem Gebiet mit Mietpreisbremse höchstens über der ortsüblichen Vergleichsmiete liegen?",
+      "options": [
+        "Höchstens 10 %",
+        "Höchstens 30 %",
+        "Höchstens 50 %",
+        "Beliebig hoch"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Gebieten mit angespanntem Wohnungsmarkt darf die Miete bei Neuvermietung höchstens 10 % über der ortsüblichen Vergleichsmiete liegen (§ 556d BGB). Ausnahmen gibt es zum Beispiel für Neubauten und umfassende Modernisierungen.",
+      "wrongExplanations": [
+        null,
+        "30 % wären deutlich zu viel. Die Bremse begrenzt auf 10 %.",
+        "50 % Aufschlag sind nicht erlaubt.",
+        "Ohne Grenze gäbe es keine Bremse."
+      ],
+      "practiceTip": "Prüfe vor jedem Inserat, ob dein Ort unter die Mietpreisbremse fällt (Landesverordnung). Wenn ja, rechne die Höchstmiete mit dem Mietspiegel aus."
+    },
+    {
+      "id": "vm-10",
+      "difficulty": 2,
+      "question": "Um wie viel darf die Miete nach der Kappungsgrenze in drei Jahren normalerweise höchstens steigen (bis zur ortsüblichen Vergleichsmiete)?",
+      "options": [
+        "5 %",
+        "10 %",
+        "20 %",
+        "50 %"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die Kappungsgrenze liegt bei 20 % innerhalb von drei Jahren (§ 558 Abs. 3 BGB). In Gebieten mit angespanntem Wohnungsmarkt sind es nur 15 %. Sie gilt für Mieterhöhungen bis zur ortsüblichen Vergleichsmiete.",
+      "wrongExplanations": [
+        "5 % sind kein gesetzlicher Wert.",
+        "10 % gelten bei der Mietpreisbremse (Neuvermietung), nicht bei der Kappungsgrenze.",
+        null,
+        "50 % wären viel zu viel. Die Grenze schützt Mieter vor sprunghaften Erhöhungen."
+      ],
+      "practiceTip": "Notiere zu jeder Wohnung das Datum der letzten Mieterhöhung. Wer die Frist und die Kappungsgrenze kennt, wird bei Anpassungen sicher."
+    },
+    {
+      "id": "vm-11",
+      "difficulty": 2,
+      "question": "Ein Mieter zahlt zwei Monate in Folge keine Miete. Was darf der Vermieter tun?",
+      "options": [
+        "Nichts, er muss warten",
+        "Sofort das Schloss austauschen",
+        "Die Wohnung ohne Ankündigung ausräumen",
+        "Fristlos kündigen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bei einem Mietrückstand von mindestens zwei aufeinanderfolgenden Monatsmieten darf der Vermieter fristlos kündigen (§ 543 BGB). Räumen lassen darf er trotzdem nicht selbst, das geht nur über ein Gericht. Zahlt der Mieter rechtzeitig nach, kann die Kündigung unwirksam werden (Schonfrist).",
+      "wrongExplanations": [
+        "Er muss nicht tatenlos zusehen. Das Gesetz gibt ihm das Recht zur fristlosen Kündigung.",
+        "Schlösser auszutauschen wäre verbotene Eigenmacht und kann strafbar sein.",
+        "Ohne Gerichtsverfahren und Gerichtsvollzieher darf niemand eine Wohnung räumen.",
+        null
+      ],
+      "practiceTip": "Sprich früh mit säumigen Mietern. Oft hilft eine Ratenzahlung – das ist für alle günstiger als ein Räumungsverfahren."
+    },
+    {
+      "id": "vm-12",
+      "difficulty": 2,
+      "question": "Was muss der Vermieter dem neuen Mieter für die Anmeldung beim Einwohnermeldeamt geben?",
+      "options": [
+        "Eine Bürgschaft",
+        "Einen Mietspiegel",
+        "Eine Wohnungsgeberbestätigung",
+        "Einen Energieausweis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Der Vermieter muss dem Mieter den Einzug schriftlich bestätigen: mit der Wohnungsgeberbestätigung (§ 19 BMG), und zwar innerhalb von zwei Wochen nach dem Einzug. Ohne sie kann sich der Mieter nicht ummelden. Verstöße können ein Bußgeld kosten.",
+      "wrongExplanations": [
+        "Eine Bürgschaft ist eine Sicherheit für Zahlungen, keine Meldeunterlage.",
+        "Der Mietspiegel spielt bei der Anmeldung keine Rolle.",
+        null,
+        "Der Energieausweis gehört zur Besichtigung, nicht zur Anmeldung."
+      ],
+      "practiceTip": "Lege bei jeder Schlüsselübergabe die Wohnungsgeberbestätigung bereit und lass den Mieter den Empfang quittieren."
+    },
+    {
+      "id": "vm-13",
+      "difficulty": 3,
+      "question": "Welche Aussage zur Mieterhöhung durch Modernisierung ist richtig?",
+      "options": [
+        "Der Vermieter darf die gesamten Kosten sofort umlegen",
+        "Der Vermieter darf jährlich 8 % der Modernisierungskosten auf die Jahresmiete aufschlagen (mit Begrenzungen)",
+        "Modernisierungen dürfen nie zu höheren Mieten führen",
+        "Die Mieter zahlen nur die Hälfte der Kosten einmalig"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nach § 559 BGB darf der Vermieter jährlich 8 % der Modernisierungskosten auf die Jahresmiete umlegen. Außerdem gibt es eine Kappungsgrenze in Euro pro Quadratmeter innerhalb von sechs Jahren. Die Modernisierung muss angekündigt werden, und der Mieter kann Härtegründe geltend machen.",
+      "wrongExplanations": [
+        "Eine sofortige Umlage der gesamten Kosten ist nicht erlaubt.",
+        null,
+        "Modernisierungen dürfen zu Mieterhöhungen führen, allerdings nur in den gesetzlichen Grenzen.",
+        "So eine Einmalzahlung sieht das Gesetz nicht vor."
+      ],
+      "practiceTip": "Modernisierung und Instandhaltung streng trennen: Reparaturen (Erhaltung) darf der Vermieter nicht umlegen, Verbesserungen (z. B. Wärmedämmung) schon."
+    },
+    {
+      "id": "vm-14",
+      "difficulty": 3,
+      "question": "Ein Mietvertrag enthält eine starre Fristenregelung für Schönheitsreparaturen („alle 3 Jahre Küche und Bad streichen“). Wie ist das zu beurteilen?",
+      "options": [
+        "Sie ist grundsätzlich wirksam",
+        "Sie ist meist unwirksam, wenn sie starre Fristen ohne Bezug zum tatsächlichen Zustand vorsieht",
+        "Sie ist nur für Gewerbemieter erlaubt",
+        "Sie ist wirksam, wenn der Mieter sie schriftlich bestätigt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Bundesgerichtshof hat starre Fristenpläne für unwirksam erklärt. Schönheitsreparaturen dürfen nur bei tatsächlichem Bedarf verlangt werden. Auch wenn die Wohnung unrenoviert übergeben wurde und der Mieter dafür keinen Ausgleich bekam, ist die Klausel oft unwirksam.",
+      "wrongExplanations": [
+        "Starre Fristen benachteiligen Mieter unangemessen und sind in der Regel unwirksam.",
+        null,
+        "Bei Gewerbe gelten teils andere Regeln, aber die Aussage ‚nur für Gewerbemieter‘ ist so nicht richtig.",
+        "Eine Unterschrift heilt eine unwirksame Klausel nicht. Sie wird dadurch nicht besser."
+      ],
+      "practiceTip": "Nutze aktuelle, geprüfte Mustermietverträge. Alte Vorlagen mit starren Fristen sind ein häufiger Grund für teure Rückforderungen."
+    },
+    {
+      "id": "vm-15",
+      "difficulty": 3,
+      "question": "Ein Mieter wohnt seit 9 Jahren in der Wohnung. Wie lang ist die gesetzliche Kündigungsfrist für den Vermieter bei berechtigtem Interesse (z. B. Eigenbedarf)?",
+      "options": [
+        "3 Monate",
+        "6 Monate",
+        "9 Monate",
+        "12 Monate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Für Vermieter verlängert sich die Kündigungsfrist mit der Wohndauer: bis 5 Jahre 3 Monate, ab 5 Jahren 6 Monate, ab 8 Jahren 9 Monate (§ 573c BGB). Nach neun Jahren gelten also 9 Monate. Außerdem braucht der Vermieter ein berechtigtes Interesse, zum Beispiel Eigenbedarf.",
+      "wrongExplanations": [
+        "3 Monate gelten nur in den ersten 5 Jahren der Mietdauer.",
+        "6 Monate gelten zwischen 5 und 8 Jahren. Nach 9 Jahren ist die Stufe schon höher.",
+        null,
+        "12 Monate kennt das Gesetz nicht. Die längste Frist beträgt 9 Monate."
+      ],
+      "practiceTip": "Berechne bei Eigenbedarf-Fällen immer mit Datum: Wohndauer prüfen, dann die Frist. Bei Kunden zählt jede Woche, wenn sie Umzug oder Verkauf planen."
+    },
+    {
+      "id": "vm-16",
+      "difficulty": 3,
+      "question": "Was ist eine Indexmiete?",
+      "options": [
+        "Eine Miete, die sich an einem Preisindex (z. B. Verbraucherpreisindex) orientiert und angepasst wird",
+        "Eine Miete, die der Mieter jedes Jahr selbst festlegt",
+        "Eine Miete, die sich nach dem Mietspiegel richtet",
+        "Eine Miete mit festen Stufen im Voraus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bei der Indexmiete wird die Miete an die Entwicklung des Verbraucherpreisindex gekoppelt (§ 557b BGB). Steigen die Lebenshaltungskosten, darf die Miete entsprechend steigen. Mindestens ein Jahr muss sie unverändert bleiben. Zugleich sind Erhöhungen nach dem Mietspiegel dann ausgeschlossen.",
+      "wrongExplanations": [
+        null,
+        "Der Mieter legt die Miete nicht selbst fest. Es gibt eine Vereinbarung mit dem Vermieter.",
+        "Eine Anpassung nach Mietspiegel ist die gewöhnliche Mieterhöhung, nicht die Indexmiete.",
+        "Feste Stufen sind eine Staffelmiete. Die Stufen stehen schon im Vertrag."
+      ],
+      "practiceTip": "Erkläre Vermietern beide Modelle: Staffelmiete = planbar, Indexmiete = passt sich der Inflation an. Wer kaufen will, um zu vermieten, sollte das vorher entscheiden."
+    }
+  ]
+}

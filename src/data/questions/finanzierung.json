@@ -1,0 +1,347 @@
+{
+  "topic": "finanzierung",
+  "stand": "Stand 2025",
+  "hinweis": "Zinssätze schwanken ständig. Die Beispiele dienen nur zum Üben. Gesetzliche Regeln wie § 489 BGB (Sonderkündigungsrecht) können sich ändern.",
+  "questions": [
+    {
+      "id": "fi-01",
+      "difficulty": 1,
+      "question": "Was versteht man unter Eigenkapital bei der Immobilienfinanzierung?",
+      "options": [
+        "Das Geld, das die Bank verleiht",
+        "Das eigene Geld, das der Käufer in den Kauf einbringt",
+        "Den Kaufpreis der Immobilie",
+        "Die Grundsteuer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eigenkapital ist das Geld, das der Käufer selbst mitbringt, zum Beispiel Erspartes, Wertpapiere oder ein Bausparguthaben. Je mehr Eigenkapital, desto weniger muss die Bank finanzieren und desto günstiger wird meist der Zins.",
+      "wrongExplanations": [
+        "Das Geld der Bank ist Fremdkapital, also das Darlehen.",
+        null,
+        "Der Kaufpreis ist der Preis der Immobilie. Er wird durch Eigenkapital und Darlehen bezahlt.",
+        "Die Grundsteuer ist eine laufende Steuer und hat mit Finanzierung nichts zu tun."
+      ],
+      "practiceTip": "Als Faustregel sollte der Käufer mindestens die Kaufnebenkosten aus eigener Tasche zahlen, besser noch 20 % des Kaufpreises. Frag früh nach dem Eigenkapital – das steuert das ganze Gespräch."
+    },
+    {
+      "id": "fi-02",
+      "difficulty": 1,
+      "question": "Was ist die Tilgung?",
+      "options": [
+        "Der Zins für den Kredit",
+        "Die Gebühr für die Bank",
+        "Die Steuer auf den Kaufpreis",
+        "Der Teil der Rate, mit dem der Kredit zurückgezahlt wird"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mit der Tilgung zahlt man den geliehenen Betrag zurück. Die Rate besteht aus Zins (Preis für das Leihen) und Tilgung (Rückzahlung). Nur die Tilgung verringert die Schuld.",
+      "wrongExplanations": [
+        "Der Zins ist der Preis für das geliehene Geld. Er verringert die Schuld nicht.",
+        "Gebühren (z. B. Kontoführung) sind extra und gehören nicht zur Tilgung.",
+        "Steuern werden getrennt gezahlt, sie sind keine Tilgung.",
+        null
+      ],
+      "practiceTip": "Erkläre es so: Zins = Miete für das Geld, Tilgung = Rückzahlung. Wer nur Zinsen zahlt, bleibt dauerhaft verschuldet."
+    },
+    {
+      "id": "fi-03",
+      "difficulty": 1,
+      "question": "Was ist bei einem Annuitätendarlehen typisch?",
+      "options": [
+        "Die Rate bleibt gleich, der Zinsanteil sinkt und der Tilgungsanteil steigt",
+        "Die Rate steigt jedes Jahr",
+        "Die Bank zahlt dem Kunden Geld zurück",
+        "Es wird nur am Ende getilgt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beim Annuitätendarlehen ist die Rate (Annuität) über die Zinsbindung gleich hoch. Anfangs besteht sie zum größten Teil aus Zinsen. Weil die Restschuld sinkt, werden die Zinsen kleiner, und der Tilgungsanteil wächst.",
+      "wrongExplanations": [
+        null,
+        "Bei einer Annuität bleibt die Rate gleich. Steigende Raten gibt es bei anderen Modellen.",
+        "So läuft eine Kreditrückzahlung nicht. Die Bank bekommt Geld zurück.",
+        "Endfällige Darlehen werden am Ende in einem Betrag zurückgezahlt. Das ist eine andere Form."
+      ],
+      "practiceTip": "Zeige Kunden den Tilgungsplan: Im ersten Jahr geht das meiste Geld an die Bank als Zins, später wird es besser. Das erklärt, warum die Restschuld anfangs kaum sinkt."
+    },
+    {
+      "id": "fi-04",
+      "difficulty": 1,
+      "question": "Was bedeutet Zinsbindung?",
+      "options": [
+        "Der Zinssatz darf nie höher als 1 % sein",
+        "Der Zinssatz bleibt für eine festgelegte Zeit gleich",
+        "Der Kunde darf nur bei einer Bank sparen",
+        "Die Bank darf den Kredit jederzeit kündigen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Zinsbindung ist der Zeitraum, in dem der vereinbarte Zinssatz fest bleibt, häufig 10, 15 oder 20 Jahre. In dieser Zeit ändert sich die Rate nicht. Danach wird neu verhandelt (Anschlussfinanzierung).",
+      "wrongExplanations": [
+        "Es gibt keine gesetzliche Obergrenze von 1 %.",
+        null,
+        "Mit dem Sparen bei einer Bank hat die Zinsbindung nichts zu tun.",
+        "Eine Bank darf einen ordentlich bedienten Kredit nicht einfach kündigen."
+      ],
+      "practiceTip": "Ein langer Zinsbindungszeitraum gibt Sicherheit, kostet aber meist einen etwas höheren Zins. Passe die Dauer an die Lebenssituation an: Kinder, Berufswechsel, Umzug."
+    },
+    {
+      "id": "fi-05",
+      "difficulty": 1,
+      "question": "Wozu dient eine Sondertilgung?",
+      "options": [
+        "Damit die Bank höhere Zinsen bekommt",
+        "Um zusätzlich zur Rate außerplanmäßig Geld zurückzuzahlen und die Schuld schneller zu senken",
+        "Um den Notar zu bezahlen",
+        "Um die Grundsteuer zu senken"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mit einer Sondertilgung zahlt man außerhalb der regulären Rate zusätzliches Geld zurück, zum Beispiel einen Bonus. Meist sind bis zu 5 % der Darlehenssumme pro Jahr kostenlos möglich. Das verkürzt die Laufzeit und spart Zinsen.",
+      "wrongExplanations": [
+        "Das Gegenteil: Mit Sondertilgungen sinken die Zinsen, weil die Restschuld schneller kleiner wird.",
+        null,
+        "Notarkosten werden getrennt bezahlt und haben mit der Kredittilgung nichts zu tun.",
+        "Steuern werden durch eine Sondertilgung nicht verändert."
+      ],
+      "practiceTip": "Frage bei jeder Finanzierung nach dem Recht auf Sondertilgung. Kunden mit schwankendem Einkommen oder Erbe in Aussicht sollten darauf achten."
+    },
+    {
+      "id": "fi-06",
+      "difficulty": 2,
+      "question": "Was unterscheidet den Effektivzins vom Sollzins?",
+      "options": [
+        "Es gibt keinen Unterschied",
+        "Der Effektivzins enthält zusätzlich Kosten wie Gebühren und zeigt die tatsächlichen Gesamtkosten pro Jahr",
+        "Der Sollzins ist immer höher",
+        "Der Effektivzins gilt nur für Mieter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Sollzins ist der reine Zinssatz auf das Darlehen. Der Effektivzins rechnet Nebenkosten (z. B. Bearbeitungsgebühren, Zahlungsweise) mit ein und zeigt die tatsächlichen Kosten pro Jahr. Für Vergleiche ist der Effektivzins besser.",
+      "wrongExplanations": [
+        "Es gibt einen Unterschied, und er kann mehrere Zehntelprozentpunkte ausmachen.",
+        null,
+        "Meist ist der Effektivzins höher, weil er zusätzliche Kosten enthält.",
+        "Der Effektivzins gilt für alle Darlehen, nicht für Mieter."
+      ],
+      "practiceTip": "Wenn Kunden Angebote sammeln, gib ihnen diesen Rat: Immer Effektivzins und Zinsbindung nebeneinanderlegen – nicht nur die Monatsrate."
+    },
+    {
+      "id": "fi-07",
+      "difficulty": 2,
+      "question": "Was passiert nach Ablauf der Zinsbindung, wenn noch eine Restschuld besteht?",
+      "options": [
+        "Der Kredit ist automatisch beglichen",
+        "Die Bank streicht die Restschuld",
+        "Der Kunde muss die Restschuld zahlen oder eine Anschlussfinanzierung vereinbaren",
+        "Der Notar übernimmt die Schuld"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Am Ende der Zinsbindung wird die Restschuld fällig. Wer sie nicht aus dem Ersparten zahlen kann, vereinbart eine Anschlussfinanzierung, entweder bei derselben Bank (Prolongation) oder bei einer anderen (Umschuldung). Der neue Zinssatz richtet sich nach dem Zinsniveau zu diesem Zeitpunkt.",
+      "wrongExplanations": [
+        "Der Kredit ist nur beglichen, wenn die Schuld vollständig getilgt wurde.",
+        "Restschulden werden nicht erlassen.",
+        null,
+        "Der Notar hat mit der Rückzahlung der Bankschuld nichts zu tun."
+      ],
+      "practiceTip": "Schon 3 Jahre vor Ende der Zinsbindung kann man über ein Forward-Darlehen den Zins sichern. Erinnere Kunden früh daran, damit sie nicht in ein hohes Zinsniveau laufen."
+    },
+    {
+      "id": "fi-08",
+      "difficulty": 2,
+      "question": "Wozu verlangt die Bank bei der Baufinanzierung eine Grundschuld?",
+      "options": [
+        "Als Sicherheit für den Kredit",
+        "Als Steuer für den Staat",
+        "Als Provision für den Makler",
+        "Als Ersatz für den Kaufvertrag"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Grundschuld ist die Sicherheit der Bank. Zahlt der Kunde nicht, kann die Bank die Immobilie zwangsversteigern lassen und sich aus dem Erlös bezahlen. Deshalb sind Baukredite mit Grundschuld günstiger als Kredite ohne Sicherheit.",
+      "wrongExplanations": [
+        null,
+        "Mit Steuern hat die Grundschuld nichts zu tun.",
+        "Die Provision bekommt der Makler vom Auftraggeber, nicht von der Grundschuld.",
+        "Sie ersetzt keinen Vertrag. Der Kaufvertrag bleibt die Grundlage."
+      ],
+      "practiceTip": "Die Grundschuld wird zusammen mit dem Kaufvertrag beim Notar bestellt. Deshalb gehört die Bank oft früh in den Zeitplan des Notartermins."
+    },
+    {
+      "id": "fi-09",
+      "difficulty": 2,
+      "question": "Was ist eine Vorfälligkeitsentschädigung?",
+      "options": [
+        "Eine Belohnung der Bank für pünktliche Zahler",
+        "Eine Entschädigung, die die Bank verlangen darf, wenn der Kredit während der Zinsbindung vorzeitig zurückgezahlt wird",
+        "Ein Zuschuss vom Staat",
+        "Die Gebühr des Notars"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zahlt man einen Kredit vor Ende der Zinsbindung zurück, entgeht der Bank Zinsertrag. Dafür darf sie eine Vorfälligkeitsentschädigung verlangen. Sie wird nach gesetzlichen Regeln berechnet und ist bei einem berechtigten Interesse (z. B. Hausverkauf) durchsetzbar.",
+      "wrongExplanations": [
+        "Das Gegenteil: Der Kunde muss zahlen, nicht die Bank.",
+        null,
+        "Ein staatlicher Zuschuss wäre eine Förderung, z. B. von der KfW.",
+        "Der Notar rechnet Gebühren nach dem Gerichts- und Notarkostengesetz ab, nicht als Entschädigung."
+      ],
+      "practiceTip": "Verkäufer mit laufendem Kredit müssen die Vorfälligkeitsentschädigung im Blick haben. Frag früh bei der Bank nach dem Betrag, damit der Verkaufserlös realistisch geplant wird."
+    },
+    {
+      "id": "fi-10",
+      "difficulty": 2,
+      "question": "Wann hat ein Darlehensnehmer nach § 489 BGB ein gesetzliches Sonderkündigungsrecht?",
+      "options": [
+        "Nach 10 Jahren, mit einer Frist von 6 Monaten",
+        "Nach 1 Jahr, ohne Frist",
+        "Nur bei Tod des Kreditnehmers",
+        "Nie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ist die Zinsbindung länger als 10 Jahre, darf der Kreditnehmer nach Ablauf von 10 Jahren mit 6 Monaten Frist kündigen (§ 489 BGB), ohne eine Vorfälligkeitsentschädigung zu zahlen. So kann er bei Bedarf umschulden.",
+      "wrongExplanations": [
+        null,
+        "Nach einem Jahr gibt es kein solches Recht.",
+        "Auch im Todesfall bleibt der Kredit grundsätzlich bestehen, die Erben treten ein.",
+        "Doch, das Recht besteht und schützt Kreditnehmer bei langen Bindungen."
+      ],
+      "practiceTip": "Bei 15 oder 20 Jahren Zinsbindung erinnert man Kunden an dieses Recht: Nach 10 Jahren kann man neu verhandeln, wenn die Zinsen gefallen sind."
+    },
+    {
+      "id": "fi-11",
+      "difficulty": 2,
+      "question": "Was passiert, wenn die Anfangstilgung erhöht wird, zum Beispiel von 1 % auf 3 %?",
+      "options": [
+        "Die monatliche Rate sinkt",
+        "Die monatliche Rate steigt, aber der Kredit ist schneller abbezahlt und es fallen weniger Zinsen an",
+        "Es ändert sich nichts",
+        "Die Bank streicht die Zinsen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eine höhere Tilgung erhöht die Rate. Dafür sinkt die Restschuld schneller, und es fallen insgesamt weniger Zinsen an. Viele Banken und Berater empfehlen mindestens 2 % Anfangstilgung, damit die Laufzeit nicht zu lang wird.",
+      "wrongExplanations": [
+        "Die Rate wird bei höherer Tilgung größer, nicht kleiner.",
+        null,
+        "Es ändert sich einiges: Rate, Laufzeit und Gesamtkosten.",
+        "Zinsen fallen weiter an. Sie sinken nur, weil die Restschuld schneller kleiner wird."
+      ],
+      "practiceTip": "Wähle die Tilgung so, dass die Rate in schwierigen Zeiten bezahlbar bleibt. Manche Verträge erlauben es, den Tilgungssatz später anzupassen – das gibt Flexibilität."
+    },
+    {
+      "id": "fi-12",
+      "difficulty": 2,
+      "question": "Was prüft die Bank bei der Bonitätsprüfung eines Kreditnehmers?",
+      "options": [
+        "Nur das Alter der Immobilie",
+        "Einkommen, laufende Ausgaben, Schulden, Schufa-Einträge und Arbeitsverhältnis",
+        "Nur die Größe der Wohnung",
+        "Nur das Aussehen des Hauses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bei der Bonitätsprüfung will die Bank wissen, ob der Kunde den Kredit dauerhaft bedienen kann. Sie prüft Einkommen und Ausgaben (Haushaltsrechnung), bestehende Kredite, die Schufa und die Stabilität des Jobs. Der Wert der Immobilie wird zusätzlich getrennt geprüft.",
+      "wrongExplanations": [
+        "Das Alter der Immobilie ist Teil der Objektprüfung, nicht der Bonitätsprüfung.",
+        null,
+        "Die Größe ist nur ein Faktor beim Wert, nicht bei der persönlichen Bonität.",
+        "Das Aussehen ist kein Kriterium."
+      ],
+      "practiceTip": "Rate Kunden, ihre Unterlagen vor dem ersten Bankgespräch zu sammeln (Gehaltsnachweise, Kontoauszüge, Eigenkapitalnachweis). Das beschleunigt die Zusage enorm."
+    },
+    {
+      "id": "fi-13",
+      "difficulty": 2,
+      "question": "Was sind Bereitstellungszinsen?",
+      "options": [
+        "Zinsen für Guthaben auf dem Sparkonto",
+        "Zinsen, die die Bank für einen zugesagten, aber noch nicht abgerufenen Kreditbetrag berechnet",
+        "Eine Steuer für Neubauten",
+        "Die Zinsen für Bausparverträge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bereitstellungszinsen fallen an, wenn die Bank Geld für den Kredit vorhält, der Kunde es aber noch nicht abruft. Das kommt vor allem beim Neubau vor, weil das Geld nach Baufortschritt ausgezahlt wird. Meist gibt es eine Zeit ohne Bereitstellungszinsen, danach zahlt man monatlich einen kleinen Prozentsatz.",
+      "wrongExplanations": [
+        "Zinsen auf Guthaben bekommt der Kunde von der Bank. Bereitstellungszinsen muss er zahlen.",
+        null,
+        "Eine Steuer ist es nicht. Es ist ein Entgelt der Bank.",
+        "Zinsen für Bausparverträge sind etwas anderes."
+      ],
+      "practiceTip": "Bei Neubauvorhaben ist der Zeitplan entscheidend: Verhandle mit der Bank eine längere bereitstellungsfreie Zeit, damit die Zusatzkosten nicht überraschen."
+    },
+    {
+      "id": "fi-14",
+      "difficulty": 3,
+      "question": "Was ist ein Forward-Darlehen?",
+      "options": [
+        "Ein Kredit, der rückwirkend gilt",
+        "Ein Kredit ohne Zinsen",
+        "Ein Vertrag, der heute schon den Zinssatz für eine spätere Anschlussfinanzierung festlegt",
+        "Ein Kredit für Gewerbeimmobilien"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Beim Forward-Darlehen sichert man sich schon Monate oder Jahre vor dem Ende der Zinsbindung einen festen Zinssatz für die Anschlussfinanzierung. Dafür berechnet die Bank einen Zinsaufschlag. So schützt man sich vor steigenden Zinsen, verliert aber, wenn die Zinsen bis dahin fallen.",
+      "wrongExplanations": [
+        "Rückwirkende Kredite gibt es nicht.",
+        "Zinslose Kredite gibt es in der Praxis kaum, und das Forward-Darlehen kostet sogar einen Aufschlag.",
+        null,
+        "Forward-Darlehen sind auch für Wohnimmobilien üblich. Mit dem Objekttyp hat es nichts zu tun."
+      ],
+      "practiceTip": "Wenn Kunden Angst vor steigenden Zinsen haben, ist das Forward-Darlehen ein guter Gesprächseinstieg. Erkläre auch den Preis dafür, den Zinsaufschlag."
+    },
+    {
+      "id": "fi-15",
+      "difficulty": 3,
+      "question": "Was beschreibt der Beleihungsauslauf?",
+      "options": [
+        "Wie lange der Kredit läuft",
+        "Das Verhältnis von Darlehen zum Beleihungswert der Immobilie",
+        "Wie hoch die Grundschuld eingetragen wird",
+        "Wie oft ein Haus beliehen wurde"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Beleihungsauslauf ist das Verhältnis zwischen Darlehen und dem von der Bank angesetzten Beleihungswert. Bei einem Darlehen von 200.000 € und einem Beleihungswert von 250.000 € beträgt er 80 %. Je niedriger der Beleihungsauslauf, desto sicherer ist die Bank und desto günstiger der Zins.",
+      "wrongExplanations": [
+        "Die Laufzeit ist etwas anderes. Der Beleihungsauslauf betrifft das Verhältnis, nicht die Dauer.",
+        null,
+        "Die Höhe der Grundschuld wird oft höher angesetzt als das Darlehen und ist eine andere Größe.",
+        "Es geht nicht um die Anzahl der Beleihungen, sondern um eine Verhältniszahl."
+      ],
+      "practiceTip": "Unter 60 % gilt bei vielen Banken als besonders günstig, über 80 % wird der Zins deutlich teurer. Mit etwas mehr Eigenkapital kann man oft Zinsen sparen."
+    },
+    {
+      "id": "fi-16",
+      "difficulty": 3,
+      "question": "Wann muss ein KfW-Förderkredit in der Regel beantragt werden?",
+      "options": [
+        "Erst nach dem Kauf oder Baubeginn",
+        "Vor dem Vorhabenbeginn, also bevor der Kauf- oder Bauvertrag bindend abgeschlossen wird",
+        "Nur nach der Grundbucheintragung",
+        "Nie, er wird automatisch gewährt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "KfW-Kredite werden meist über die Hausbank beantragt, und zwar vor dem Vorhabenbeginn. Als Vorhabenbeginn gilt zum Beispiel die Unterschrift unter einen Bau- oder Liefervertrag. Wer zu spät beantragt, verliert oft den Anspruch. Programme und Bedingungen ändern sich regelmäßig.",
+      "wrongExplanations": [
+        "Ein zu später Antrag ist der häufigste Fehler. Dann kann die Förderung entfallen.",
+        null,
+        "Nach der Grundbucheintragung ist es in aller Regel zu spät.",
+        "Es gibt keinen automatischen Anspruch. Man muss den Antrag stellen und die Bedingungen erfüllen."
+      ],
+      "practiceTip": "Prüfe immer den aktuellen Stand der Förderprogramme auf der Website der KfW. Für Käufer lohnt sich der Termin bei einem Energieberater, weil die Förderung an die Energiewerte gebunden ist."
+    },
+    {
+      "id": "fi-17",
+      "difficulty": 3,
+      "question": "Welche Faustregel wird oft für die monatliche Belastung durch die Finanzierung genannt?",
+      "options": [
+        "Höchstens etwa 35–40 % des Netto-Haushaltseinkommens",
+        "Mindestens 80 % des Netto-Haushaltseinkommens",
+        "Höchstens 5 % des Einkommens",
+        "Die Belastung spielt keine Rolle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Als Richtwert gilt, dass die Rate inklusive Nebenkosten der Immobilie nicht mehr als etwa 35–40 % des Nettoeinkommens ausmachen sollte. Danach bleibt Geld für Leben, Rücklagen und Unvorhergesehenes. Die Bank prüft das in der Haushaltsrechnung genauer.",
+      "wrongExplanations": [
+        null,
+        "80 % wären viel zu hoch, dann bliebe kein Geld zum Leben.",
+        "5 % wären ungewöhnlich niedrig und würden kaum eine Finanzierung erlauben.",
+        "Sie spielt sogar eine große Rolle – sie entscheidet, ob ein Kredit gewährt wird."
+      ],
+      "practiceTip": "Rechne mit den Kunden auch Kosten für Reparaturen und einen Puffer ein. Wer nur knapp die Rate bezahlen kann, gerät bei der ersten Heizungsreparatur in Not."
+    }
+  ]
+}

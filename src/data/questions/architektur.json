@@ -1,0 +1,327 @@
+{
+  "topic": "architektur",
+  "stand": "Stand 2025",
+  "hinweis": "Die Zeiträume der Epochen sind Richtwerte, denn die Übergänge sind fließend. Rechtsgrundlagen (z. B. Asbestverbot 1993, Wärmeschutzverordnung 1977) sind unveränderlich, Förderungen nicht.",
+  "questions": [
+    {
+      "id": "ar-01",
+      "difficulty": 1,
+      "question": "Woran erkennt man ein Fachwerkhaus?",
+      "options": [
+        "An einer glatten, weißen Betonfassade",
+        "An einem sichtbaren Holzgerüst, dessen Felder (Gefache) mit Lehm oder Ziegeln ausgefüllt sind",
+        "An großen Glasflächen und Flachdach",
+        "An einer Waschbetonfassade"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fachwerkhäuser haben ein tragendes Holzskelett aus Balken. Die Felder dazwischen, die Gefache, sind mit Lehm, Flechtwerk oder Ziegeln gefüllt. Das Holz bleibt außen sichtbar. Häufig sieht man diagonale Streben und einen Geschossüberstand.",
+      "wrongExplanations": [
+        "Glatte weiße Betonflächen sind ein Zeichen des Bauhaus-Stils der 1920er.",
+        null,
+        "Große Glasflächen und Flachdächer kennt man von moderner Architektur und dem Neubau.",
+        "Waschbeton ist typisch für die 1960er und 1970er."
+      ],
+      "practiceTip": "Bei Fachwerk immer nach Feuchtigkeit am Holzsockel (Schwelle) fragen. Schäden hier sind teuer und können den ganzen Preis drücken."
+    },
+    {
+      "id": "ar-02",
+      "difficulty": 1,
+      "question": "In welchem Zeitraum entstanden die meisten Gründerzeithäuser?",
+      "options": [
+        "Ca. 1400 bis 1600",
+        "Ca. 1870 bis 1914",
+        "Ca. 1950 bis 1960",
+        "Ca. 2000 bis 2020"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Gründerzeit begann mit der Reichsgründung 1871 und dauerte bis kurz vor dem Ersten Weltkrieg. In dieser Zeit wuchsen die Städte sehr schnell, und es entstanden viele repräsentative Mietshäuser mit Stuckfassaden.",
+      "wrongExplanations": [
+        "Zwischen 1400 und 1600 baute man vor allem Fachwerk, Kirchen und Burgen.",
+        null,
+        "Die 1950er waren die Zeit des Wiederaufbaus mit einfachen, schlichten Häusern.",
+        "Ab 2000 spricht man von modernen Neubauten mit Energiestandards."
+      ],
+      "practiceTip": "Gründerzeit-Wohnungen sind beliebt. Achte aber auf die Elektrik, die Wasserleitungen und den Zustand der Holzbalkendecken."
+    },
+    {
+      "id": "ar-03",
+      "difficulty": 1,
+      "question": "Welche Merkmale sind typisch für Gründerzeitgebäude?",
+      "options": [
+        "Flachdach und Fensterband",
+        "Stuckfassade, hohe Decken (oft über 3 m), Flügeltüren und Dielenböden",
+        "Waschbeton und kleine Fenster",
+        "Reetdach und Lehmwände"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gründerzeithäuser haben oft aufwendigen Fassadenstuck, hohe Räume mit Stuckdecken, zweiflügelige Türen, Holzdielen und große Fenster. Sie stehen meist in Blockrandbebauung in Stadtzentren und wirken repräsentativ.",
+      "wrongExplanations": [
+        "Flachdach und Fensterband sind Merkmale des Bauhaus-Stils.",
+        null,
+        "Das sind typische Merkmale der 1960er und 1970er.",
+        "Reetdach und Lehm findet man bei sehr alten, ländlichen Häusern."
+      ],
+      "practiceTip": "Hohe Decken sind ein starkes Verkaufsargument, machen aber auch Heizen teurer. Sprich das offen an, dann wirkt es ehrlich."
+    },
+    {
+      "id": "ar-04",
+      "difficulty": 1,
+      "question": "Woran erkennt man Jugendstil?",
+      "options": [
+        "An streng geraden, schmucklosen Formen",
+        "An geschwungenen Linien und Pflanzenornamenten (floral)",
+        "An Betonplatten",
+        "An einer Glasfassade"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Jugendstil (ca. 1895–1914) liebt fließende, geschwungene Linien und Pflanzenmotive wie Blumen und Ranken. Man findet sie an Fassaden, Fensterrahmen, Geländern und Treppenhäusern. Auch Buntglasfenster und Fliesen gehören dazu.",
+      "wrongExplanations": [
+        "Streng gerade, schmucklose Formen sind das Gegenteil und passen zum Bauhaus.",
+        null,
+        "Betonplatten deuten auf Plattenbauten der 1960er und 1970er.",
+        "Glasfassaden sind modern und passen nicht zum Jugendstil."
+      ],
+      "practiceTip": "Jugendstil-Häuser stehen oft unter Denkmalschutz. Vor jeder Änderung an Fassade oder Treppenhaus muss man deshalb bei der Behörde nachfragen."
+    },
+    {
+      "id": "ar-05",
+      "difficulty": 1,
+      "question": "Was sind typische Merkmale des Bauhaus-Stils der 1920er?",
+      "options": [
+        "Fachwerk und Reetdach",
+        "Schlichte kubische Formen, Flachdach, glatte weiße Wände und Fensterbänder",
+        "Stuckverzierungen und Erker",
+        "Waschbetonplatten"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bauhaus-Architektur (ca. 1919–1933) verzichtet auf Schmuck. Typisch sind klare, würfelartige Baukörper, Flachdächer, glatte helle Putzfassaden und lange Fensterbänder. Die Form folgt der Funktion.",
+      "wrongExplanations": [
+        "Fachwerk und Reetdach sind viel älter und ländlich geprägt.",
+        null,
+        "Stuck und Erker gehören zur Gründerzeit und zum Jugendstil.",
+        "Waschbeton wurde erst später, in den 1960ern und 1970ern, verbreitet."
+      ],
+      "practiceTip": "Flachdächer und große Fensterflächen sind bei Bauhaus-Häusern beliebte Schwachstellen: Prüfe Abdichtung und Dämmung und hol dir Angebote für Sanierungen."
+    },
+    {
+      "id": "ar-06",
+      "difficulty": 1,
+      "question": "Was kennzeichnet viele Häuser aus den 1950er Jahren (Wiederaufbau)?",
+      "options": [
+        "Prunkvolle Stuckfassaden",
+        "Einfache, sparsame Bauweise, kleine Fenster, flach geneigte Satteldächer und kleine Grundrisse",
+        "Riesige Glasfronten",
+        "Reetgedeckte Dächer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nach dem Krieg fehlte Geld und Material. Die Häuser der 1950er sind deshalb meist schlicht: kleine Fenster, Putzfassade, flach geneigtes Satteldach, oft kleine Zimmer und niedrige Decken. Schall- und Wärmeschutz sind gering.",
+      "wrongExplanations": [
+        "Prunk und Stuck sind viel früher üblich gewesen.",
+        null,
+        "Glasfronten kamen später auf und passen nicht zum sparsamen Wiederaufbau.",
+        "Reetdächer sind ein Merkmal sehr alter, ländlicher Häuser."
+      ],
+      "practiceTip": "Bei 1950er-Häusern hilft ein Blick auf Fenster, Dach und Heizung. Oft wurde vieles schon modernisiert, aber Dämmung und Elektrik sind häufig noch Altbestand."
+    },
+    {
+      "id": "ar-07",
+      "difficulty": 2,
+      "question": "Welche Baumerkmale sind typisch für Großsiedlungen der 1960er und 1970er Jahre?",
+      "options": [
+        "Fachwerk und Holzbalken",
+        "Fertigteil- und Plattenbau, Waschbetonfassaden, Flachdächer und Hochhäuser",
+        "Stuck und Erker",
+        "Passivhaus-Standard"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Um schnell viel Wohnraum zu schaffen, baute man in den 1960ern und 1970ern große Siedlungen mit vorgefertigten Betonteilen. Typisch sind Waschbeton, Flachdächer, Balkone oder Loggien und Hochhäuser. Die Wärmedämmung war oft sehr gering.",
+      "wrongExplanations": [
+        "Fachwerk ist viele Jahrhunderte älter.",
+        null,
+        "Stuck und Erker gehören zur Gründerzeit.",
+        "Passivhäuser kamen erst viel später."
+      ],
+      "practiceTip": "Bei solchen Wohnungen sind Hausgeld, Rücklage und geplante Sanierungen entscheidend. Ein niedriger Preis kann durch anstehende Fassaden- und Aufzugsanierung schnell aufgefressen werden."
+    },
+    {
+      "id": "ar-08",
+      "difficulty": 2,
+      "question": "Seit wann ist die Herstellung und Verwendung von Asbest in Deutschland verboten?",
+      "options": [
+        "Seit 1950",
+        "Seit 1970",
+        "Seit 1993",
+        "Seit 2020"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Deutschland gilt seit dem 31. Oktober 1993 ein umfassendes Verbot für Herstellung und Verwendung von Asbest. Gebäude, die vorher gebaut oder saniert wurden, können also Asbest enthalten, vor allem in Faserzementplatten, Bodenbelägen, Nachtspeicheröfen und Dachplatten.",
+      "wrongExplanations": [
+        "1950 war Asbest im Bau noch weit verbreitet.",
+        "1970 wurde Asbest noch häufig eingesetzt.",
+        null,
+        "2020 ist viel zu spät. Das Verbot besteht seit 1993."
+      ],
+      "practiceTip": "Bei Häusern aus den 1960ern und 1970ern immer nach Asbest fragen und den Hinweis im Exposé dokumentieren. Selbst bearbeiten darf man asbesthaltige Teile nicht."
+    },
+    {
+      "id": "ar-09",
+      "difficulty": 2,
+      "question": "Welche Baustoffe und Gefahren treten bei Häusern der 1960er/70er Jahre häufig auf?",
+      "options": [
+        "Kein Risiko",
+        "Asbest, Formaldehyd in Spanplatten, PCB in Fugenmassen und schlechte Wärmedämmung",
+        "Nur Schimmel im Keller",
+        "Nur Rost an Türen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In dieser Zeit wurden Baustoffe verwendet, die heute problematisch sind: Asbest (Platten, Bodenbeläge), Formaldehyd (Spanplatten), PCB (Fugenmassen), teils auch PAK (Teerkleber). Dazu kommt oft eine schwache Dämmung nach damaligen Anforderungen.",
+      "wrongExplanations": [
+        "Es gibt sehr wohl Risiken, die man beim Kauf prüfen sollte.",
+        null,
+        "Schimmel kann vorkommen, ist aber nicht das einzige oder typischste Problem.",
+        "Rost ist ein Schönheitsproblem und nicht das typische Risiko."
+      ],
+      "practiceTip": "Frage den Verkäufer nach früheren Untersuchungen (Schadstoffgutachten). Gibt es keine, kann der Käufer auf eigene Kosten eine Probe machen lassen."
+    },
+    {
+      "id": "ar-10",
+      "difficulty": 2,
+      "question": "Was ist bei Häusern der 1980er und 1990er Jahre häufig zu beachten?",
+      "options": [
+        "Es gab keine Wärmedämmung",
+        "Kunststofffenster, ausgebaute Dachgeschosse und oft eine Heizung, die 25–30 Jahre oder älter ist",
+        "Reetdach und Holzbalken",
+        "Stuckdecken"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nach den Wärmeschutzverordnungen (1977, 1982, 1995) gab es bereits Dämmvorschriften. Typisch sind Kunststofffenster mit Doppelverglasung, ausgebaute Dachgeschosse und Gas- oder Ölheizungen. Diese Heizungen sind heute oft 25–30 Jahre alt und stehen zur Erneuerung an.",
+      "wrongExplanations": [
+        "Es gab schon Dämmung, wenn auch weniger als heute.",
+        null,
+        "Reetdach und Holzbalken kennzeichnen viel ältere Häuser.",
+        "Stuckdecken sind Merkmale der Gründerzeit."
+      ],
+      "practiceTip": "Rechne bei 30 Jahre alten Heizungen mit einem baldigen Austausch. Für Käufer ist das ein wichtiger Posten im Budget, für Verkäufer ein Verhandlungsargument."
+    },
+    {
+      "id": "ar-11",
+      "difficulty": 2,
+      "question": "Was ist typisch für Neubauten der 2000er und später?",
+      "options": [
+        "Gute Wärmedämmung, Dreifachverglasung, moderne Heizung (z. B. Wärmepumpe), oft Photovoltaik",
+        "Keine Dämmung",
+        "Holzöfen als Hauptheizung",
+        "Einfachverglasung"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Moderne Neubauten erfüllen strenge Energiestandards. Sie haben gedämmte Fassaden, Dreifachverglasung, Lüftungsanlagen, moderne Heizsysteme wie Wärmepumpen und häufig Solaranlagen. Ihr Energieausweis zeigt gute Klassen wie A oder B.",
+      "wrongExplanations": [
+        null,
+        "Ohne Dämmung dürfte ein Neubau nicht genehmigt werden.",
+        "Ein Holzofen kann Zusatzheizung sein, ist aber nicht typisch als Hauptheizung.",
+        "Einfachverglasung wäre viel zu schlecht und ist im Neubau nicht zulässig."
+      ],
+      "practiceTip": "Bei Neubauten fragen Käufer nach der Gewährleistung: Bei Bauträgern gelten meist 5 Jahre auf Bauwerksmängel. Notiere Abnahmedatum und Fristen."
+    },
+    {
+      "id": "ar-12",
+      "difficulty": 2,
+      "question": "Was bedeutet Denkmalschutz für den Eigentümer?",
+      "options": [
+        "Er darf alles ohne Genehmigung ändern",
+        "Änderungen am Gebäude brauchen die Genehmigung der Denkmalschutzbehörde, dafür gibt es oft steuerliche Vorteile und Förderungen",
+        "Das Haus darf nicht verkauft werden",
+        "Das Haus muss abgerissen werden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wer ein Baudenkmal besitzt, muss Veränderungen an Fassade, Fenstern oder Dach mit der Denkmalbehörde abstimmen. Dafür gibt es steuerliche Abschreibungen (z. B. § 7i EStG) und teils Zuschüsse. Der Verkauf ist erlaubt, der Käufer übernimmt aber die Auflagen.",
+      "wrongExplanations": [
+        "Ohne Genehmigung darf man an einem Denkmal nichts Wesentliches ändern.",
+        null,
+        "Verkaufen darf man Denkmäler wie jedes andere Haus.",
+        "Ein Abriss ist genau das, was Denkmalschutz verhindern soll."
+      ],
+      "practiceTip": "Denkmäler sind für Kunden mit hohem Steuersatz interessant. Lass sie vorher mit ihrem Steuerberater rechnen, denn die Vorteile sind nicht für jeden gleich groß."
+    },
+    {
+      "id": "ar-13",
+      "difficulty": 2,
+      "question": "Welcher Haustyp ist für Niedersachsen und die umliegende Region historisch besonders typisch?",
+      "options": [
+        "Das Niedersachsenhaus (Fachhallenhaus) mit großer Diele, oft mit Reet- oder Ziegeldach",
+        "Das Hochhaus der 1970er",
+        "Das Bauhaus-Kubushaus",
+        "Die Jugendstilvilla"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Das Niedersachsenhaus ist ein traditionelles Bauernhaus, in dem Wohnen, Stall und Scheune unter einem Dach lagen. Es hat ein großes Tor zur Diele, Fachwerk und oft ein weit heruntergezogenes Dach. Viele stehen heute unter Denkmalschutz.",
+      "wrongExplanations": [
+        null,
+        "Hochhäuser gibt es in Großstädten, sie sind aber nicht typisch für die Region.",
+        "Bauhaus-Häuser findet man verstreut, aber nicht als prägenden Haustyp.",
+        "Jugendstilvillen gibt es vor allem in Städten und Kurorten."
+      ],
+      "practiceTip": "Umgebaute Niedersachsenhäuser sind für viele Familien attraktiv. Achte auf Tragwerk, Dach und Feuchtigkeit, weil die Instandhaltung teuer werden kann."
+    },
+    {
+      "id": "ar-14",
+      "difficulty": 3,
+      "question": "Was ist eine Horizontalsperre und warum ist sie wichtig?",
+      "options": [
+        "Eine Abdichtungsschicht im Mauerwerk, die aufsteigende Feuchtigkeit aus dem Boden stoppt",
+        "Ein Zaun um das Grundstück",
+        "Ein Balken im Dach",
+        "Eine Sperrung der Straße"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Horizontalsperre ist eine waagerechte Abdichtung im Mauerwerk knapp über dem Boden. Sie verhindert, dass Wasser im Mauerwerk aufsteigt. Ältere Gebäude haben sie oft nicht oder sie ist defekt. Folgen sind feuchte Wände, Salzausblühungen und Schimmel.",
+      "wrongExplanations": [
+        null,
+        "Ein Zaun hat mit Feuchtigkeit im Mauerwerk nichts zu tun.",
+        "Ein Balken im Dach gehört zum Dachstuhl und stoppt keine Bodenfeuchte.",
+        "Eine Straßensperrung ist ein Verkehrsthema."
+      ],
+      "practiceTip": "Bei Altbauten mit feuchten Kellern oder Salzausblühungen an den unteren Wänden lohnt sich ein Sachverständiger. Nachträgliche Abdichtungen sind aufwendig."
+    },
+    {
+      "id": "ar-15",
+      "difficulty": 3,
+      "question": "Welche Vorschrift führte ab 1977 erstmals zu einer Mindest-Wärmedämmung bei Neubauten in Deutschland?",
+      "options": [
+        "Die Wärmeschutzverordnung (WSchV) von 1977",
+        "Das Bürgerliche Gesetzbuch",
+        "Die Straßenverkehrsordnung",
+        "Das Grundgesetz"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach der Ölkrise wurde 1977 die erste Wärmeschutzverordnung erlassen. Sie verlangte erstmals eine Mindestdämmung von Neubauten. Später wurde sie mehrfach verschärft (1982, 1995) und ging schließlich in der EnEV und dem GEG auf.",
+      "wrongExplanations": [
+        null,
+        "Das BGB regelt Zivilrecht und keine Dämmung.",
+        "Die Straßenverkehrsordnung regelt den Verkehr.",
+        "Das Grundgesetz regelt grundlegende Rechte und keine technischen Standards."
+      ],
+      "practiceTip": "Häuser vor 1977 haben meist keine oder nur minimale Dämmung. Hier lohnt sich eine energetische Beratung besonders, und die Sanierung wird ein großer Kostenpunkt."
+    },
+    {
+      "id": "ar-16",
+      "difficulty": 3,
+      "question": "Warum sind Wohnungen in Gründerzeithäusern oft hellhörig?",
+      "options": [
+        "Weil sie Holzbalkendecken haben, die Trittschall schlecht dämmen",
+        "Weil dort nur Betonwände verwendet wurden",
+        "Weil sie keine Fenster haben",
+        "Weil sie zu klein sind"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Gründerzeithäusern liegen zwischen den Geschossen meist Holzbalkendecken. Sie leiten Trittschall stark weiter, besonders wenn Dielen ohne Dämmung verlegt sind. Nachträgliche Verbesserungen sind möglich, aber aufwendig und in Eigentumswohnungen oft an Beschlüsse gebunden.",
+      "wrongExplanations": [
+        null,
+        "Massive Betonwände würden den Schall besser dämmen. Solche Wände sind in der Gründerzeit nicht üblich.",
+        "Fenster gibt es. Der Schall geht hauptsächlich durch die Decken.",
+        "Die Größe hat mit der Hellhörigkeit nichts zu tun."
+      ],
+      "practiceTip": "Bei Besichtigungen: Klopfe kurz gegen die Wand und lausche auf das Nachbarhaus. Frage die Nachbarn oder den Verwalter nach Lärmproblemen."
+    }
+  ]
+}

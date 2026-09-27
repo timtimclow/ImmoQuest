@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Kaufnebenkosten",
+    "icon": "🧾",
+    "text": "Steuer, Notar, Grundbuch und Provision: Was kostet der Kauf zusätzlich?"
+  },
+  {
+    "id": "Grunderwerbsteuer",
+    "icon": "🏛️",
+    "text": "Steuer berechnen, Inventar abziehen, Länder vergleichen."
+  },
+  {
+    "id": "Rendite",
+    "icon": "📈",
+    "text": "Bruttomietrendite, Kaufpreisfaktor und Nettomietrendite."
+  },
+  {
+    "id": "Miete",
+    "icon": "🔑",
+    "text": "Kaltmiete, Warmmiete, Kaution, Nebenkosten und Mieterhöhung."
+  },
+  {
+    "id": "Annuität",
+    "icon": "🏦",
+    "text": "Rate, Restschuld, Sondertilgung und Belastungsquote."
+  },
+  {
+    "id": "Weitere",
+    "icon": "📐",
+    "text": "Provision teilen, Wohnfläche, Beleihungsauslauf."
+  }
+]

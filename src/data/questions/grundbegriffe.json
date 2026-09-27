@@ -1,0 +1,367 @@
+{
+  "topic": "grundbegriffe",
+  "stand": "Stand 2025",
+  "hinweis": "Grundlagen des Sachenrechts (BGB, GBO) ändern sich selten – Zahlen und Fristen trotzdem bei Bedarf prüfen.",
+  "questions": [
+    {
+      "id": "gb-01",
+      "difficulty": 1,
+      "question": "Wer führt das Grundbuch?",
+      "options": [
+        "Das Grundbuchamt beim Amtsgericht",
+        "Das Finanzamt",
+        "Das Bauamt der Gemeinde",
+        "Die Industrie- und Handelskammer (IHK)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Das Grundbuch wird vom Grundbuchamt geführt. Das ist eine Abteilung des Amtsgerichts. Es ist ein öffentliches Register: Dort steht, wem ein Grundstück gehört und welche Belastungen darauf liegen.",
+      "wrongExplanations": [
+        null,
+        "Das Finanzamt kassiert zum Beispiel die Grunderwerbsteuer und stellt die Unbedenklichkeitsbescheinigung aus. Ein Grundbuch führt es aber nicht.",
+        "Die Gemeinde ist für Bebauungspläne und das Vorkaufsrecht zuständig. Das Bauamt führt kein Grundbuch.",
+        "Die IHK vertritt die Wirtschaft und nimmt zum Beispiel die Prüfung zum Immobilienkaufmann ab. Mit dem Grundbuch hat sie nichts zu tun."
+      ],
+      "practiceTip": "Einen Grundbuchauszug bekommt nur, wer ein berechtigtes Interesse hat. Als Makler holst du dir deshalb immer die Vollmacht des Eigentümers, bevor du den Auszug anforderst."
+    },
+    {
+      "id": "gb-02",
+      "difficulty": 1,
+      "question": "Was steht in Abteilung I des Grundbuchs?",
+      "options": [
+        "Wegerechte und Wohnrechte",
+        "Der Eigentümer des Grundstücks",
+        "Hypotheken und Grundschulden",
+        "Die Größe und Lage des Grundstücks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Abteilung I steht, wem das Grundstück gehört – also der oder die Eigentümer, dazu der Grund des Erwerbs (z. B. Auflassung oder Erbfolge). Wechselt der Eigentümer, wird hier ein neuer Eintrag gemacht.",
+      "wrongExplanations": [
+        "Wegerechte und Wohnrechte sind Lasten und Beschränkungen. Die stehen in Abteilung II.",
+        null,
+        "Hypotheken und Grundschulden sind Grundpfandrechte. Die stehen in Abteilung III.",
+        "Größe und Lage stehen im Bestandsverzeichnis. Das ist ein eigener Abschnitt vor den drei Abteilungen."
+      ],
+      "practiceTip": "Merkhilfe: I = Ich (der Eigentümer), II = Ärger (Lasten und Rechte anderer), III = Schulden (Kredite der Bank)."
+    },
+    {
+      "id": "gb-03",
+      "difficulty": 1,
+      "question": "Was wird in Abteilung II des Grundbuchs eingetragen?",
+      "options": [
+        "Grundschulden der Bank",
+        "Der Name des Eigentümers",
+        "Lasten und Beschränkungen, z. B. Wegerecht, Nießbrauch oder Vorkaufsrecht",
+        "Die Flurstücksnummer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Abteilung II enthält Lasten und Beschränkungen. Das sind Rechte, die andere am Grundstück haben, zum Beispiel ein Wegerecht für den Nachbarn, ein Wohnrecht, ein Nießbrauch oder ein Vorkaufsrecht. Auch die Auflassungsvormerkung steht hier.",
+      "wrongExplanations": [
+        "Grundschulden sind Sicherheiten für Kredite. Sie stehen in Abteilung III.",
+        "Der Eigentümer steht in Abteilung I.",
+        null,
+        "Die Flurstücksnummer steht im Bestandsverzeichnis, das die Beschreibung des Grundstücks enthält."
+      ],
+      "practiceTip": "Lies Abteilung II beim Objektcheck immer zuerst gründlich. Ein Wegerecht oder Wohnrecht kann den Wert und die Nutzbarkeit stark verändern – und der Käufer übernimmt diese Lasten."
+    },
+    {
+      "id": "gb-04",
+      "difficulty": 1,
+      "question": "Was steht in Abteilung III des Grundbuchs?",
+      "options": [
+        "Grundpfandrechte wie Grundschulden und Hypotheken",
+        "Die Eigentümer",
+        "Baulasten",
+        "Der Kaufpreis der letzten Verkäufe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Abteilung III stehen die Grundpfandrechte, also Grundschulden und Hypotheken. Sie sichern Kredite ab. Wenn die Bank einen Kredit gibt, lässt sie sich hier ein Recht eintragen, damit sie im Notfall das Grundstück verwerten kann.",
+      "wrongExplanations": [
+        null,
+        "Eigentümer stehen in Abteilung I.",
+        "Baulasten stehen gar nicht im Grundbuch, sondern im Baulastenverzeichnis der Bauaufsichtsbehörde.",
+        "Kaufpreise stehen nicht im Grundbuch. Sie sind bei der Kaufpreissammlung des Gutachterausschusses gespeichert."
+      ],
+      "practiceTip": "Findest du in Abteilung III eine alte Grundschuld, ist das oft normal. Der Verkäufer muss sie mit dem Kaufpreis ablösen lassen – das regelt der Notar bei der Kaufpreisfälligkeit."
+    },
+    {
+      "id": "gb-05",
+      "difficulty": 1,
+      "question": "Was passiert, wenn ein Grundstückskaufvertrag nur schriftlich (privat) ohne Notar abgeschlossen wird?",
+      "options": [
+        "Er ist gültig, wenn beide unterschreiben",
+        "Er ist gültig, wenn ein Zeuge dabei war",
+        "Er ist nur gültig, wenn ein Makler ihn erstellt hat",
+        "Er ist unwirksam (nichtig)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ein Vertrag über ein Grundstück oder Haus muss notariell beurkundet werden (§ 311b BGB). Ohne Notar ist er formunwirksam. Der Notar prüft außerdem, ob alles rechtlich sauber ist, und belehrt beide Seiten.",
+      "wrongExplanations": [
+        "Unterschriften reichen bei Grundstücken nicht. Die gesetzliche Form ist die notarielle Beurkundung.",
+        "Ein Zeuge ersetzt den Notar nicht. Auch dann bleibt der Vertrag unwirksam.",
+        "Ein Makler darf den Vertrag vermitteln, aber nicht beurkunden. Nur ein Notar kann das.",
+        null
+      ],
+      "practiceTip": "Wenn Kunden sagen ‚wir haben uns schon per Handschlag geeinigt‘, erkläre freundlich: Bindend wird es erst beim Notar. Vorher kann jede Seite noch aussteigen."
+    },
+    {
+      "id": "gb-06",
+      "difficulty": 1,
+      "question": "Was ist die Hauptaufgabe des Notars beim Immobilienkauf?",
+      "options": [
+        "Den Kaufpreis möglichst hoch verhandeln",
+        "Den Kaufvertrag beurkunden und beide Seiten neutral beraten",
+        "Die Immobilie bewerten",
+        "Den Käufer bei der Bank vertreten"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Notar ist ein neutraler Amtsträger. Er entwirft den Kaufvertrag, beurkundet ihn, belehrt beide Seiten über die Folgen und kümmert sich um die Abwicklung mit Grundbuchamt und Finanzamt. Er vertritt weder Käufer noch Verkäufer einseitig.",
+      "wrongExplanations": [
+        "Das Verhandeln des Preises ist Sache der Parteien oder des Maklers. Der Notar ist neutral.",
+        null,
+        "Bewertungen machen Gutachter oder Sachverständige. Der Notar prüft rechtliche, keine wirtschaftlichen Werte.",
+        "Der Notar arbeitet für beide Seiten und nicht für eine Bank. Die Bank beauftragt oft eigene Sicherungsverträge, die der Notar nur beurkundet."
+      ],
+      "practiceTip": "Weise Käufer darauf hin, den Entwurf wirklich zu lesen und Fragen zu sammeln. Der Notar erklärt jeden Absatz gern – aber nur, wenn man nachfragt."
+    },
+    {
+      "id": "gb-07",
+      "difficulty": 2,
+      "question": "Was ist die „Auflassung“?",
+      "options": [
+        "Die Kündigung eines Mietverhältnisses",
+        "Die Einigung von Verkäufer und Käufer, dass das Eigentum übergeht",
+        "Die Abnahme der Immobilie bei der Übergabe",
+        "Der Verzicht der Gemeinde auf ihr Vorkaufsrecht"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Auflassung ist die Einigung darüber, dass das Eigentum am Grundstück auf den Käufer übergehen soll (§ 925 BGB). Beide erklären das gleichzeitig vor dem Notar. Zum Eigentümer wird der Käufer aber erst mit der späteren Eintragung im Grundbuch.",
+      "wrongExplanations": [
+        "Eine Kündigung beendet einen Mietvertrag. Mit der Auflassung hat das nichts zu tun.",
+        null,
+        "Bei der Übergabe geht es um Besitz, Schlüssel und Zählerstände. Das ist nicht die Auflassung.",
+        "Der Verzicht auf das Vorkaufsrecht ist eine Erklärung der Gemeinde (Negativzeugnis). Er ist etwas ganz anderes."
+      ],
+      "practiceTip": "Im Kaufvertrag steht meist, dass die Auflassung schon erklärt wird, der Notar sie aber erst zum Grundbuchamt schickt, wenn der Kaufpreis bezahlt ist. So ist der Verkäufer abgesichert."
+    },
+    {
+      "id": "gb-08",
+      "difficulty": 2,
+      "question": "Wann wird der Käufer rechtlich zum Eigentümer eines Grundstücks?",
+      "options": [
+        "Mit der Unterschrift beim Notar",
+        "Mit der Zahlung des Kaufpreises",
+        "Mit der Übergabe der Schlüssel",
+        "Mit der Eintragung als Eigentümer im Grundbuch"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Eigentum an einem Grundstück entsteht erst durch die Eintragung im Grundbuch (§ 873 BGB). Notartermin, Zahlung und Schlüsselübergabe sind wichtige Schritte, machen aber noch nicht zum Eigentümer.",
+      "wrongExplanations": [
+        "Beim Notartermin wird nur der Vertrag geschlossen und die Auflassung erklärt. Das Eigentum geht noch nicht über.",
+        "Die Zahlung ist die Pflicht des Käufers aus dem Vertrag. Sie führt aber nicht automatisch zum Eigentum.",
+        "Mit den Schlüsseln geht der Besitz über, also die tatsächliche Nutzung. Eigentum und Besitz sind zwei verschiedene Dinge.",
+        null
+      ],
+      "practiceTip": "Erkläre Käufern: Zwischen Schlüsselübergabe und Grundbucheintragung können Wochen liegen. In dieser Zeit schützt die Auflassungsvormerkung den Käufer."
+    },
+    {
+      "id": "gb-09",
+      "difficulty": 2,
+      "question": "Wozu dient die Auflassungsvormerkung im Grundbuch?",
+      "options": [
+        "Sie sichert den Anspruch des Käufers auf das Eigentum ab",
+        "Sie senkt die Grunderwerbsteuer",
+        "Sie ersetzt den Kaufvertrag",
+        "Sie sichert die Bank des Käufers ab"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Vormerkung (§ 883 BGB) wird in Abteilung II eingetragen. Sie sorgt dafür, dass der Verkäufer das Grundstück nicht mehr an jemand anderen verkaufen oder belasten kann, ohne dass der Käufer das verhindern könnte. So ist der Käufer geschützt, bis er selbst Eigentümer ist.",
+      "wrongExplanations": [
+        null,
+        "Die Vormerkung hat keinen Einfluss auf Steuern. Die Grunderwerbsteuer bleibt gleich.",
+        "Den Kaufvertrag ersetzt sie nicht. Sie sichert nur den Anspruch aus dem Vertrag ab.",
+        "Die Bank sichert sich mit der Grundschuld ab (Abteilung III), nicht mit der Vormerkung."
+      ],
+      "practiceTip": "Der Kaufpreis darf erst fällig werden, wenn die Vormerkung eingetragen ist. Wenn Käufer schon vorher überweisen wollen: Bitte nicht! Der Notar schickt die Fälligkeitsmitteilung."
+    },
+    {
+      "id": "gb-10",
+      "difficulty": 2,
+      "question": "Was beschreibt das Bestandsverzeichnis im Grundbuch?",
+      "options": [
+        "Die Schulden des Eigentümers",
+        "Das Grundstück selbst: Gemarkung, Flurstück, Größe und Lage",
+        "Die Möbel und das Inventar",
+        "Die Mieter des Hauses"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Das Bestandsverzeichnis beschreibt das Grundstück: Gemarkung, Flur, Flurstück, Größe in m² und Lage. Bei Wohnungen steht hier auch der Miteigentumsanteil und das Sondereigentum. Erst danach folgen die Abteilungen I bis III.",
+      "wrongExplanations": [
+        "Schulden werden nicht aufgelistet. Sichernde Grundpfandrechte stehen in Abteilung III.",
+        null,
+        "Inventar gehört nicht ins Grundbuch. Bewegliche Sachen werden getrennt im Kaufvertrag geregelt.",
+        "Mieter stehen nicht im Grundbuch. Mietverhältnisse gehen beim Verkauf einfach auf den Käufer über."
+      ],
+      "practiceTip": "Vergleiche die Größe im Bestandsverzeichnis mit dem Exposé. Weicht sie ab, lohnt sich eine Nachfrage, denn Fehler in Angaben können später Ärger machen."
+    },
+    {
+      "id": "gb-11",
+      "difficulty": 2,
+      "question": "Wer darf ein Grundbuch einsehen?",
+      "options": [
+        "Jeder, der Interesse hat",
+        "Nur der Notar",
+        "Nur wer ein berechtigtes Interesse nachweist",
+        "Nur die Bank des Eigentümers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Das Grundbuch ist öffentlich, aber nicht für jedermann einsehbar. Wer Einsicht will, muss ein berechtigtes Interesse darlegen (§ 12 GBO). Das haben zum Beispiel Eigentümer, Kaufinteressenten mit Zustimmung des Eigentümers, Banken oder Notare.",
+      "wrongExplanations": [
+        "Zu viel Neugier ist kein Grund. Sonst könnte jeder Nachbar die Schulden der anderen prüfen.",
+        "Der Notar darf einsehen, aber nicht nur er. Auch Eigentümer, Banken und andere mit berechtigtem Interesse dürfen es.",
+        null,
+        "Auch die Bank braucht ein berechtigtes Interesse. Aber sie ist nicht die Einzige, die Einsicht bekommen kann."
+      ],
+      "practiceTip": "Bei Kaufinteressenten reicht oft eine Vollmacht des Verkäufers. Bewahre solche Vollmachten in der Akte auf – das schützt dich bei Nachfragen."
+    },
+    {
+      "id": "gb-12",
+      "difficulty": 2,
+      "question": "Was ist der Unterschied zwischen einer Grundschuld und einer Hypothek?",
+      "options": [
+        "Es gibt keinen Unterschied",
+        "Die Grundschuld ist nur für Gewerbeimmobilien",
+        "Die Hypothek ist nur für Neubauten erlaubt",
+        "Die Hypothek hängt an einer bestimmten Forderung, die Grundschuld nicht"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Eine Hypothek ist immer an eine bestimmte Forderung gebunden. Ist der Kredit zurückgezahlt, erlischt sie. Die Grundschuld ist unabhängig davon (abstrakt). Sie bleibt bestehen, auch wenn der Kredit getilgt ist, und kann für neue Kredite genutzt werden. Deshalb ist sie heute bei Banken üblich.",
+      "wrongExplanations": [
+        "Es gibt einen wichtigen Unterschied: die Bindung an die Forderung.",
+        "Die Grundschuld ist bei Wohnimmobilien der Normalfall, nicht nur bei Gewerbeobjekten.",
+        "Eine Hypothek ist bei Neubau und Bestand gleichermaßen möglich, wird aber selten gewählt.",
+        null
+      ],
+      "practiceTip": "Wenn der Kredit abbezahlt ist, bleibt die Grundschuld im Grundbuch stehen. Wer sie nicht mehr braucht, muss die Löschung ausdrücklich beim Notar und Grundbuchamt beantragen."
+    },
+    {
+      "id": "gb-13",
+      "difficulty": 2,
+      "question": "Was versteht man unter einem Erbbaurecht?",
+      "options": [
+        "Das Recht, ein fremdes Grundstück gegen Erbbauzins langfristig zu bebauen und zu nutzen",
+        "Das Recht, ein Grundstück zu erben",
+        "Das Recht, ein Haus kostenlos zu bewohnen",
+        "Das Recht des Vermieters, die Miete zu erhöhen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beim Erbbaurecht gehört das Grundstück weiter dem Erbbaurechtsgeber (oft Kirche, Stadt oder Stiftung). Der Erbbauberechtigte darf für eine lange Zeit, meist 99 Jahre, darauf bauen und das Haus nutzen. Dafür zahlt er einen regelmäßigen Erbbauzins. Das Haus gehört ihm.",
+      "wrongExplanations": [
+        null,
+        "Erben ist eine Frage des Erbrechts. Mit dem Erbbaurecht hat das nur den Namen gemeinsam.",
+        "Ein kostenloses Wohnrecht wäre ein Wohnrecht oder Nießbrauch, nicht ein Erbbaurecht. Beim Erbbaurecht zahlt man Erbbauzins.",
+        "Mieterhöhungen sind Mietrecht. Das Erbbaurecht ist ein Recht am Grundstück."
+      ],
+      "practiceTip": "Erbbaurechte sind beim Kauf günstiger, weil man das Grundstück nicht mitkauft. Achte auf die Restlaufzeit und die Höhe des Erbbauzinses – beides beeinflusst den Wert und die Finanzierung."
+    },
+    {
+      "id": "gb-14",
+      "difficulty": 2,
+      "question": "Was ist eine Baulast?",
+      "options": [
+        "Ein Kredit für den Hausbau",
+        "Ein Vermerk in Abteilung III des Grundbuchs",
+        "Eine freiwillige Pflicht des Eigentümers gegenüber der Bauaufsichtsbehörde, im Baulastenverzeichnis eingetragen",
+        "Ein Schaden am Gebäude"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Eine Baulast ist eine öffentlich-rechtliche Verpflichtung des Grundstückseigentümers gegenüber der Bauaufsichtsbehörde. Beispiel: ein Abstandsflächen- oder Zufahrtsrecht für das Nachbargrundstück. Sie steht im Baulastenverzeichnis (nicht im Grundbuch) und bindet auch spätere Eigentümer.",
+      "wrongExplanations": [
+        "Ein Baukredit ist eine Finanzierung, keine Baulast.",
+        "Baulasten stehen nicht im Grundbuch. Deshalb muss man das Baulastenverzeichnis extra prüfen.",
+        null,
+        "Ein Bauschaden ist ein Mangel am Gebäude. Mit der Baulast hat er nichts zu tun."
+      ],
+      "practiceTip": "Bei jedem Kauf gehört ein Auszug aus dem Baulastenverzeichnis zu den Unterlagen. Das Grundbuch allein reicht nicht – eine Baulast kann später zum Beispiel einen Anbau verhindern."
+    },
+    {
+      "id": "gb-15",
+      "difficulty": 2,
+      "question": "Was ist ein Flurstück?",
+      "options": [
+        "Ein Stockwerk im Haus",
+        "Die kleinste Einheit im Liegenschaftskataster (ein abgegrenztes Stück Land mit Nummer)",
+        "Der Preis pro Quadratmeter",
+        "Ein Plan des Innenraums"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ein Flurstück ist ein abgegrenztes Stück Land mit eigener Nummer im Liegenschaftskataster (Amtliche Karte). Ein Grundstück im Sinne des Grundbuchs kann aus einem oder mehreren Flurstücken bestehen. Die Flurkarte zeigt sie in der Karte.",
+      "wrongExplanations": [
+        "Ein Stockwerk heißt Geschoss. Flurstücke betreffen die Grundstücksfläche, nicht das Gebäude.",
+        null,
+        "Der Preis pro Quadratmeter ist der Bodenrichtwert bzw. Kaufpreis pro m². Ein Flurstück ist eine Fläche.",
+        "Innenräume zeigt der Grundriss. Das Flurstück ist ein Kataster-Begriff."
+      ],
+      "practiceTip": "Lass dir die Flurkarte zeigen und vergleiche mit dem Grundstück vor Ort: Stimmen Grenzen, Zufahrt und Größe? Viele Streitigkeiten entstehen aus Unklarheiten bei der Grenze."
+    },
+    {
+      "id": "gb-16",
+      "difficulty": 3,
+      "question": "Ein Haus steht auf einem Grundstück. Wem gehört das Gebäude rechtlich normalerweise?",
+      "options": [
+        "Immer dem, der es gebaut hat",
+        "Dem Eigentümer des Grundstücks, weil das Gebäude wesentlicher Bestandteil ist",
+        "Der Gemeinde",
+        "Der Bank, die den Bau finanziert hat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nach § 94 BGB sind Gebäude wesentliche Bestandteile des Grundstücks. Sie gehören dem Grundstückseigentümer und können nicht getrennt verkauft werden. Ausnahme: das Erbbaurecht – dort gehört das Haus dem Erbbauberechtigten.",
+      "wrongExplanations": [
+        "Wer baut, wird nicht automatisch Eigentümer. Wer auf fremdem Grund baut, verliert grundsätzlich das Gebäude an den Grundeigentümer.",
+        null,
+        "Die Gemeinde hat kein Eigentum an privaten Gebäuden. Sie hat höchstens Vorkaufs- oder Planungsrechte.",
+        "Die Bank hat nur eine Grundschuld als Sicherheit. Eigentümer wird sie dadurch nicht."
+      ],
+      "practiceTip": "Frag bei älteren Häusern nach, ob Anbauten oder Nebengebäude auf einem fremden Flurstück stehen. Dann drohen später Streitigkeiten, obwohl das Haus scheinbar dem Verkäufer gehört."
+    },
+    {
+      "id": "gb-17",
+      "difficulty": 3,
+      "question": "Ein Kredit ist vollständig zurückgezahlt. Was passiert mit der Grundschuld im Grundbuch?",
+      "options": [
+        "Sie verschwindet automatisch",
+        "Sie bleibt stehen, bis die Löschung bewilligt und beantragt wird",
+        "Sie wird automatisch auf den Käufer übertragen",
+        "Sie wird zur Hypothek"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Grundschuld ist unabhängig vom Kredit. Auch nach der Rückzahlung bleibt sie im Grundbuch stehen. Für die Löschung braucht es eine Löschungsbewilligung der Bank und einen Antrag beim Grundbuchamt. Das kostet Gebühren. Viele lassen sie stehen und nutzen sie für den nächsten Kredit.",
+      "wrongExplanations": [
+        "Es gibt keine automatische Löschung. Ohne Antrag bleibt der Eintrag bestehen.",
+        null,
+        "Eine Grundschuld wird nicht automatisch übertragen. Sie bleibt beim Grundstück, aber der Käufer kann sie nur nutzen, wenn er sich mit der Bank einig wird.",
+        "Eine Grundschuld wandelt sich nicht in eine Hypothek. Das sind zwei getrennte Rechtsformen."
+      ],
+      "practiceTip": "Verkäufer sollten die Löschungsbewilligung der Bank rechtzeitig beschaffen. Käufer wollen den Kaufpreis nur zahlen, wenn die alte Grundschuld gelöscht wird – das ist Standard im Kaufvertrag."
+    },
+    {
+      "id": "gb-18",
+      "difficulty": 3,
+      "question": "Was ist der Unterschied zwischen Nießbrauch und Wohnrecht?",
+      "options": [
+        "Es gibt keinen Unterschied",
+        "Beim Nießbrauch darf der Berechtigte die gesamte Immobilie nutzen und z. B. vermieten, beim Wohnrecht nur selbst darin wohnen",
+        "Das Wohnrecht gilt für Häuser, der Nießbrauch nur für Wohnungen",
+        "Beim Wohnrecht darf man das Haus verkaufen, beim Nießbrauch nicht"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Nießbrauch ist weiter gefasst: Der Berechtigte darf die Sache nutzen und Erträge ziehen, also zum Beispiel vermieten. Das Wohnrecht (beschränkte persönliche Dienstbarkeit) erlaubt nur, bestimmte Räume selbst zu bewohnen. Beide werden in Abteilung II eingetragen und sind meist lebenslang.",
+      "wrongExplanations": [
+        "Es gibt einen deutlichen Unterschied: Vermieten dürfen nur Nießbraucher.",
+        null,
+        "Beides gibt es bei Häusern und Wohnungen. Der Unterschied liegt in den Nutzungsrechten.",
+        "Das Eigentum am Haus bleibt beim Eigentümer. Verkaufen kann er in beiden Fällen, aber der Käufer übernimmt das eingetragene Recht."
+      ],
+      "practiceTip": "Häuser mit lebenslangem Wohnrecht oder Nießbrauch sind schwer verkäuflich und werden oft deutlich billiger gehandelt. Kläre das früh mit dem Eigentümer, sonst platzt der Deal später."
+    }
+  ]
+}

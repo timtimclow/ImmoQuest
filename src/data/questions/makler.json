@@ -1,0 +1,327 @@
+{
+  "topic": "makler",
+  "stand": "Stand 2025",
+  "hinweis": "Provisionsregeln (§§ 656a–656d BGB, seit 23.12.2020) und die Weiterbildungspflicht können sich ändern. Die Höhe der Provision ist nicht gesetzlich festgelegt.",
+  "questions": [
+    {
+      "id": "mk-01",
+      "difficulty": 1,
+      "question": "Was ist die Hauptaufgabe eines Immobilienmaklers?",
+      "options": [
+        "Immobilien selbst kaufen und weiterverkaufen",
+        "Verträge zwischen Kaufinteressent und Eigentümer vermitteln oder Gelegenheiten dazu nachweisen",
+        "Häuser bauen",
+        "Grundbücher führen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ein Makler bringt Käufer und Verkäufer oder Mieter und Vermieter zusammen. Er weist entweder die Gelegenheit zum Abschluss nach oder vermittelt aktiv. Er selbst ist nicht Vertragspartei und verdient meist nur, wenn ein Vertrag zustande kommt.",
+      "wrongExplanations": [
+        "Wer im eigenen Namen kauft und verkauft, ist Händler oder Investor, nicht Makler.",
+        null,
+        "Häuser bauen Bauunternehmen. Ein Makler kann höchstens Grundstücke vermitteln.",
+        "Grundbücher führt das Grundbuchamt beim Amtsgericht."
+      ],
+      "practiceTip": "Sag Kunden ehrlich: Du verdienst nur bei Erfolg. Das schafft Vertrauen und zeigt, warum du an guten, fairen Abschlüssen interessiert bist."
+    },
+    {
+      "id": "mk-02",
+      "difficulty": 1,
+      "question": "Welche Erlaubnis braucht ein Immobilienmakler in Deutschland?",
+      "options": [
+        "Eine Erlaubnis nach § 34c der Gewerbeordnung (GewO)",
+        "Eine Erlaubnis der Ärztekammer",
+        "Eine Zulassung als Rechtsanwalt",
+        "Keine – jeder darf ohne Erlaubnis vermitteln"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wer gewerbsmäßig Immobilien vermittelt, braucht eine Erlaubnis nach § 34c GewO. Die Behörde prüft dafür die Zuverlässigkeit und die geordneten Vermögensverhältnisse. Arbeitet man ohne Erlaubnis, drohen Bußgelder.",
+      "wrongExplanations": [
+        null,
+        "Die Ärztekammer ist für Ärzte zuständig. Mit Immobilien hat sie nichts zu tun.",
+        "Rechtsanwälte haben eine eigene Zulassung. Für Makler ist sie nicht nötig und ersetzt die Erlaubnis auch nicht.",
+        "Ohne Erlaubnis darf man gewerbsmäßig nicht vermitteln. Das ist ein Verstoß gegen die Gewerbeordnung."
+      ],
+      "practiceTip": "Die Erlaubnisnummer gehört ins Impressum und in jedes Exposé. Achte bei Mitbewerbern und Partnern darauf – ohne gültige Erlaubnis ist die Zusammenarbeit riskant."
+    },
+    {
+      "id": "mk-03",
+      "difficulty": 1,
+      "question": "Wann hat ein Makler einen Anspruch auf Provision?",
+      "options": [
+        "Sobald er einen Interessenten gefunden hat",
+        "Sobald er das Objekt besichtigt hat",
+        "Sobald ein wirksamer Kaufvertrag infolge seiner Tätigkeit zustande kommt",
+        "Sobald er ein Exposé geschrieben hat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die Provision ist eine Erfolgsprovision (§ 652 BGB). Sie entsteht nur, wenn der Hauptvertrag wirksam zustande kommt und der Makler dafür ursächlich war. Fällt der Vertrag aus, gibt es meist keine Provision.",
+      "wrongExplanations": [
+        "Einen Interessenten zu finden ist noch kein Erfolg. Erst der Vertrag zählt.",
+        "Eine Besichtigung allein bringt keinen Anspruch. Kein Vertrag – keine Provision.",
+        null,
+        "Ein Exposé ist Vorarbeit. Bezahlt wird nur, wenn der Vertrag abgeschlossen wird."
+      ],
+      "practiceTip": "Dokumentiere alle Schritte: Wann hat welcher Interessent das Exposé bekommen? Bei Streit um die Provision ist genau das dein Beweis."
+    },
+    {
+      "id": "mk-04",
+      "difficulty": 1,
+      "question": "Wer zahlt bei einer Mietwohnung normalerweise die Maklerprovision, wenn der Vermieter den Makler beauftragt hat?",
+      "options": [
+        "Der Mieter",
+        "Der Vermieter",
+        "Der Notar",
+        "Die Stadt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bei Mietwohnungen gilt das Bestellerprinzip: Wer den Makler beauftragt, bezahlt ihn. Beauftragt der Vermieter den Makler, darf er die Provision nicht auf den Mieter abwälzen (Wohnungsvermittlungsgesetz).",
+      "wrongExplanations": [
+        "Der Mieter zahlt nur, wenn er den Makler selbst beauftragt hat, zum Beispiel für die gezielte Suche. Das ist selten.",
+        null,
+        "Ein Notar ist bei Mietverträgen nicht beteiligt.",
+        "Die Stadt hat mit der Provision nichts zu tun."
+      ],
+      "practiceTip": "Vorsicht bei Klauseln, die dem Mieter versteckt Kosten aufbürden (z. B. überhöhte ‚Abstandszahlungen‘). Das kann unzulässig sein und zu Rückforderungen führen."
+    },
+    {
+      "id": "mk-05",
+      "difficulty": 1,
+      "question": "Wie lange dauert die Ausbildung zum Immobilienkaufmann bzw. zur Immobilienkauffrau?",
+      "options": [
+        "1 Jahr",
+        "2 Jahre",
+        "3 Jahre",
+        "5 Jahre"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Die duale Ausbildung dauert 3 Jahre und findet im Ausbildungsbetrieb und in der Berufsschule statt. Man lernt Vermietung, Verkauf, Verwaltung und Bewirtschaftung von Immobilien. Abgeschlossen wird sie mit einer Prüfung vor der IHK.",
+      "wrongExplanations": [
+        "Ein Jahr ist für einen anerkannten dualen Beruf zu kurz.",
+        "Zwei Jahre gibt es bei manchen anderen Berufen, aber nicht beim Immobilienkaufmann.",
+        null,
+        "Fünf Jahre wären zu lang für eine duale Ausbildung."
+      ],
+      "practiceTip": "Frag im Betrieb früh nach Einblicken in alle Bereiche (Verkauf, Vermietung, Verwaltung). So findest du heraus, was dir liegt, und die Abschlussprüfung fällt leichter."
+    },
+    {
+      "id": "mk-06",
+      "difficulty": 2,
+      "question": "In welcher Form muss ein Maklervertrag über den Kauf einer Wohnung oder eines Einfamilienhauses geschlossen werden?",
+      "options": [
+        "Mündlich reicht",
+        "In Textform, z. B. per E-Mail",
+        "Notariell beurkundet",
+        "Nur mit handschriftlicher Unterschrift auf Papier"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Für Wohnungen und Einfamilienhäuser verlangt § 656a BGB die Textform. Eine E-Mail oder ein PDF genügt, eine handschriftliche Unterschrift ist nicht nötig. Ein nur mündlicher Vertrag begründet keinen Provisionsanspruch.",
+      "wrongExplanations": [
+        "Mündliche Absprachen genügen bei Wohnungen und Einfamilienhäusern nicht mehr.",
+        null,
+        "Notariell beurkundet werden muss der Kaufvertrag, nicht der Maklervertrag.",
+        "Textform reicht aus. Eine eigenhändige Unterschrift wäre die Schriftform, die hier nicht verlangt wird."
+      ],
+      "practiceTip": "Lass dir Aufträge immer sauber per E-Mail bestätigen. Eine kurze Bestätigungsmail nach dem Telefonat spart später Diskussionen."
+    },
+    {
+      "id": "mk-07",
+      "difficulty": 2,
+      "question": "Was unterscheidet einen Nachweismakler von einem Vermittlungsmakler?",
+      "options": [
+        "Der Nachweismakler zeigt nur die Gelegenheit zum Vertragsabschluss, der Vermittlungsmakler verhandelt aktiv mit",
+        "Der Nachweismakler arbeitet nur für Mieter",
+        "Der Vermittlungsmakler braucht keine Erlaubnis",
+        "Es gibt keinen Unterschied"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Nachweismakler benennt zum Beispiel ein Objekt und den Verkäufer. Der Vermittlungsmakler geht weiter: Er verhandelt, führt Gespräche und bringt die Parteien zum Abschluss. Für die Provision reicht beides, wenn es zum Vertrag kommt.",
+      "wrongExplanations": [
+        null,
+        "Beide Arten können für Käufer und Verkäufer, Mieter und Vermieter tätig sein. Das unterscheidet sie nicht.",
+        "Beide brauchen die Erlaubnis nach § 34c GewO.",
+        "Es gibt einen deutlichen Unterschied in der Art der Leistung."
+      ],
+      "practiceTip": "Im Alltag arbeitest du meist als Vermittlungsmakler: Du begleitest Besichtigungen, klärst Fragen und bringst beide Seiten zusammen. Das ist auch der Grund für die Provision."
+    },
+    {
+      "id": "mk-08",
+      "difficulty": 2,
+      "question": "Ein Käufer kannte das Objekt schon aus einer anderen Quelle, bevor der Makler es ihm anbot. Was gilt für die Provision?",
+      "options": [
+        "Sie ist trotzdem in voller Höhe fällig",
+        "Sie entfällt meist, weil die Tätigkeit des Maklers nicht ursächlich war (Vorkenntnis)",
+        "Sie wird halbiert",
+        "Sie wird vom Notar festgelegt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Makler muss für den Vertrag ursächlich sein. Wusste der Käufer schon vor dem Angebot vom Objekt und vom Verkäufer, war die Leistung nicht mehr entscheidend. Das nennt man Vorkenntnis. Der Käufer muss dem Makler das rechtzeitig mitteilen.",
+      "wrongExplanations": [
+        "Wenn der Makler nichts Neues geliefert hat, fehlt der Zusammenhang zwischen Leistung und Vertrag.",
+        null,
+        "Eine automatische Halbierung sieht das Gesetz nicht vor. Entweder besteht ein Anspruch oder nicht.",
+        "Der Notar setzt keine Provision fest. Er beurkundet nur den Kaufvertrag."
+      ],
+      "practiceTip": "Frag Interessenten früh: ‚Kennen Sie das Objekt schon?‘ und halte die Antwort schriftlich fest. Das verhindert Streit um die Provision."
+    },
+    {
+      "id": "mk-09",
+      "difficulty": 2,
+      "question": "Was bedeutet ein „einfacher Alleinauftrag“?",
+      "options": [
+        "Nur dieser eine Makler darf verkaufen, und der Eigentümer darf selbst nicht verkaufen",
+        "Der Eigentümer darf beliebig viele Makler beauftragen",
+        "Nur dieser eine Makler darf beauftragt werden, der Eigentümer darf aber selbst verkaufen",
+        "Der Makler muss für den Eigentümer nichts tun"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Beim einfachen Alleinauftrag beauftragt der Eigentümer nur einen Makler. Er darf aber weiterhin selbst einen Käufer suchen. Beim qualifizierten Alleinauftrag verzichtet er darauf, selbst zu suchen, und der Makler verpflichtet sich zu besonderen Bemühungen (z. B. Inserate, Besichtigungen).",
+      "wrongExplanations": [
+        "Das wäre der qualifizierte Alleinauftrag: Dabei darf der Eigentümer selbst nicht suchen.",
+        "Das ist ein einfacher Maklerauftrag ohne Alleinrecht. Dann können mehrere Makler tätig sein.",
+        null,
+        "Auch beim Alleinauftrag hat der Makler Pflichten, meist muss er das Objekt aktiv bewerben."
+      ],
+      "practiceTip": "Für dich als Makler lohnt sich der Alleinauftrag: Du kannst planen und viel Aufwand investieren, weil kein zweiter Makler dazwischenfunkt."
+    },
+    {
+      "id": "mk-10",
+      "difficulty": 2,
+      "question": "Welche Pflicht hat ein Makler gegenüber seinem Kunden bei bekannten Mängeln?",
+      "options": [
+        "Er darf sie verschweigen, damit der Verkauf klappt",
+        "Er muss den Käufer über wesentliche ihm bekannte Umstände und Mängel aufklären",
+        "Er muss den Mangel selbst beseitigen",
+        "Er darf den Mangel nur dem Verkäufer sagen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ein Makler muss zutreffend und vollständig informieren. Wesentliche Umstände, die er kennt (z. B. feuchter Keller, laufender Rechtsstreit), muss er offenlegen. Er muss nicht ins Blaue prüfen, aber offensichtliche Zweifel aufklären. Wer falsch informiert, kann auf Schadenersatz haften.",
+      "wrongExplanations": [
+        "Verschweigen ist unzulässig und kann teuer werden – bis zur Haftung und zum Verlust der Provision.",
+        null,
+        "Der Makler muss keine Mängel beheben. Das ist Sache des Eigentümers.",
+        "Der Makler ist auch gegenüber dem Käufer zu ehrlichen Angaben verpflichtet."
+      ],
+      "practiceTip": "Im Zweifel formuliere sachlich: ‚Der Verkäufer hat mitgeteilt, dass …‘. So gibst du weiter, was du weißt, und übernimmst nichts, was du nicht selbst geprüft hast."
+    },
+    {
+      "id": "mk-11",
+      "difficulty": 2,
+      "question": "Wozu verpflichtet das Geldwäschegesetz (GwG) Makler?",
+      "options": [
+        "Nur zur Zahlung von Steuern",
+        "Den Kaufpreis selbst zu verwahren",
+        "Immobilien niemals an Ausländer zu verkaufen",
+        "Vertragspartner zu identifizieren und bei Verdacht Meldung zu erstatten"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Makler sind nach dem Geldwäschegesetz Verpflichtete. Sie müssen Kunden und wirtschaftlich Berechtigte identifizieren, Unterlagen aufbewahren und bei Verdacht die Behörde (FIU) informieren. Das soll verhindern, dass Geld aus Straftaten in Immobilien gewaschen wird.",
+      "wrongExplanations": [
+        "Steuern sind ein anderes Thema. Das GwG betrifft die Herkunft des Geldes.",
+        "Ein Makler verwahrt in der Regel keine Kaufpreise. Das läuft über Notar oder Bank.",
+        "Es gibt keine solche Regel. Entscheidend ist die Identifizierung, nicht die Nationalität.",
+        null
+      ],
+      "practiceTip": "Lass dir bei jedem neuen Kunden einen Ausweis zeigen und dokumentiere das. Fühlt sich jemand dadurch genervt, hilft der Satz: ‚Das ist gesetzlich vorgeschrieben.‘"
+    },
+    {
+      "id": "mk-12",
+      "difficulty": 2,
+      "question": "Wie viele Stunden Weiterbildung muss ein Makler mit Erlaubnis nach § 34c GewO nachweisen?",
+      "options": [
+        "10 Stunden in 5 Jahren",
+        "20 Stunden innerhalb von 3 Jahren",
+        "50 Stunden pro Jahr",
+        "Keine – es gibt keine Pflicht"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Seit 2018 müssen Makler und Verwalter regelmäßig Weiterbildung nachweisen: 20 Stunden innerhalb von 3 Jahren (§ 34c Abs. 2a GewO, § 15b MaBV). So bleibt das Wissen zu Recht, Energie und Finanzierung aktuell.",
+      "wrongExplanations": [
+        "Diese Zahlen sind nicht richtig. Die Pflicht beträgt 20 Stunden in 3 Jahren.",
+        null,
+        "Das wäre zu viel. Die Vorgabe ist deutlich kleiner.",
+        "Doch, die Pflicht gibt es seit 2018."
+      ],
+      "practiceTip": "Trage besuchte Schulungen gleich in eine Liste ein. Die Nachweise kann die Behörde später verlangen – gerade beim Sammeln über drei Jahre verliert man sonst schnell den Überblick."
+    },
+    {
+      "id": "mk-13",
+      "difficulty": 2,
+      "question": "Ein Makler war für Käufer und Verkäufer tätig. Was gilt bei Wohnungen und Einfamilienhäusern für die Provision?",
+      "options": [
+        "Käufer und Verkäufer müssen gleich viel zahlen",
+        "Der Käufer zahlt alles",
+        "Der Verkäufer zahlt alles",
+        "Der Makler entscheidet frei"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Wenn der Makler für beide Seiten tätig ist, dürfen sie ihm nur in gleicher Höhe Provision versprechen (§ 656c BGB). Üblich ist die Teilung 50:50. Damit soll verhindert werden, dass die Provision einseitig auf den Käufer abgewälzt wird.",
+      "wrongExplanations": [
+        null,
+        "Der Käufer darf nicht allein alles tragen, wenn der Makler auch für den Verkäufer tätig war.",
+        "Wenn der Makler für beide Seiten tätig war, darf auch der Verkäufer nicht alles allein tragen müssen. Das Gesetz verlangt gleiche Anteile.",
+        "Der Makler kann die Verteilung nicht einseitig festlegen. Das Gesetz gibt die Regel vor."
+      ],
+      "practiceTip": "Schreibe die Provisionsteilung klar in beide Maklerverträge. So gibt es beim Notartermin keine Überraschungen."
+    },
+    {
+      "id": "mk-14",
+      "difficulty": 3,
+      "question": "Ein Makler ist nur für den Verkäufer tätig, der Käufer soll aber einen Teil der Provision übernehmen. Wie viel darf der Käufer höchstens zahlen?",
+      "options": [
+        "Alles",
+        "Höchstens die Hälfte der Gesamtprovision",
+        "Höchstens ein Drittel",
+        "Nichts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beauftragt nur eine Seite den Makler, darf die andere Seite sich zur Übernahme verpflichten – aber höchstens in Höhe des Anteils, den der Auftraggeber selbst trägt (§ 656d BGB). Das ergibt maximal die Hälfte. Außerdem wird der Käuferanteil erst fällig, wenn der Auftraggeber seinen Teil nachweislich gezahlt hat.",
+      "wrongExplanations": [
+        "Das wäre eine Abwälzung, die das Gesetz ausdrücklich begrenzt.",
+        null,
+        "Ein Drittel ist zulässig, aber nicht die gesetzliche Grenze. Die Grenze liegt bei der Hälfte.",
+        "Ganz ausgeschlossen ist eine Beteiligung nicht: Der Käufer darf einen Teil übernehmen, wenn er sich dazu ausdrücklich verpflichtet."
+      ],
+      "practiceTip": "Erkläre Käufern die Regel offen: ‚Der Verkäufer trägt seinen Teil, Sie den Ihren – nie mehr als die Hälfte insgesamt.‘ Das schafft Vertrauen."
+    },
+    {
+      "id": "mk-15",
+      "difficulty": 3,
+      "question": "Ein Makler vermittelt Immobiliendarlehen. Welche Erlaubnis benötigt er zusätzlich?",
+      "options": [
+        "Eine Erlaubnis nach § 34i GewO",
+        "Eine Zulassung als Notar",
+        "Eine Erlaubnis der Gemeinde",
+        "Keine, das gehört zur normalen Maklertätigkeit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Vermittlung von Immobiliardarlehen ist ein eigenes Gewerbe und braucht eine eigene Erlaubnis nach § 34i GewO. Die normale Maklererlaubnis nach § 34c GewO reicht dafür nicht.",
+      "wrongExplanations": [
+        null,
+        "Notar ist ein Amt mit eigener Ausbildung und hat mit der Darlehensvermittlung nichts zu tun.",
+        "Die Gemeinde erteilt diese Erlaubnis nicht.",
+        "Doch, es ist ein eigenes Gewerbe mit eigener Erlaubnis und eigenen Pflichten."
+      ],
+      "practiceTip": "Kunden fragen oft nach der Finanzierung. Du darfst Kontakte zu Banken oder Vermittlern herstellen, aber selbst Darlehen vermitteln nur mit § 34i."
+    },
+    {
+      "id": "mk-16",
+      "difficulty": 3,
+      "question": "Ein Verbraucher schließt online einen Maklervertrag. Was muss der Makler tun, damit die Widerrufsfrist nur 14 Tage beträgt?",
+      "options": [
+        "Nichts, die Frist läuft immer 14 Tage",
+        "Ihn ordnungsgemäß über sein Widerrufsrecht belehren",
+        "Eine Unterschrift vom Notar einholen",
+        "Den Vertrag beim Finanzamt anmelden"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bei Verträgen, die online oder außerhalb der Geschäftsräume geschlossen werden, haben Verbraucher ein Widerrufsrecht von 14 Tagen. Belehrt der Makler nicht ordnungsgemäß, verlängert sich die Frist deutlich (bis zu einem Jahr und 14 Tage). Beginnt er auf Wunsch schon früher zu arbeiten, kann er Wertersatz verlangen.",
+      "wrongExplanations": [
+        "Ohne korrekte Belehrung läuft die Frist eben nicht nur 14 Tage.",
+        null,
+        "Ein Notar ist beim Maklervertrag nicht beteiligt.",
+        "Beim Finanzamt muss der Vertrag nicht angemeldet werden."
+      ],
+      "practiceTip": "Nutze eine geprüfte Widerrufsbelehrung in deinen Vorlagen und lass dir bestätigen, dass die Kunden sie erhalten haben. Das ist ein Klassiker bei Abmahnungen."
+    }
+  ]
+}

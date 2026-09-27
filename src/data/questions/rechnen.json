@@ -1,0 +1,569 @@
+{
+  "topic": "rechnen",
+  "stand": "Stand 2025",
+  "hinweis": "Die Beispiele rechnen mit Grunderwerbsteuer Niedersachsen 5,0 %, Notar und Grundbuch pauschal 2,0 %, Käuferprovision 3,57 % (7,14 % gesamt, hälftig geteilt). Diese Werte können sich ändern – zentral gepflegt in src/data/legal.ts.",
+  "questions": [
+    {
+      "id": "re-01",
+      "difficulty": 1,
+      "category": "Kaufnebenkosten",
+      "question": "Ein Haus kostet 200.000 € (ohne Makler). Wie hoch sind die Kaufnebenkosten in Niedersachsen (Grunderwerbsteuer 5 %, Notar und Grundbuch zusammen 2 %)?",
+      "options": ["14.000 €", "10.000 €", "4.000 €", "11.000 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Grunderwerbsteuer: 200.000 € × 5 % = 10.000 €",
+        "Notar und Grundbuch: 200.000 € × 2 % = 4.000 €",
+        "Maklerprovision: kein Makler = 0 €",
+        "Summe: 10.000 € + 4.000 € + 0 € = 14.000 €",
+        "Gesamtkosten des Kaufs: 200.000 € + 14.000 € = 214.000 €"
+      ],
+      "explanation": "Die Nebenkosten bestehen aus Grunderwerbsteuer und Notar-/Grundbuchkosten. Ohne Makler sind das zusammen 7 % des Kaufpreises, also 14.000 €.",
+      "wrongExplanations": [
+        null,
+        "Das ist nur die Grunderwerbsteuer (5 %). Notar und Grundbuch wurden vergessen.",
+        "Das sind nur Notar und Grundbuch (2 %). Die Grunderwerbsteuer fehlt.",
+        "Hier wurde die Grunderwerbsteuer mit 3,5 % gerechnet (Satz in Bayern). In Niedersachsen sind es 5 %."
+      ],
+      "practiceTip": "Merke dir die Kurzformel ‚7 % ohne Makler, rund 10,5 % mit Makler‘. Damit gibst du Kunden in Sekunden eine ehrliche Zahl."
+    },
+    {
+      "id": "re-02",
+      "difficulty": 2,
+      "category": "Kaufnebenkosten",
+      "question": "Ein Haus kostet 300.000 €. Der Käufer zahlt Grunderwerbsteuer (5 %), Notar/Grundbuch (2 %) und die Käuferprovision von 3,57 %. Wie hoch sind die Nebenkosten insgesamt?",
+      "options": ["31.710 €", "21.000 €", "42.420 €", "25.710 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Grunderwerbsteuer: 300.000 € × 0,05 = 15.000 €",
+        "Notar und Grundbuch: 300.000 € × 0,02 = 6.000 €",
+        "Maklerprovision (Käuferanteil): 300.000 € × 0,0357 = 10.710 €",
+        "Summe: 15.000 € + 6.000 € + 10.710 € = 31.710 €",
+        "Anteil am Kaufpreis: 31.710 € ÷ 300.000 € = 10,57 %"
+      ],
+      "explanation": "Die drei Posten werden addiert: 15.000 € Steuer, 6.000 € Notar/Grundbuch und 10.710 € Provision. Das sind 31.710 € oder 10,57 % des Kaufpreises.",
+      "wrongExplanations": [
+        null,
+        "Hier wurde die Maklerprovision vergessen. 21.000 € sind nur Steuer plus Notar und Grundbuch.",
+        "Hier wurde die gesamte Provision (7,14 %) statt des Käuferanteils (3,57 %) gerechnet. Der Käufer zahlt in der Regel nur die Hälfte.",
+        "Hier fehlen Notar und Grundbuch: 15.000 € + 10.710 € = 25.710 €."
+      ],
+      "practiceTip": "Nenne bei der Beratung immer beide Zahlen: die Nebenkosten in Euro und in Prozent. Das hilft Kunden, die Größenordnung zu verstehen."
+    },
+    {
+      "id": "re-03",
+      "difficulty": 2,
+      "category": "Kaufnebenkosten",
+      "question": "Ein Käufer möchte eine Wohnung für 250.000 € kaufen (Nebenkosten 10,57 %). Die Bank verlangt, dass er die Nebenkosten und 10 % des Kaufpreises als Eigenkapital einbringt. Wie viel Eigenkapital braucht er?",
+      "options": ["51.425 €", "25.000 €", "26.425 €", "76.425 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Nebenkosten: 250.000 € × 10,57 % = 26.425 €",
+        "10 % des Kaufpreises: 250.000 € × 10 % = 25.000 €",
+        "Eigenkapital: 26.425 € + 25.000 € = 51.425 €",
+        "Darlehen: 250.000 € − 25.000 € = 225.000 € (die Nebenkosten bezahlt er aus dem Eigenkapital)"
+      ],
+      "explanation": "Das Eigenkapital muss die Nebenkosten und die zusätzlichen 10 % abdecken. Das ergibt 51.425 €. Die Bank finanziert dann 225.000 €.",
+      "wrongExplanations": [
+        null,
+        "Das sind nur die 10 % des Kaufpreises. Die Nebenkosten fehlen.",
+        "Das sind nur die Nebenkosten. Die zusätzlichen 10 % des Kaufpreises fehlen.",
+        "Hier wurden die 10 % doppelt gerechnet. Sie dürfen nur einmal in die Summe."
+      ],
+      "practiceTip": "Zeige Kunden immer eine Aufstellung: Kaufpreis, Nebenkosten, Eigenkapital, Darlehen. So sehen sie sofort, was sie mitbringen müssen."
+    },
+    {
+      "id": "re-04",
+      "difficulty": 3,
+      "category": "Kaufnebenkosten",
+      "question": "Eine Immobilie kostet 350.000 €, die Nebenkosten betragen 10,57 %. Der Käufer bringt 80.000 € Eigenkapital ein. Wie hoch ist das Darlehen, wenn er die Nebenkosten mitfinanziert?",
+      "options": ["306.995 €", "270.000 €", "386.995 €", "233.005 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Nebenkosten: 350.000 € × 10,57 % = 36.995 €",
+        "Gesamtbedarf: 350.000 € + 36.995 € = 386.995 €",
+        "Eigenkapital abziehen: 386.995 € − 80.000 € = 306.995 €",
+        "Das Darlehen beträgt 306.995 €."
+      ],
+      "explanation": "Der Gesamtbedarf ist Kaufpreis plus Nebenkosten. Davon geht das Eigenkapital ab, der Rest ist das Darlehen: 306.995 €.",
+      "wrongExplanations": [
+        null,
+        "Hier wurden die Nebenkosten vergessen: 350.000 € − 80.000 € = 270.000 €.",
+        "Hier wurde das Eigenkapital nicht abgezogen. 386.995 € ist der Gesamtbedarf.",
+        "Hier wurden die Nebenkosten abgezogen statt addiert: 350.000 € − 80.000 € − 36.995 €."
+      ],
+      "practiceTip": "Banken finanzieren Nebenkosten ungern mit, weil sie kein Gegenwert im Haus haben. Frag Kunden, ob sie die Nebenkosten selbst tragen können."
+    },
+    {
+      "id": "re-05",
+      "difficulty": 1,
+      "category": "Grunderwerbsteuer",
+      "question": "Eine Wohnung kostet 250.000 €. Wie hoch ist die Grunderwerbsteuer in Niedersachsen (5 %)?",
+      "options": ["12.500 €", "1.250 €", "15.000 €", "8.750 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Steuersatz Niedersachsen: 5 % = 0,05",
+        "Steuer: 250.000 € × 0,05 = 12.500 €"
+      ],
+      "explanation": "Die Grunderwerbsteuer wird mit dem Steuersatz vom Kaufpreis berechnet: 250.000 € × 5 % = 12.500 €.",
+      "wrongExplanations": [
+        null,
+        "Das wäre 0,5 %. Ein Komma wurde falsch gesetzt.",
+        "Das wären 6 %. In Niedersachsen gilt aber 5 %.",
+        "Das wären 3,5 % (Satz in Bayern) und damit der falsche Steuersatz."
+      ],
+      "practiceTip": "5 % rechnest du im Kopf so: Kaufpreis durch 20 teilen. 250.000 ÷ 20 = 12.500."
+    },
+    {
+      "id": "re-06",
+      "difficulty": 2,
+      "category": "Grunderwerbsteuer",
+      "question": "Der Kaufpreis beträgt 320.000 €. Darin sind 8.000 € für eine gebrauchte Einbauküche enthalten, die im Vertrag getrennt und angemessen aufgeführt ist. Wie hoch ist die Grunderwerbsteuer (5 %)?",
+      "options": ["15.600 €", "16.000 €", "400 €", "15.000 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Kaufpreis insgesamt: 320.000 €",
+        "Küche ist eine bewegliche Sache: 8.000 € gehören nicht zur Bemessungsgrundlage",
+        "Bemessungsgrundlage: 320.000 € − 8.000 € = 312.000 €",
+        "Steuer: 312.000 € × 5 % = 15.600 €"
+      ],
+      "explanation": "Die Grunderwerbsteuer fällt nur auf Grundstück und Gebäude an. Bewegliche Sachen wie eine Einbauküche mindern die Bemessungsgrundlage, wenn ihr Wert angemessen und getrennt im Vertrag steht. So werden 15.600 € fällig.",
+      "wrongExplanations": [
+        null,
+        "Hier wurde die Küche mitversteuert (320.000 € × 5 %). Das wäre nicht nötig.",
+        "Das ist die Steuer nur auf die Küche (8.000 € × 5 %). Sie wird aber gerade nicht besteuert.",
+        "Hier wurden 300.000 € als Basis genommen. Von 320.000 € dürfen nur die 8.000 € Küche abgezogen werden."
+      ],
+      "practiceTip": "Das Finanzamt prüft überhöhte Werte für Inventar. Setze nur einen realistischen Zeitwert an, sonst wird die Ersparnis gestrichen."
+    },
+    {
+      "id": "re-07",
+      "difficulty": 2,
+      "category": "Grunderwerbsteuer",
+      "question": "Ein Haus kostet 400.000 €. Wie viel mehr Grunderwerbsteuer zahlt ein Käufer in Nordrhein-Westfalen (6,5 %) als in Niedersachsen (5 %)?",
+      "options": ["6.000 €", "26.000 €", "20.000 €", "600 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Niedersachsen: 400.000 € × 5 % = 20.000 €",
+        "Nordrhein-Westfalen: 400.000 € × 6,5 % = 26.000 €",
+        "Unterschied: 26.000 € − 20.000 € = 6.000 €",
+        "Kürzer: Unterschied im Satz 1,5 % × 400.000 € = 6.000 €"
+      ],
+      "explanation": "Der Unterschied im Steuersatz beträgt 1,5 Prozentpunkte. Bei 400.000 € ergibt das 6.000 € mehr Steuer in Nordrhein-Westfalen.",
+      "wrongExplanations": [
+        null,
+        "Das ist die Steuer in NRW insgesamt, nicht der Unterschied.",
+        "Das ist die Steuer in Niedersachsen insgesamt, nicht der Unterschied.",
+        "Hier wurde ein Komma falsch gesetzt: 0,15 % statt 1,5 %."
+      ],
+      "practiceTip": "Bei Kunden, die über die Landesgrenze umziehen, ist die Steuer ein echtes Argument. Steuersätze ändern sich, also immer aktuell prüfen."
+    },
+    {
+      "id": "re-08",
+      "difficulty": 3,
+      "category": "Grunderwerbsteuer",
+      "question": "Ein Käufer kauft ein Grundstück für 100.000 € und schließt getrennt und ohne rechtliche Verknüpfung einen Bauvertrag über 300.000 € ab. Wie hoch ist die Grunderwerbsteuer (5 %)?",
+      "options": ["5.000 €", "20.000 €", "15.000 €", "2.000 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Grunderwerbsteuer fällt nur auf den Grundstückskauf an",
+        "Bemessungsgrundlage: 100.000 €",
+        "Steuer: 100.000 € × 5 % = 5.000 €",
+        "Der Bauvertrag ist nicht steuerpflichtig, weil er kein Grundstück überträgt."
+      ],
+      "explanation": "Kauft man ein Grundstück und lässt danach unabhängig ein Haus bauen, wird nur der Grundstückspreis besteuert. Das spart gegenüber einem Komplettpreis mit dem Bauträger viel Steuer.",
+      "wrongExplanations": [
+        null,
+        "Hier wurde der Gesamtpreis von 400.000 € besteuert. So wäre es beim Bauträger, der Grundstück und Haus einheitlich verkauft.",
+        "Das wäre die Steuer nur auf den Bauvertrag (300.000 €). Der wird aber gerade nicht besteuert.",
+        "Das wären nur 2 % von 100.000 € und damit ein falscher Steuersatz."
+      ],
+      "practiceTip": "Vorsicht: Sind Grundstückskauf und Bauvertrag rechtlich oder wirtschaftlich verbunden, rechnet das Finanzamt beides zusammen. Lass die Vertragskonstruktion vom Notar prüfen."
+    },
+    {
+      "id": "re-09",
+      "difficulty": 1,
+      "category": "Rendite",
+      "question": "Eine Wohnung kostet 200.000 € und bringt 700 € Kaltmiete pro Monat. Wie hoch ist die Bruttomietrendite?",
+      "options": ["4,2 %", "0,35 %", "23,8 %", "3,5 %"],
+      "correctAnswer": 0,
+      "steps": [
+        "Jahreskaltmiete: 700 € × 12 = 8.400 €",
+        "Bruttomietrendite = Jahreskaltmiete ÷ Kaufpreis × 100",
+        "8.400 € ÷ 200.000 € = 0,042",
+        "0,042 × 100 = 4,2 %"
+      ],
+      "explanation": "Für die Bruttomietrendite rechnet man die Jahreskaltmiete durch den Kaufpreis und mal 100. Das ergibt 4,2 %.",
+      "wrongExplanations": [
+        null,
+        "Hier wurde die Monatsmiete (700 €) statt der Jahresmiete verwendet.",
+        "Das ist der Kaufpreisfaktor (200.000 € ÷ 8.400 € ≈ 23,8), nicht die Rendite in Prozent.",
+        "Hier wurden nur 10 Monatsmieten gerechnet (7.000 € ÷ 200.000 €)."
+      ],
+      "practiceTip": "Rendite immer aus der Jahreskaltmiete berechnen, nicht aus der Warmmiete. Sonst wirkt das Objekt besser, als es ist."
+    },
+    {
+      "id": "re-10",
+      "difficulty": 2,
+      "category": "Rendite",
+      "question": "Eine vermietete Wohnung kostet 280.000 €. Sie hat 70 m² und wird für 11,50 € pro m² Kaltmiete vermietet. Wie hoch ist die Bruttomietrendite?",
+      "options": ["3,45 %", "3,12 %", "0,29 %", "29,0 %"],
+      "correctAnswer": 0,
+      "steps": [
+        "Monatliche Kaltmiete: 70 m² × 11,50 € = 805 €",
+        "Jahreskaltmiete: 805 € × 12 = 9.660 €",
+        "Bruttomietrendite: 9.660 € ÷ 280.000 € = 0,0345",
+        "0,0345 × 100 = 3,45 %"
+      ],
+      "explanation": "Erst berechnet man die Monatsmiete aus Fläche und Preis pro m², dann die Jahresmiete und teilt durch den Kaufpreis. Das ergibt 3,45 %.",
+      "wrongExplanations": [
+        null,
+        "Hier wurden die Kaufnebenkosten schon eingerechnet (Kaufpreis × 1,1057). Das ergibt eine genauere Rendite, ist aber nicht die Bruttomietrendite.",
+        "Hier wurde die Monatsmiete durch den Kaufpreis geteilt statt der Jahresmiete.",
+        "Das ist der Kaufpreisfaktor (280.000 € ÷ 9.660 € ≈ 29), nicht die Rendite."
+      ],
+      "practiceTip": "Bei 3,45 % würde ein Investor genau hinschauen: Nach Nebenkosten und Instandhaltung bleibt sehr wenig übrig. Rechne immer auch die Nettomietrendite."
+    },
+    {
+      "id": "re-11",
+      "difficulty": 2,
+      "category": "Rendite",
+      "question": "Ein Mehrfamilienhaus kostet 1.200.000 €. Die Jahreskaltmiete beträgt 60.000 €. Wie hoch ist der Kaufpreisfaktor?",
+      "options": ["20", "5", "0,05", "240"],
+      "correctAnswer": 0,
+      "steps": [
+        "Kaufpreisfaktor = Kaufpreis ÷ Jahreskaltmiete",
+        "1.200.000 € ÷ 60.000 € = 20",
+        "Der Faktor 20 entspricht einer Bruttomietrendite von 1 ÷ 20 = 5 %"
+      ],
+      "explanation": "Der Kaufpreisfaktor sagt, das Wievielfache der Jahreskaltmiete man als Kaufpreis zahlt: 20. Das entspricht 5 % Bruttomietrendite.",
+      "wrongExplanations": [
+        null,
+        "Das ist die Rendite in Prozent, nicht der Faktor.",
+        "Das ist die Rendite als Dezimalzahl (0,05), nicht der Faktor.",
+        "Hier wurde die Monatsmiete (5.000 €) statt der Jahresmiete verwendet: 1.200.000 € ÷ 5.000 € = 240."
+      ],
+      "practiceTip": "Als Faustregel gilt: Faktor unter 20 = eher günstig, über 30 = eher teuer (je nach Lage und Zustand). Vergleiche immer mit ähnlichen Objekten."
+    },
+    {
+      "id": "re-12",
+      "difficulty": 3,
+      "category": "Rendite",
+      "question": "Kaufpreis 300.000 €, Kaufnebenkosten 31.710 €. Die Jahreskaltmiete beträgt 12.000 €, die nicht umlagefähigen Kosten (Verwaltung, Instandhaltung) betragen 2.400 € pro Jahr. Wie hoch ist die Nettomietrendite?",
+      "options": ["2,89 %", "4,00 %", "3,20 %", "3,62 %"],
+      "correctAnswer": 0,
+      "steps": [
+        "Gesamtinvestition: 300.000 € + 31.710 € = 331.710 €",
+        "Reinertrag: 12.000 € − 2.400 € = 9.600 €",
+        "Nettomietrendite = Reinertrag ÷ Gesamtinvestition × 100",
+        "9.600 € ÷ 331.710 € = 0,02894",
+        "0,02894 × 100 ≈ 2,89 %"
+      ],
+      "explanation": "Die Nettomietrendite rechnet realistischer als die Bruttorendite: Von der Miete gehen die nicht umlagefähigen Kosten ab, und als Basis dient der Kaufpreis inklusive Nebenkosten. Ergebnis: 2,89 %.",
+      "wrongExplanations": [
+        null,
+        "Das ist die Bruttomietrendite (12.000 € ÷ 300.000 €).",
+        "Hier wurden zwar die Kosten abgezogen, aber die Kaufnebenkosten nicht in den Nenner genommen (9.600 € ÷ 300.000 €).",
+        "Hier wurden die Kaufnebenkosten eingerechnet, aber die laufenden Kosten nicht abgezogen (12.000 € ÷ 331.710 €)."
+      ],
+      "practiceTip": "Kunden vergleichen gern mit dem Sparzins. Zeige ihnen die Nettomietrendite, dann sehen sie ehrlich, was das Objekt wirklich bringt."
+    },
+    {
+      "id": "re-13",
+      "difficulty": 1,
+      "category": "Miete",
+      "question": "Eine Wohnung hat 60 m². Die Kaltmiete beträgt 8,50 € pro m². Die Betriebskosten-Vorauszahlung beträgt 2,40 € pro m², die Heizkosten-Vorauszahlung 90 € pro Monat. Wie hoch ist die Warmmiete?",
+      "options": ["744 €", "654 €", "600 €", "510 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Nettokaltmiete: 60 m² × 8,50 € = 510 €",
+        "Betriebskosten: 60 m² × 2,40 € = 144 €",
+        "Heizkosten: 90 €",
+        "Bruttowarmmiete: 510 € + 144 € + 90 € = 744 €"
+      ],
+      "explanation": "Die Warmmiete setzt sich aus Kaltmiete, Betriebskosten und Heizkosten zusammen: 510 € + 144 € + 90 € = 744 €.",
+      "wrongExplanations": [
+        null,
+        "Hier fehlen die Heizkosten (510 € + 144 €). Das wäre die Bruttokaltmiete.",
+        "Hier fehlen die Betriebskosten (510 € + 90 €).",
+        "Das ist nur die Nettokaltmiete."
+      ],
+      "practiceTip": "Frage Mietinteressenten immer, welche Miete sie meinen. Für die Bank oder ein Budget zählt die Warmmiete, für die Kaution und den Mietspiegel die Kaltmiete."
+    },
+    {
+      "id": "re-14",
+      "difficulty": 1,
+      "category": "Miete",
+      "question": "Die Nettokaltmiete beträgt 620 €. Die Warmmiete beträgt 744 €. Wie hoch darf die Kaution höchstens sein?",
+      "options": ["1.860 €", "620 €", "2.232 €", "3.720 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Maximal erlaubt: 3 Nettokaltmieten (§ 551 BGB)",
+        "Berechnung: 3 × 620 € = 1.860 €",
+        "Die Warmmiete zählt nicht für die Kaution."
+      ],
+      "explanation": "Die Kaution darf höchstens drei Nettokaltmieten betragen. Bei 620 € sind das 1.860 €. Die Betriebs- und Heizkosten zählen nicht mit.",
+      "wrongExplanations": [
+        null,
+        "Das ist nur eine Monatsmiete. Erlaubt wären bis zu drei.",
+        "Hier wurde die Warmmiete (3 × 744 €) verwendet. Für die Kaution gilt aber die Nettokaltmiete.",
+        "Das wären sechs Monatsmieten und damit weit über der gesetzlichen Grenze."
+      ],
+      "practiceTip": "Rechne dem Mieter vor, dass er die Kaution in drei Raten zahlen darf: hier je 620 €. Das ist ein freundlicher Service, der schon im Vertrag steht."
+    },
+    {
+      "id": "re-15",
+      "difficulty": 2,
+      "category": "Miete",
+      "question": "Ein Mieter zahlt 150 € Nebenkosten-Vorauszahlung pro Monat. Die tatsächlichen Kosten betragen 1.965 € im Jahr. Was ergibt die Abrechnung?",
+      "options": ["Nachzahlung von 165 €", "Guthaben von 165 €", "Nachzahlung von 1.965 €", "Nachzahlung von 13,75 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Vorauszahlungen im Jahr: 150 € × 12 = 1.800 €",
+        "Tatsächliche Kosten: 1.965 €",
+        "Differenz: 1.965 € − 1.800 € = 165 €",
+        "Die Kosten liegen über den Vorauszahlungen, also gibt es eine Nachzahlung von 165 €."
+      ],
+      "explanation": "Die Vorauszahlungen von 1.800 € reichen nicht für die tatsächlichen Kosten von 1.965 €. Der Mieter muss 165 € nachzahlen.",
+      "wrongExplanations": [
+        null,
+        "Das wäre nur richtig, wenn die Kosten niedriger wären als die Vorauszahlungen. Hier ist es umgekehrt.",
+        "Das sind die gesamten Kosten. Die bereits bezahlten Vorauszahlungen wurden nicht abgezogen.",
+        "Das ist die monatliche Differenz (165 € ÷ 12). Nachgezahlt wird aber der Jahresbetrag."
+      ],
+      "practiceTip": "Rate Mietern, nach einer großen Nachzahlung die Vorauszahlung zu erhöhen. So gibt es im nächsten Jahr keine böse Überraschung mehr."
+    },
+    {
+      "id": "re-16",
+      "difficulty": 2,
+      "category": "Miete",
+      "question": "Ein Haus hat 440 m² Wohnfläche, die Betriebskosten betragen 8.800 € im Jahr. Wie hoch ist der Anteil einer 55-m²-Wohnung bei Umlage nach Wohnfläche?",
+      "options": ["1.100 €", "160 €", "550 €", "880 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Flächenanteil: 55 m² ÷ 440 m² = 0,125 (12,5 %)",
+        "Kostenanteil: 8.800 € × 0,125 = 1.100 €",
+        "Kontrolle: 8.800 € ÷ 440 m² = 20 € pro m², 55 m² × 20 € = 1.100 €"
+      ],
+      "explanation": "Der Kostenanteil richtet sich nach der Fläche der Wohnung im Verhältnis zur Gesamtfläche: 12,5 % von 8.800 € = 1.100 €.",
+      "wrongExplanations": [
+        null,
+        "Hier wurden die Gesamtkosten durch die Wohnfläche geteilt (8.800 € ÷ 55). Das ergibt keinen sinnvollen Wert.",
+        "Das wäre nur der halbe Anteil (6,25 %).",
+        "Das wären 10 % der Kosten. Richtig sind 12,5 % (55 von 440)."
+      ],
+      "practiceTip": "Rechne immer mit dem Preis pro Quadratmeter: 8.800 € ÷ 440 m² = 20 €. Das macht die Kontrolle einfach."
+    },
+    {
+      "id": "re-17",
+      "difficulty": 3,
+      "category": "Miete",
+      "question": "Die Miete beträgt 600 € (seit über 3 Jahren unverändert). Die ortsübliche Vergleichsmiete liegt bei 800 €. Die Kappungsgrenze beträgt 20 % in drei Jahren. Wie hoch darf die neue Miete höchstens sein?",
+      "options": ["720 €", "800 €", "660 €", "750 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Erhöhung bis zur Vergleichsmiete wäre möglich: 800 €",
+        "Kappungsgrenze: 600 € × 20 % = 120 € zusätzlich",
+        "Höchstens erlaubt: 600 € + 120 € = 720 €",
+        "Der niedrigere Wert zählt: 720 € (Kappungsgrenze) statt 800 € (Vergleichsmiete)"
+      ],
+      "explanation": "Die Miete darf nur bis zur Vergleichsmiete steigen, aber innerhalb von drei Jahren höchstens um 20 %. Hier begrenzt die Kappungsgrenze auf 720 €.",
+      "wrongExplanations": [
+        null,
+        "Die Vergleichsmiete ist zwar die Obergrenze, die Kappungsgrenze verhindert aber den Sprung auf 800 €.",
+        "Das wären nur 10 % Aufschlag. Erlaubt sind 20 %.",
+        "Das wären 25 % Aufschlag. Erlaubt sind nur 20 %."
+      ],
+      "practiceTip": "In angespannten Wohnungsmärkten gilt teilweise nur 15 %. Prüfe zuerst, ob die Kappungsgrenzen-Verordnung deines Landkreises gilt."
+    },
+    {
+      "id": "re-18",
+      "difficulty": 1,
+      "category": "Annuität",
+      "question": "Ein Darlehen über 200.000 € hat 3,5 % Zinsen und 2 % Anfangstilgung. Wie hoch ist die monatliche Rate?",
+      "options": ["916,67 €", "583,33 €", "333,33 €", "11.000 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Rate pro Jahr = Darlehen × (Zins + Tilgung)",
+        "Zins + Tilgung: 3,5 % + 2 % = 5,5 %",
+        "Jahresrate: 200.000 € × 5,5 % = 11.000 €",
+        "Monatsrate: 11.000 € ÷ 12 = 916,67 €"
+      ],
+      "explanation": "Die Rate ergibt sich aus Zins und Tilgung zusammen. Bei 5,5 % von 200.000 € sind das 11.000 € im Jahr, also 916,67 € im Monat.",
+      "wrongExplanations": [
+        null,
+        "Das ist nur der Zinsanteil (7.000 € ÷ 12). Die Tilgung fehlt.",
+        "Das ist nur der Tilgungsanteil (4.000 € ÷ 12). Der Zins fehlt.",
+        "Das ist die Jahresrate. Gefragt war die monatliche Rate."
+      ],
+      "practiceTip": "Für den schnellen Überschlag: Darlehen × 5,5 % ÷ 12. Mit 200.000 € kommst du ohne Taschenrechner auf rund 920 €."
+    },
+    {
+      "id": "re-19",
+      "difficulty": 2,
+      "category": "Annuität",
+      "question": "Darlehen 200.000 €, Zins 3,5 %, Tilgung 2 % (Annuität 11.000 € pro Jahr). Wie hoch ist die Restschuld nach dem ersten Jahr (vereinfacht mit Jahreszinsen gerechnet)?",
+      "options": ["196.000 €", "189.000 €", "193.000 €", "204.000 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Zinsen im ersten Jahr: 200.000 € × 3,5 % = 7.000 €",
+        "Tilgung im ersten Jahr: 11.000 € − 7.000 € = 4.000 € (das sind 2 % von 200.000 €)",
+        "Restschuld: 200.000 € − 4.000 € = 196.000 €"
+      ],
+      "explanation": "Von der Jahresrate von 11.000 € gehen zuerst 7.000 € an die Bank als Zins. Nur 4.000 € verringern die Schuld. Die Restschuld beträgt 196.000 €.",
+      "wrongExplanations": [
+        null,
+        "Hier wurde die ganze Rate (11.000 €) als Tilgung abgezogen. Ein Teil der Rate sind aber Zinsen.",
+        "Hier wurde nur der Zinsanteil (7.000 €) abgezogen – es müsste aber der Tilgungsanteil sein.",
+        "Hier wurden die Zinsen aufgeschlagen. Zinsen verringern nicht die Schuld, sie werden mit der Rate gezahlt."
+      ],
+      "practiceTip": "Zeige dem Kunden diese Rechnung: Im ersten Jahr wird nur ein kleiner Teil der Schuld getilgt. Das macht klar, warum 1 % Tilgung sehr langsam ist."
+    },
+    {
+      "id": "re-20",
+      "difficulty": 2,
+      "category": "Annuität",
+      "question": "Ein Darlehen über 300.000 € hat 4 % Zinsen und 1 % Anfangstilgung. Wie hoch ist die monatliche Rate?",
+      "options": ["1.250 €", "1.000 €", "250 €", "15.000 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Zins + Tilgung: 4 % + 1 % = 5 %",
+        "Jahresrate: 300.000 € × 5 % = 15.000 €",
+        "Monatsrate: 15.000 € ÷ 12 = 1.250 €"
+      ],
+      "explanation": "Die Rate ergibt sich aus 5 % von 300.000 €, geteilt durch 12 Monate: 1.250 €.",
+      "wrongExplanations": [
+        null,
+        "Das ist nur der Zinsanteil (12.000 € ÷ 12). Die Tilgung fehlt.",
+        "Das ist nur der Tilgungsanteil (3.000 € ÷ 12). Der Zins fehlt.",
+        "Das ist die Jahresrate. Gefragt war die monatliche Rate."
+      ],
+      "practiceTip": "Zeige Kunden auch die Variante mit 3 % Tilgung: 300.000 € × 7 % ÷ 12 = 1.750 €. Der Unterschied von 500 € im Monat hilft bei der Entscheidung."
+    },
+    {
+      "id": "re-21",
+      "difficulty": 1,
+      "category": "Annuität",
+      "question": "Ein Darlehen über 200.000 € erlaubt eine jährliche Sondertilgung von 5 % der ursprünglichen Darlehenssumme. Wie viel darf der Kunde pro Jahr zusätzlich zurückzahlen?",
+      "options": ["10.000 €", "5.000 €", "1.000 €", "20.000 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Sondertilgung: 5 % von 200.000 €",
+        "200.000 € × 0,05 = 10.000 €"
+      ],
+      "explanation": "5 % von 200.000 € sind 10.000 €. Diese Summe kann der Kunde pro Jahr zusätzlich zur Rate zurückzahlen, ohne dass Gebühren anfallen.",
+      "wrongExplanations": [
+        null,
+        "Das wären nur 2,5 %. Erlaubt sind 5 %.",
+        "Das wären nur 0,5 %. Ein Komma wurde falsch gesetzt.",
+        "Das wären 10 %. Erlaubt sind aber nur 5 %."
+      ],
+      "practiceTip": "Frag Kunden, ob sie mit Bonus, Steuererstattung oder Erbschaft rechnen. Wenn ja, ist ein Darlehen mit hoher Sondertilgung besonders interessant."
+    },
+    {
+      "id": "re-22",
+      "difficulty": 2,
+      "category": "Annuität",
+      "question": "Ein Haushalt hat 4.500 € Nettoeinkommen. Die Kreditrate beträgt 1.250 €, das Hausgeld 350 €. Wie viel Prozent des Nettoeinkommens gehen für Immobilie und Kredit drauf?",
+      "options": ["35,6 %", "27,8 %", "7,8 %", "40,0 %"],
+      "correctAnswer": 0,
+      "steps": [
+        "Monatliche Belastung: 1.250 € + 350 € = 1.600 €",
+        "Anteil: 1.600 € ÷ 4.500 € = 0,3556",
+        "0,3556 × 100 ≈ 35,6 %"
+      ],
+      "explanation": "Rate und Hausgeld werden zusammengezählt und durch das Nettoeinkommen geteilt: 35,6 %. Das liegt an der oberen Grenze der üblichen Faustregel von 35–40 %.",
+      "wrongExplanations": [
+        null,
+        "Das ist nur die Rate (1.250 € ÷ 4.500 €). Das Hausgeld fehlt.",
+        "Das ist nur das Hausgeld (350 € ÷ 4.500 €). Die Rate fehlt.",
+        "Das ist eine gerundete Faustregel, aber nicht das Rechenergebnis."
+      ],
+      "practiceTip": "Liegt die Belastung über 40 %, rate zur Vorsicht: Ein günstigeres Objekt oder mehr Eigenkapital sind besser als knappe Rechnungen."
+    },
+    {
+      "id": "re-23",
+      "difficulty": 2,
+      "category": "Weitere",
+      "question": "Ein Haus wird für 400.000 € verkauft. Die Gesamtprovision beträgt 7,14 % inkl. MwSt. und wird zwischen Käufer und Verkäufer geteilt. Wie viel zahlt der Käufer?",
+      "options": ["14.280 €", "28.560 €", "12.000 €", "16.000 €"],
+      "correctAnswer": 0,
+      "steps": [
+        "Gesamtprovision: 400.000 € × 7,14 % = 28.560 €",
+        "Geteilt zwischen Käufer und Verkäufer: 28.560 € ÷ 2 = 14.280 €",
+        "Kontrolle: 400.000 € × 3,57 % = 14.280 €"
+      ],
+      "explanation": "Die Provision von 28.560 € wird hälftig geteilt. Jeder zahlt 14.280 € (3,57 % vom Kaufpreis).",
+      "wrongExplanations": [
+        null,
+        "Das ist die gesamte Provision. Der Käufer zahlt aber nur die Hälfte.",
+        "Das sind 3 % netto, also ohne die 19 % Mehrwertsteuer. Die Provision enthält aber MwSt.",
+        "Das wären 4 % und damit weder die Hälfte noch ein üblicher Satz."
+      ],
+      "practiceTip": "Nenne im Exposé immer die Provision mit Prozentsatz und den Zusatz ‚inkl. MwSt.‘. Das ist Pflicht und schafft Klarheit."
+    },
+    {
+      "id": "re-24",
+      "difficulty": 2,
+      "category": "Weitere",
+      "question": "Eine Wohnung hat folgende Räume: Wohnzimmer 25 m², Schlafzimmer 15 m², Küche 10 m², Bad 6 m², Flur 4 m² und einen Balkon mit 8 m². Der Balkon wird zu 25 % angerechnet. Wie groß ist die Wohnfläche?",
+      "options": ["62 m²", "60 m²", "64 m²", "68 m²"],
+      "correctAnswer": 0,
+      "steps": [
+        "Räume: 25 + 15 + 10 + 6 + 4 = 60 m²",
+        "Balkon zu 25 %: 8 m² × 0,25 = 2 m²",
+        "Wohnfläche: 60 m² + 2 m² = 62 m²"
+      ],
+      "explanation": "Nach der Wohnflächenverordnung wird ein Balkon in der Regel zu einem Viertel angerechnet. So kommen zu den 60 m² der Räume noch 2 m² dazu: 62 m².",
+      "wrongExplanations": [
+        null,
+        "Hier wurde der Balkon vergessen. Er zählt anteilig zur Wohnfläche.",
+        "Hier wurde der Balkon zu 50 % gerechnet (4 m²). Üblich sind 25 %, in Ausnahmefällen bis 50 %.",
+        "Hier wurde der Balkon voll gerechnet (8 m²). Balkone zählen aber nur anteilig."
+      ],
+      "practiceTip": "Im Exposé immer die Berechnungsgrundlage (z. B. WoFlV) angeben. Sonst können Käufer später behaupten, die Fläche sei falsch angegeben."
+    },
+    {
+      "id": "re-25",
+      "difficulty": 3,
+      "category": "Weitere",
+      "question": "Ein Darlehen beträgt 210.000 €, der Beleihungswert der Immobilie 280.000 €. Wie hoch ist der Beleihungsauslauf?",
+      "options": ["75 %", "133 %", "25 %", "70 %"],
+      "correctAnswer": 0,
+      "steps": [
+        "Beleihungsauslauf = Darlehen ÷ Beleihungswert × 100",
+        "210.000 € ÷ 280.000 € = 0,75",
+        "0,75 × 100 = 75 %"
+      ],
+      "explanation": "Der Beleihungsauslauf zeigt, welchen Anteil des Beleihungswerts das Darlehen ausmacht: 75 %. Je niedriger, desto besser die Zinskonditionen.",
+      "wrongExplanations": [
+        null,
+        "Hier wurde umgekehrt gerechnet (Beleihungswert ÷ Darlehen).",
+        "Das ist der Anteil, den nicht das Darlehen abdeckt (100 % − 75 %). Gefragt war aber der Auslauf.",
+        "70 % wäre ein runder Wert, entspricht aber nicht der Rechnung."
+      ],
+      "practiceTip": "Viele Banken bieten unter 60 % besonders günstige Zinsen. Mit 10.000 € mehr Eigenkapital rutscht mancher Kunde in die nächstbessere Stufe."
+    },
+    {
+      "id": "re-26",
+      "difficulty": 2,
+      "category": "Weitere",
+      "question": "Ein Dachzimmer hat 20 m² Grundfläche. Davon haben 12 m² mindestens 2 m Höhe, 6 m² zwischen 1 m und 2 m Höhe und 2 m² weniger als 1 m Höhe. Wie groß ist die Wohnfläche des Zimmers?",
+      "options": ["15 m²", "20 m²", "18 m²", "12 m²"],
+      "correctAnswer": 0,
+      "steps": [
+        "Höhe mindestens 2 m: 12 m² zu 100 % = 12 m²",
+        "Höhe 1 m bis unter 2 m: 6 m² zu 50 % = 3 m²",
+        "Höhe unter 1 m: 2 m² zu 0 % = 0 m²",
+        "Wohnfläche: 12 m² + 3 m² + 0 m² = 15 m²"
+      ],
+      "explanation": "Nach der Wohnflächenverordnung zählen Flächen unter Dachschrägen nur teilweise. Ab 2 m Höhe voll, zwischen 1 und 2 m zur Hälfte, darunter gar nicht. Das ergibt 15 m².",
+      "wrongExplanations": [
+        null,
+        "Hier wurde die gesamte Grundfläche gerechnet. Dachschrägen werden aber gekürzt.",
+        "Hier wurde nur die Fläche unter 1 m gestrichen. Die Fläche zwischen 1 und 2 m zählt nur zur Hälfte.",
+        "Das ist nur die Fläche mit voller Höhe. Die Zwischenzone zählt teilweise mit."
+      ],
+      "practiceTip": "Bei Dachgeschosswohnungen bringt eine saubere Berechnung oft mehr Klarheit als Streit um ‚gefühlte‘ Quadratmeter. Miss die Höhen am besten mit einem Laser-Entfernungsmesser."
+    }
+  ]
+}

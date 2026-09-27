@@ -1,0 +1,327 @@
+{
+  "topic": "bewertung",
+  "stand": "Stand 2025",
+  "hinweis": "Grundlage ist die Immobilienwertermittlungsverordnung (ImmoWertV 2021). Bodenrichtwerte und Marktdaten ändern sich laufend.",
+  "questions": [
+    {
+      "id": "bw-01",
+      "difficulty": 1,
+      "question": "Was ist der Verkehrswert (Marktwert) einer Immobilie?",
+      "options": [
+        "Der Preis, den der Verkäufer sich wünscht",
+        "Der Preis, der im gewöhnlichen Geschäftsverkehr am Stichtag am ehesten zu erzielen wäre",
+        "Der Preis, den die Bank in den Vertrag schreibt",
+        "Der Preis vor 20 Jahren"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Verkehrswert ist nach § 194 BauGB der Preis, der zu einem bestimmten Stichtag im gewöhnlichen Geschäftsverkehr zu erzielen wäre, ohne persönliche Verhältnisse oder ungewöhnliche Umstände. Er ist eine Schätzung auf Basis von Marktdaten.",
+      "wrongExplanations": [
+        "Der Wunschpreis ist nur ein Angebot. Er kann höher oder niedriger als der Verkehrswert sein.",
+        null,
+        "Die Bank rechnet mit dem Beleihungswert, der meist vorsichtiger ist. Er ist nicht der Verkehrswert.",
+        "Ein alter Preis kann nicht der heutige Marktwert sein. Es zählt der Stichtag."
+      ],
+      "practiceTip": "Trenne im Beratungsgespräch: Wunschpreis (Verkäufer), Verkehrswert (Gutachter) und erzielbarer Preis (Markt). Wer das erklären kann, wirkt kompetent."
+    },
+    {
+      "id": "bw-02",
+      "difficulty": 1,
+      "question": "Wofür wird das Vergleichswertverfahren typischerweise genutzt?",
+      "options": [
+        "Für Mietshäuser mit vielen Wohnungen",
+        "Für eigengenutzte Eigentumswohnungen und unbebaute Grundstücke",
+        "Für Bürotürme",
+        "Für historische Schlösser"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Das Vergleichswertverfahren vergleicht die Immobilie mit ähnlichen, bereits verkauften Objekten. Es passt dort, wo es viele vergleichbare Verkäufe gibt, etwa bei Eigentumswohnungen und Bauland. Die Vergleichspreise liefert oft der Gutachterausschuss.",
+      "wrongExplanations": [
+        "Bei Mietshäusern zählt der Ertrag, hier nutzt man das Ertragswertverfahren.",
+        null,
+        "Bei Bürogebäuden ist der Ertrag entscheidend, daher meist das Ertragswertverfahren.",
+        "Solche besonderen Objekte haben kaum Vergleiche und werden anders bewertet, z. B. über den Sachwert."
+      ],
+      "practiceTip": "Für Wohnungen in gefragten Lagen: Sammle Vergleichspreise pro m² aus Portalen, Kaufpreissammlung und eigenen Abschlüssen. Das ist deine wichtigste Argumentationsbasis."
+    },
+    {
+      "id": "bw-03",
+      "difficulty": 1,
+      "question": "Wofür eignet sich das Ertragswertverfahren am besten?",
+      "options": [
+        "Für Renditeobjekte wie Mehrfamilienhäuser, die vermietet werden",
+        "Für einen selbstgenutzten Kleingarten",
+        "Für leere Wiesen",
+        "Für Denkmäler ohne Nutzung"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Das Ertragswertverfahren bewertet Immobilien nach dem Ertrag, den sie bringen, also nach den Mieteinnahmen. Es passt für Mietshäuser, Geschäftshäuser und andere Renditeobjekte, weil Käufer hier vor allem auf die Rendite schauen.",
+      "wrongExplanations": [
+        null,
+        "Ein selbstgenutzter Garten bringt keine Mieten. Hier würde man eher vergleichen oder den Bodenwert nehmen.",
+        "Unbebaute Flächen bewertet man meist über Vergleichs- oder Bodenrichtwerte.",
+        "Ohne Nutzung gibt es keinen Ertrag, das Verfahren wäre hier ungeeignet."
+      ],
+      "practiceTip": "Kapitalanleger fragen sofort nach der Rendite. Wenn du den Ertragswert erklären kannst, gewinnst du deren Vertrauen."
+    },
+    {
+      "id": "bw-04",
+      "difficulty": 1,
+      "question": "Wofür wird das Sachwertverfahren häufig genutzt?",
+      "options": [
+        "Für Ein- und Zweifamilienhäuser, die selbst genutzt werden",
+        "Für Kaufhäuser mit hohem Mietertrag",
+        "Für Autobahnen",
+        "Für gebrauchte Autos"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Beim Sachwertverfahren wird berechnet, was das Gebäude neu kosten würde, abzüglich der Alterswertminderung, plus Bodenwert. Es passt für Objekte, die nicht auf Ertrag ausgelegt sind, wie selbst genutzte Ein- und Zweifamilienhäuser.",
+      "wrongExplanations": [
+        null,
+        "Bei Kaufhäusern zählt der Ertrag. Hier nutzt man das Ertragswertverfahren.",
+        "Autobahnen werden nicht am Markt gehandelt und mit diesen Verfahren nicht bewertet.",
+        "Autos werden über Marktpreise und Listen bewertet, nicht über das Sachwertverfahren der Immobilien."
+      ],
+      "practiceTip": "Beim Sachwert prägt oft die Marktanpassung (Sachwertfaktor) das Ergebnis. In gefragten Lagen liegt der Kaufpreis deutlich über den reinen Herstellungskosten."
+    },
+    {
+      "id": "bw-05",
+      "difficulty": 1,
+      "question": "Was ist der Bodenrichtwert?",
+      "options": [
+        "Der durchschnittliche Lagewert für Grund und Boden in einem Gebiet, in €/m²",
+        "Der Wert des Hauses",
+        "Der Preis für Baumaterial",
+        "Die Steuer auf Grundstücke"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Bodenrichtwert gibt den durchschnittlichen Preis für Grund und Boden pro Quadratmeter in einer Lage an, ohne Gebäude. Ihn ermittelt der Gutachterausschuss aus den Kaufpreisen. Er ist Grundlage für Bewertung und Grundsteuer.",
+      "wrongExplanations": [
+        null,
+        "Der Wert des Hauses steckt nicht im Bodenrichtwert. Er betrifft nur das Grundstück.",
+        "Baumaterialpreise gehören nicht dazu.",
+        "Der Bodenrichtwert ist keine Steuer, sondern ein Bewertungswert."
+      ],
+      "practiceTip": "Bodenrichtwerte findest du frei im Internet (BORIS-Portal des Landes). Nutze sie beim Erstgespräch, um schnell einen Grundwert für das Grundstück zu nennen."
+    },
+    {
+      "id": "bw-06",
+      "difficulty": 2,
+      "question": "Wer ermittelt Bodenrichtwerte und führt die Kaufpreissammlung?",
+      "options": [
+        "Das Finanzamt allein",
+        "Der Gutachterausschuss für Grundstückswerte",
+        "Die Industrie- und Handelskammer",
+        "Die Bank"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Gutachterausschuss sammelt alle notariell beurkundeten Kaufpreise (Kaufpreissammlung) und leitet daraus Bodenrichtwerte und Marktberichte ab. Er besteht aus ehrenamtlichen Sachverständigen. Man kann dort auch Verkehrswertgutachten anfordern.",
+      "wrongExplanations": [
+        "Das Finanzamt nutzt die Werte, ermittelt sie aber nicht.",
+        null,
+        "Die IHK vertritt die Wirtschaft und führt solche Statistiken nicht.",
+        "Banken bewerten intern für Kredite, sie führen keine amtliche Kaufpreissammlung."
+      ],
+      "practiceTip": "Der Marktbericht des Gutachterausschusses gibt Durchschnittspreise und Trends. Er ist eine gute, neutrale Quelle im Gespräch mit skeptischen Kunden."
+    },
+    {
+      "id": "bw-07",
+      "difficulty": 2,
+      "question": "Wie berechnet man beim Ertragswert zuerst den Rohertrag?",
+      "options": [
+        "Jahreskaltmiete (bzw. marktüblicher Ertrag) des Objekts",
+        "Kaufpreis geteilt durch Fläche",
+        "Bodenrichtwert mal Fläche",
+        "Herstellungskosten minus Abschreibung"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Rohertrag ist die jährliche Nettokaltmiete, die bei ordnungsgemäßer Bewirtschaftung nachhaltig erzielt werden kann. Davon zieht man die nicht umlagefähigen Bewirtschaftungskosten ab und erhält den Reinertrag. Danach folgen Bodenwertverzinsung und Vervielfältiger.",
+      "wrongExplanations": [
+        null,
+        "Das wäre der Kaufpreis pro Quadratmeter. Mit dem Ertrag hat das nichts zu tun.",
+        "Das ergibt den Bodenwert, nicht den Rohertrag.",
+        "Das ist ein Schritt des Sachwertverfahrens."
+      ],
+      "practiceTip": "Prüfe bei Renditeobjekten die tatsächlichen Mieten und vergleiche sie mit dem Mietspiegel. Zu hoch angesetzte Mieten machen die ganze Bewertung wertlos."
+    },
+    {
+      "id": "bw-08",
+      "difficulty": 2,
+      "question": "Was gehört zu den Bewirtschaftungskosten im Ertragswertverfahren?",
+      "options": [
+        "Kaufnebenkosten des Käufers",
+        "Verwaltungskosten, Instandhaltungskosten und Mietausfallwagnis",
+        "Die Grunderwerbsteuer",
+        "Maklerprovision"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bewirtschaftungskosten sind die laufenden Kosten, die der Eigentümer nicht auf die Mieter umlegen kann: Verwaltung, Instandhaltung und Mietausfallwagnis (Risiko, dass Miete ausfällt oder Wohnungen leer stehen). Sie werden vom Rohertrag abgezogen.",
+      "wrongExplanations": [
+        "Kaufnebenkosten zahlt der Käufer einmalig. Sie gehören nicht zu den laufenden Bewirtschaftungskosten.",
+        null,
+        "Die Grunderwerbsteuer ist einmalig beim Kauf, keine Bewirtschaftung.",
+        "Die Maklerprovision ist einmalig beim Verkauf oder Kauf."
+      ],
+      "practiceTip": "Wenn Verkäufer die Rendite rein aus Kaltmiete und Kaufpreis rechnen, erkläre freundlich: Instandhaltung und Leerstand gehören dazu. So bleibt die Erwartung realistisch."
+    },
+    {
+      "id": "bw-09",
+      "difficulty": 2,
+      "question": "Was ist der Liegenschaftszinssatz?",
+      "options": [
+        "Der Zinssatz der Bank für den Kredit",
+        "Der Zinssatz, mit dem der Verkehrswert von Grundstücken im Durchschnitt marktüblich verzinst wird",
+        "Die Zinsen auf dem Sparkonto des Verkäufers",
+        "Die Verzinsung von Staatsanleihen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Liegenschaftszinssatz zeigt, wie sich Immobilien am Markt im Durchschnitt verzinsen. Er wird vom Gutachterausschuss aus Kaufpreisen und Erträgen abgeleitet. Ein niedriger Zinssatz bedeutet hohe Nachfrage und höhere Werte, ein hoher Zinssatz das Gegenteil.",
+      "wrongExplanations": [
+        "Der Kreditzins der Bank ist ein anderer Zinssatz und hat für die Bewertung nur mittelbar Bedeutung.",
+        null,
+        "Sparzinsen sind privat und ohne Bezug zur Marktverzinsung von Immobilien.",
+        "Staatsanleihen sind ein anderer Markt. Sie werden nicht zur Bewertung genutzt."
+      ],
+      "practiceTip": "Als Faustregel: Je besser die Lage, desto niedriger der Liegenschaftszins. Frag im Zweifel den Gutachterausschuss nach den aktuellen Werten."
+    },
+    {
+      "id": "bw-10",
+      "difficulty": 2,
+      "question": "Was bedeutet Restnutzungsdauer bei der Bewertung?",
+      "options": [
+        "Wie lange das Gebäude voraussichtlich noch wirtschaftlich genutzt werden kann",
+        "Wie lange der Mieter noch wohnt",
+        "Wie lange der Kaufvertrag gültig ist",
+        "Wie lange die Bank den Kredit gibt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Die Restnutzungsdauer ist die Zeit, in der ein Gebäude bei ordnungsgemäßer Nutzung voraussichtlich noch wirtschaftlich genutzt werden kann. Sie hängt von Alter, Zustand und Modernisierungen ab. Sie beeinflusst den Vervielfältiger im Ertragswert und die Alterswertminderung im Sachwert.",
+      "wrongExplanations": [
+        null,
+        "Mietdauer ist nicht die wirtschaftliche Nutzungsdauer des Gebäudes.",
+        "Der Kaufvertrag gilt unabhängig davon, er hat keine Ablauffrist.",
+        "Die Kreditlaufzeit ist eine Vereinbarung mit der Bank und keine Eigenschaft des Gebäudes."
+      ],
+      "practiceTip": "Wenn ein Haus umfassend modernisiert wurde (z. B. Dach, Fenster, Heizung), verlängert sich die Restnutzungsdauer. Das ist ein Argument für einen höheren Preis."
+    },
+    {
+      "id": "bw-11",
+      "difficulty": 2,
+      "question": "Worin unterscheiden sich Verkehrswert und Beleihungswert?",
+      "options": [
+        "Der Beleihungswert ist meist vorsichtiger und niedriger, weil die Bank langfristig auf der sicheren Seite sein will",
+        "Der Beleihungswert ist immer höher",
+        "Es gibt keinen Unterschied",
+        "Der Beleihungswert wird vom Notar festgelegt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Verkehrswert ist der aktuelle Marktpreis. Der Beleihungswert ist der dauerhaft erzielbare Wert, den die Bank für die Sicherheit ansetzt, und er liegt meist niedriger, oft rund 10–20 % unter dem Verkehrswert. So schützt sich die Bank vor Preisschwankungen.",
+      "wrongExplanations": [
+        null,
+        "Ein höherer Beleihungswert würde das Risiko der Bank erhöhen. Das ist nicht üblich.",
+        "Es gibt einen Unterschied, der für Finanzierungen wichtig ist.",
+        "Der Notar bewertet keine Immobilien. Das machen Bank oder Gutachter."
+      ],
+      "practiceTip": "Wenn Kunden sagen ‚die Bank hat mein Haus nur auf 300.000 € geschätzt, dabei ist es 350.000 € wert‘: Erkläre den Unterschied zwischen Beleihungs- und Verkehrswert."
+    },
+    {
+      "id": "bw-12",
+      "difficulty": 3,
+      "question": "Beim Sachwertverfahren wird der Bodenwert getrennt vom Gebäudewert ermittelt. Wie wird der Bodenwert normalerweise bestimmt?",
+      "options": [
+        "Durch die Mieteinnahmen",
+        "Durch den Bodenrichtwert mal Grundstücksfläche",
+        "Durch die Anzahl der Zimmer",
+        "Durch die Heizkosten"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Bodenwert ergibt sich aus dem Bodenrichtwert (in € pro m²) multipliziert mit der Grundstücksfläche, gegebenenfalls angepasst an Besonderheiten wie Zuschnitt oder Lärm. Zum Beispiel: 300 €/m² × 500 m² = 150.000 €.",
+      "wrongExplanations": [
+        "Mieteinnahmen betreffen den Ertragswert des Gebäudes, nicht den Bodenwert.",
+        null,
+        "Die Zimmerzahl sagt nichts über den Wert des Grundstücks.",
+        "Heizkosten sind laufende Kosten und haben mit dem Bodenwert nichts zu tun."
+      ],
+      "practiceTip": "Bei großen Grundstücken mit kleinem Haus liegt der meiste Wert im Boden. Erkläre das Kunden, die sich über den ‚hohen Preis für ein altes Haus‘ wundern."
+    },
+    {
+      "id": "bw-13",
+      "difficulty": 3,
+      "question": "Was ist ein Vervielfältiger (Barwertfaktor) im Ertragswertverfahren?",
+      "options": [
+        "Eine Zahl, mit der der jährliche Reinertrag des Gebäudes auf einen Gesamtwert hochgerechnet wird",
+        "Ein Faktor für die Miete pro Quadratmeter",
+        "Der Zinssatz der Bank",
+        "Ein Zuschlag für Balkon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Vervielfältiger hängt von Liegenschaftszinssatz und Restnutzungsdauer ab. Er sagt, wie viele Jahreserträge das Gebäude über seine Restnutzungsdauer wert ist (Barwert). Multipliziert man den Gebäudereinertrag mit dem Vervielfältiger, erhält man den Gebäudeertragswert.",
+      "wrongExplanations": [
+        null,
+        "Die Miete pro Quadratmeter ist der Mietpreis. Der Vervielfältiger ist eine ganz andere Größe.",
+        "Der Zinssatz ist nur eine Eingangsgröße. Der Vervielfältiger ist ein daraus berechneter Faktor.",
+        "Zuschläge für einzelne Ausstattungen werden anders erfasst."
+      ],
+      "practiceTip": "Wenn du die Formel nicht auswendig kennst: Nutze im Beruf die Tabellen (z. B. aus der ImmoWertV) oder Rechner des Gutachterausschusses."
+    },
+    {
+      "id": "bw-14",
+      "difficulty": 3,
+      "question": "Welche Rolle spielt der Sachwertfaktor (Marktanpassungsfaktor)?",
+      "options": [
+        "Er passt den rechnerischen Sachwert an die Lage am Markt an, weil Kaufpreise oft über oder unter den Herstellungskosten liegen",
+        "Er zeigt die Anzahl der Schlafzimmer",
+        "Er ist ein Steuersatz",
+        "Er gibt die Maklerprovision an"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der reine Sachwert (Bodenwert plus Gebäudewert) entspricht oft nicht den tatsächlichen Marktpreisen. Der Sachwertfaktor gleicht das aus. In gefragten Lagen ist er größer als 1, in schwachen Lagen kleiner. Die Faktoren veröffentlicht der Gutachterausschuss.",
+      "wrongExplanations": [
+        null,
+        "Zimmerzahlen haben keinen Einfluss auf diesen Faktor.",
+        "Ein Steuersatz ist es nicht.",
+        "Die Provision ist völlig unabhängig davon."
+      ],
+      "practiceTip": "Wenn dein Sachwert deutlich vom Angebotspreis abweicht, liegt es meist am Marktfaktor. Prüfe zuerst, ob die Lage dafür spricht."
+    },
+    {
+      "id": "bw-15",
+      "difficulty": 3,
+      "question": "Ein Mehrfamilienhaus wird zu einem Preis verkauft, der dem 20-Fachen der Jahreskaltmiete entspricht. Wie nennt man diese Kennzahl?",
+      "options": [
+        "Kaufpreisfaktor (Vervielfältiger auf die Jahreskaltmiete)",
+        "Bodenrichtwert",
+        "Beleihungsauslauf",
+        "Effektivzins"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Der Kaufpreisfaktor sagt, das Wievielfache der Jahreskaltmiete als Kaufpreis gezahlt wird. Bei Faktor 20 ist die Bruttomietrendite 5 %, denn 1 ÷ 20 = 0,05. Er ist eine schnelle Vergleichszahl für Renditeobjekte.",
+      "wrongExplanations": [
+        null,
+        "Der Bodenrichtwert betrifft nur das Grundstück in €/m².",
+        "Der Beleihungsauslauf vergleicht Darlehen mit Beleihungswert.",
+        "Der Effektivzins ist die Kostenzahl für ein Darlehen."
+      ],
+      "practiceTip": "Als Faustformel: Kaufpreisfaktor 25 ≈ 4 % Rendite, Faktor 20 ≈ 5 %, Faktor 16,7 ≈ 6 %. Damit kannst du Angebote sofort einordnen."
+    },
+    {
+      "id": "bw-16",
+      "difficulty": 3,
+      "question": "Wann ist eine schriftliche Wertermittlung (Verkehrswertgutachten) durch einen Sachverständigen besonders sinnvoll?",
+      "options": [
+        "Bei jedem kleinen Parkplatz",
+        "Bei Streit um den Wert, Erbauseinandersetzungen, Scheidungen oder Besonderheiten der Immobilie",
+        "Nie, Gutachten sind überflüssig",
+        "Nur wenn der Verkäufer es wünscht"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ein Verkehrswertgutachten schafft eine neutrale Grundlage, wenn es unterschiedliche Vorstellungen gibt, etwa bei Erbengemeinschaften, Scheidungen, Zwangsversteigerungen oder Besonderheiten wie Denkmalschutz. Für einfache Objekte reicht oft eine Marktwerteinschätzung des Maklers.",
+      "wrongExplanations": [
+        "Bei Kleinstobjekten wäre das Gutachten meist teurer als der Nutzen.",
+        null,
+        "Gutachten sind sehr nützlich, wenn eine verlässliche und anerkannte Bewertung gebraucht wird.",
+        "Die Entscheidung liegt nicht nur beim Verkäufer. Gerichte, Banken oder Erben können ein Gutachten verlangen."
+      ],
+      "practiceTip": "Unterscheide klar zwischen deiner Marktwerteinschätzung als Makler und einem Verkehrswertgutachten. Ein anerkanntes Gutachten erstellt nur ein qualifizierter Sachverständiger."
+    }
+  ]
+}

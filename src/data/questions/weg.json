@@ -1,0 +1,347 @@
+{
+  "topic": "weg",
+  "stand": "Stand 2025",
+  "hinweis": "Grundlage ist das Wohnungseigentumsgesetz (WEG) nach der Reform vom 01.12.2020. Änderungen des Gesetzes sind möglich.",
+  "questions": [
+    {
+      "id": "we-01",
+      "difficulty": 1,
+      "question": "Was ist Sondereigentum bei einer Eigentumswohnung?",
+      "options": [
+        "Das Dach des Hauses",
+        "Die Räume der Wohnung selbst, die einem Eigentümer allein gehören",
+        "Das Treppenhaus",
+        "Der Garten für alle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sondereigentum sind die Räume einer Wohnung (und z. B. eines Kellerabteils), die einem einzelnen Eigentümer allein gehören. Er kann sie renovieren, nutzen und verkaufen. Alles, was allen gehört, ist Gemeinschaftseigentum.",
+      "wrongExplanations": [
+        "Das Dach gehört zum Gemeinschaftseigentum. Alle Eigentümer tragen die Kosten gemeinsam.",
+        null,
+        "Das Treppenhaus ist Gemeinschaftseigentum, weil es alle nutzen.",
+        "Ein Garten für alle ist Gemeinschaftseigentum. Wenn ein Eigentümer ihn allein nutzt, spricht man von Sondernutzungsrecht."
+      ],
+      "practiceTip": "Frage im Zweifel immer in der Teilungserklärung nach. Sie regelt genau, was zu wessen Eigentum gehört, etwa bei Fenstern, Balkonen oder Terrassen."
+    },
+    {
+      "id": "we-02",
+      "difficulty": 1,
+      "question": "Welche Teile gehören zwingend zum Gemeinschaftseigentum?",
+      "options": [
+        "Das Innere der Wohnung",
+        "Tragende Wände, Dach, Fassade und Fundament",
+        "Die Möbel der Eigentümer",
+        "Die Schlüssel der Wohnung"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zum Gemeinschaftseigentum gehören zum Beispiel Grundstück, Fundament, tragende Wände, Dach, Fassade und Treppenhaus. Diese Teile sind für den Bestand und die Sicherheit des Hauses nötig und dürfen nicht einzelnen Eigentümern zugeordnet werden.",
+      "wrongExplanations": [
+        "Das Innere der Wohnung ist Sondereigentum.",
+        null,
+        "Möbel sind bewegliche Sachen und gehören dem Eigentümer allein.",
+        "Schlüssel sind Zubehör des Eigentümers, sie zählen nicht zum Gemeinschaftseigentum."
+      ],
+      "practiceTip": "Schäden am Gemeinschaftseigentum melden Eigentümer dem Verwalter, nicht dem Handwerker. Ein Wasserschaden im Dach ist Sache der Gemeinschaft."
+    },
+    {
+      "id": "we-03",
+      "difficulty": 1,
+      "question": "Was ist das Hausgeld?",
+      "options": [
+        "Die Miete, die ein Mieter zahlt",
+        "Eine Steuer an die Gemeinde",
+        "Der monatliche Beitrag der Eigentümer für Bewirtschaftung und Rücklage",
+        "Die Provision des Maklers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Das Hausgeld ist der monatliche Beitrag, den jeder Wohnungseigentümer an die Gemeinschaft zahlt. Damit werden laufende Kosten (Wasser, Müll, Versicherung, Hausmeister, Verwaltung) und die Erhaltungsrücklage bezahlt. Die Höhe steht im Wirtschaftsplan.",
+      "wrongExplanations": [
+        "Miete zahlt ein Mieter an seinen Vermieter. Das Hausgeld zahlt der Eigentümer an die Gemeinschaft.",
+        "Steuern (z. B. Grundsteuer) gehen an das Finanzamt bzw. die Gemeinde und sind etwas anderes.",
+        null,
+        "Die Provision ist das Honorar des Maklers und hat nichts mit den laufenden Kosten der Gemeinschaft zu tun."
+      ],
+      "practiceTip": "Bei jeder Wohnung gehört die Höhe des Hausgeldes ins Exposé. Vergleiche sie mit ähnlichen Objekten – ein sehr niedriges Hausgeld kann auf zu wenig Rücklage hindeuten."
+    },
+    {
+      "id": "we-04",
+      "difficulty": 1,
+      "question": "Wie oft muss mindestens eine Eigentümerversammlung stattfinden?",
+      "options": [
+        "Alle 5 Jahre",
+        "Nur bei Streit",
+        "Einmal im Jahr",
+        "Jeden Monat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Der Verwalter soll mindestens einmal im Jahr eine Eigentümerversammlung einberufen (§ 24 WEG). Dort werden Jahresabrechnung, Wirtschaftsplan und wichtige Maßnahmen beschlossen. Weitere Versammlungen sind bei Bedarf möglich.",
+      "wrongExplanations": [
+        "Fünf Jahre wären viel zu lang. Wichtige Beschlüsse müssen regelmäßig gefasst werden.",
+        "Auch ohne Streit ist die jährliche Versammlung Pflicht (Abrechnung, Wirtschaftsplan).",
+        null,
+        "Monatlich wäre unpraktisch und vom Gesetz nicht vorgeschrieben."
+      ],
+      "practiceTip": "Lass dir als Kaufinteressent die Protokolle der letzten Versammlungen zeigen. Da steht oft schon, welche teuren Maßnahmen bevorstehen."
+    },
+    {
+      "id": "we-05",
+      "difficulty": 1,
+      "question": "Was legt die Teilungserklärung fest?",
+      "options": [
+        "Wie ein Grundstück in Sondereigentum und Miteigentumsanteile aufgeteilt wird",
+        "Wie viel Miete gezahlt werden muss",
+        "Wie die Erben das Haus teilen",
+        "Wie viel Grundsteuer zu zahlen ist"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mit der Teilungserklärung wird ein Grundstück in Wohneinheiten aufgeteilt. Sie legt fest, welche Räume zu welchem Sondereigentum gehören und wie hoch der Miteigentumsanteil (MEA) jeder Einheit ist. Zusammen mit der Gemeinschaftsordnung ist sie die ‚Verfassung‘ der Eigentümergemeinschaft.",
+      "wrongExplanations": [
+        null,
+        "Mieten regelt der Mietvertrag, nicht die Teilungserklärung.",
+        "Mit einer Erbteilung hat sie nichts zu tun. Es geht um die Aufteilung nach WEG.",
+        "Grundsteuer wird nach dem Grundsteuerbescheid der Gemeinde bezahlt."
+      ],
+      "practiceTip": "Lies die Teilungserklärung vor dem Kauf. Achte auf Sondernutzungsrechte, Nutzungsbeschränkungen (z. B. Verbot gewerblicher Nutzung) und die Kostenverteilung."
+    },
+    {
+      "id": "we-06",
+      "difficulty": 2,
+      "question": "Was bedeutet der Miteigentumsanteil (MEA) einer Wohnung, zum Beispiel 125/1000?",
+      "options": [
+        "Die Wohnung hat 125 m²",
+        "Der Eigentümer besitzt 125/1000 des gemeinschaftlichen Eigentums und trägt entsprechend Kosten",
+        "Der Eigentümer darf 125 Mal abstimmen",
+        "Die Wohnung liegt im 125. Stockwerk"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Miteigentumsanteil gibt an, welchen Bruchteil des Gemeinschaftseigentums (Grundstück, Dach, Fassade usw.) dem Eigentümer gehört. Er ist oft Maßstab für die Verteilung der Kosten, wenn nichts anderes vereinbart ist. Bei 125/1000 sind es 12,5 %.",
+      "wrongExplanations": [
+        "Die Wohnfläche steht in der Wohnflächenberechnung. Der MEA ist eine Bruchzahl und keine Fläche.",
+        null,
+        "Das Stimmrecht folgt im Standardfall dem Kopfprinzip (eine Stimme pro Eigentümer). Der MEA gibt nicht die Stimmenzahl an.",
+        "Der MEA sagt nichts über die Lage im Haus."
+      ],
+      "practiceTip": "Der MEA ist wichtig, wenn Sonderumlagen beschlossen werden. Rechne dem Käufer vor, wie hoch sein Anteil bei einer Dachsanierung von 100.000 € wäre: 12,5 % = 12.500 €."
+    },
+    {
+      "id": "we-07",
+      "difficulty": 2,
+      "question": "Wozu dient die Erhaltungsrücklage (früher: Instandhaltungsrücklage)?",
+      "options": [
+        "Um Gewinne an die Eigentümer auszuschütten",
+        "Um künftige größere Reparaturen am Gemeinschaftseigentum zu bezahlen",
+        "Um die Grunderwerbsteuer zu senken",
+        "Um den Verwalter zu bezahlen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Rücklage ist ein Sparguthaben der Gemeinschaft. Daraus werden größere Ausgaben wie Dachsanierung, neue Heizung oder Fassadenarbeiten bezahlt. Sie wird über das Hausgeld angespart. Eine zu niedrige Rücklage bedeutet oft später hohe Sonderumlagen.",
+      "wrongExplanations": [
+        "Die Rücklage ist kein Gewinnspeicher. Das Geld bleibt für die Instandhaltung reserviert.",
+        null,
+        "Mit Steuern hat die Rücklage nichts zu tun.",
+        "Den Verwalter bezahlt man aus dem laufenden Hausgeld (Verwaltungskosten), nicht aus der Rücklage."
+      ],
+      "practiceTip": "Frag immer nach dem aktuellen Stand der Rücklage und vergleiche ihn mit Alter und Zustand des Hauses. Bei einem 40 Jahre alten Haus mit fast leerer Rücklage sind Sonderumlagen wahrscheinlich."
+    },
+    {
+      "id": "we-08",
+      "difficulty": 2,
+      "question": "Wer beruft die Eigentümerversammlung normalerweise ein?",
+      "options": [
+        "Der Notar",
+        "Der Verwalter",
+        "Der Makler",
+        "Das Amtsgericht"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Der Verwalter lädt die Eigentümer in Textform ein, in der Regel mindestens drei Wochen vorher (§ 24 WEG). Er leitet die Versammlung (wenn nichts anderes beschlossen wurde) und führt später die Beschlüsse aus.",
+      "wrongExplanations": [
+        "Der Notar ist an Kaufverträgen beteiligt, nicht an laufenden Eigentümerversammlungen.",
+        null,
+        "Der Makler ist nur beim Verkauf beteiligt und nicht an der Verwaltung.",
+        "Das Amtsgericht wird nur bei Streit oder Ermächtigung eingeschaltet."
+      ],
+      "practiceTip": "Hat eine Gemeinschaft keinen Verwalter, kann jeder Eigentümer versuchen, eine Versammlung einzuberufen (nach Ermächtigung). Frag beim Kauf, ob es einen Verwalter gibt."
+    },
+    {
+      "id": "we-09",
+      "difficulty": 2,
+      "question": "Ab wann ist eine Eigentümerversammlung seit der WEG-Reform 2020 beschlussfähig?",
+      "options": [
+        "Wenn mindestens die Hälfte der Miteigentumsanteile vertreten ist",
+        "Wenn alle Eigentümer anwesend sind",
+        "Unabhängig davon, wie viele Eigentümer da sind",
+        "Nur, wenn der Notar anwesend ist"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Seit dem 1. Dezember 2020 ist die Versammlung beschlussfähig, egal wie viele Eigentümer erscheinen. Vorher brauchte man mindestens die Hälfte der Miteigentumsanteile. Das soll verhindern, dass Beschlüsse blockiert werden. Beschlüsse gelten mit einfacher Mehrheit.",
+      "wrongExplanations": [
+        "Das war die alte Regel. Sie wurde 2020 abgeschafft.",
+        "Alle müssen nicht anwesend sein. Sonst wäre die Versammlung schnell blockiert.",
+        null,
+        "Ein Notar ist nur bei wenigen Beschlüssen beteiligt, nie für die Beschlussfähigkeit."
+      ],
+      "practiceTip": "Wer nicht kommen kann, sollte eine Vollmacht erteilen. Sonst entscheiden andere ohne ihn – auch über Ausgaben, die er mitbezahlen muss."
+    },
+    {
+      "id": "we-10",
+      "difficulty": 2,
+      "question": "Wie viel Zeit hat ein Eigentümer, um einen Beschluss der Eigentümerversammlung gerichtlich anzufechten?",
+      "options": [
+        "1 Woche",
+        "1 Monat ab der Beschlussfassung",
+        "1 Jahr",
+        "Beliebig lange"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Klage muss innerhalb eines Monats nach der Beschlussfassung erhoben werden, die Begründung innerhalb von zwei Monaten (§ 45 WEG). Versäumt man die Frist, wird der Beschluss bestandskräftig und gilt – auch wenn er fehlerhaft war.",
+      "wrongExplanations": [
+        "Eine Woche wäre zu kurz.",
+        null,
+        "Ein Jahr ist zu lang. Die Frist soll schnell Rechtssicherheit schaffen.",
+        "Unbegrenzt anfechtbar wäre unpraktisch, weil dann nie klar wäre, was gilt."
+      ],
+      "practiceTip": "Trage die Frist sofort nach der Versammlung in den Kalender ein. Ein Monat vergeht schneller, als man denkt."
+    },
+    {
+      "id": "we-11",
+      "difficulty": 2,
+      "question": "Was ist ein Sondernutzungsrecht?",
+      "options": [
+        "Das Recht, ein Grundstück zu verkaufen",
+        "Das Recht eines Eigentümers, einen Teil des Gemeinschaftseigentums allein zu nutzen, z. B. Garten oder Stellplatz",
+        "Das Recht der Gemeinde, ein Haus zu betreten",
+        "Das Recht auf Mietminderung"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Das Sondernutzungsrecht erlaubt einem Eigentümer, einen Teil des Gemeinschaftseigentums allein zu nutzen (z. B. Terrasse, Garten oder Stellplatz). Das Eigentum bleibt gemeinschaftlich, aber die Nutzung ist zugewiesen. Es wird meist in der Teilungserklärung oder Gemeinschaftsordnung festgelegt.",
+      "wrongExplanations": [
+        "Verkaufen darf ein Eigentümer seine Wohnung ohnehin. Das hat nichts mit Sondernutzung zu tun.",
+        null,
+        "Ein Betretungsrecht der Gemeinde ist Ordnungsrecht und hat mit der Nutzung durch einzelne Eigentümer nichts zu tun.",
+        "Eine Mietminderung ist Mietrecht und betrifft Mieter, nicht Eigentümer."
+      ],
+      "practiceTip": "Bei Stellplätzen genau prüfen: Ist er Sondereigentum, Sondernutzungsrecht oder nur ‚mitvermietet‘? Das entscheidet über den Wert und darüber, ob er mitverkauft wird."
+    },
+    {
+      "id": "we-12",
+      "difficulty": 2,
+      "question": "Wie viele Stimmen hat jeder Eigentümer in der Eigentümerversammlung, wenn die Gemeinschaftsordnung nichts anderes regelt?",
+      "options": [
+        "Je Quadratmeter eine Stimme",
+        "Je 100 € Hausgeld eine Stimme",
+        "Je Miteigentumsanteil eine Stimme",
+        "Eine Stimme pro Eigentümer (Kopfprinzip)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Im Gesetz gilt das Kopfprinzip: Jeder Wohnungseigentümer hat eine Stimme (§ 25 WEG), egal wie groß seine Wohnung ist. Die Gemeinschaftsordnung kann etwas anderes vorsehen, zum Beispiel Stimmen nach Miteigentumsanteilen (Wertprinzip) oder nach Einheiten (Objektprinzip).",
+      "wrongExplanations": [
+        "Nach Fläche wird nicht abgestimmt, wenn nichts anderes vereinbart ist.",
+        "Das Hausgeld spielt für das Stimmrecht keine Rolle.",
+        "Das wäre das Wertprinzip, das nur gilt, wenn die Gemeinschaftsordnung es festlegt.",
+        null
+      ],
+      "practiceTip": "Besitzt ein Eigentümer mehrere Wohnungen, kann das Stimmverhältnis kippen. Prüfe die Regelung, wenn ein Großeigentümer wie ein Investor im Haus wohnt."
+    },
+    {
+      "id": "we-13",
+      "difficulty": 2,
+      "question": "Was darf ein Vermieter einer Eigentumswohnung NICHT auf den Mieter umlegen?",
+      "options": [
+        "Wasserkosten",
+        "Müllgebühren",
+        "Kosten für die Gebäudeversicherung",
+        "Die Zahlung in die Erhaltungsrücklage und die Verwaltervergütung"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Vom Hausgeld sind nur die Betriebskosten (z. B. Wasser, Müll, Hausmeister, Versicherung) umlagefähig. Nicht umlagefähig sind Verwaltungskosten, Instandhaltung und die Zuführung zur Erhaltungsrücklage. Der Vermieter muss diese Teile selbst tragen.",
+      "wrongExplanations": [
+        "Wasserkosten sind umlagefähig.",
+        "Müllgebühren sind umlagefähig.",
+        "Die Gebäudeversicherung ist umlagefähig.",
+        null
+      ],
+      "practiceTip": "Bei Kapitalanlegern ist das ein häufiger Rechenfehler: Sie ziehen das komplette Hausgeld von der Miete ab. Tatsächlich bleibt ein Teil beim Vermieter hängen."
+    },
+    {
+      "id": "we-14",
+      "difficulty": 3,
+      "question": "Wie lange darf ein Verwalter höchstens bestellt werden?",
+      "options": [
+        "1 Jahr",
+        "Bis zu 5 Jahre (bei der ersten Bestellung nach Begründung bis zu 3 Jahre)",
+        "10 Jahre",
+        "Unbegrenzt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Die Bestellung ist auf höchstens fünf Jahre begrenzt. Direkt nach der Gründung der Gemeinschaft beträgt die Höchstdauer drei Jahre (§ 26 WEG). Die Eigentümer können den Verwalter außerdem jederzeit mit Mehrheit abberufen.",
+      "wrongExplanations": [
+        "Ein Jahr ist erlaubt, aber nicht die Höchstgrenze.",
+        null,
+        "Zehn Jahre wären zu lang und sind gesetzlich nicht erlaubt.",
+        "Eine unbegrenzte Bestellung ist ausgeschlossen. Die Gemeinschaft soll regelmäßig entscheiden können."
+      ],
+      "practiceTip": "Lies im Protokoll nach, wann der Verwalter bestellt wurde und wie lange. Endet der Vertrag bald, steht eine Entscheidung an – das kann für Käufer Unruhe bedeuten."
+    },
+    {
+      "id": "we-15",
+      "difficulty": 3,
+      "question": "Für welche baulichen Veränderungen können Eigentümer seit der WEG-Reform einen Anspruch auf Genehmigung haben?",
+      "options": [
+        "Für jede Maßnahme, die ihnen gefällt",
+        "Für privilegierte Maßnahmen wie Barrierefreiheit, Lademöglichkeiten für E-Autos, Einbruchschutz und Glasfaser",
+        "Für keine",
+        "Nur für Neubauten"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nach § 20 WEG gibt es Ansprüche auf bestimmte privilegierte Maßnahmen, etwa barrierefreien Umbau, Ladestationen für E-Fahrzeuge, Einbruchschutz und Glasfaseranschlüsse. Andere bauliche Veränderungen bedürfen eines Beschlusses mit einfacher Mehrheit. Wer beschließt, muss die Kosten meist auch tragen.",
+      "wrongExplanations": [
+        "Ohne Beschluss darf niemand am Gemeinschaftseigentum bauen. Nur bestimmte Maßnahmen sind privilegiert.",
+        null,
+        "Es gibt sehr wohl Ansprüche, das war eine der wichtigen Änderungen der Reform.",
+        "Die Regel gilt für alle Eigentümergemeinschaften, auch für Altbauten."
+      ],
+      "practiceTip": "Viele Käufer fragen nach Wallbox oder Balkon-Solaranlage. Erkläre ihnen, dass sie dafür oft Anspruch auf einen Beschluss haben, aber den Antrag rechtzeitig stellen müssen."
+    },
+    {
+      "id": "we-16",
+      "difficulty": 3,
+      "question": "Wem steht das Vorkaufsrecht zu, wenn eine vermietete Wohnung in Wohnungseigentum umgewandelt und erstmals verkauft wird?",
+      "options": [
+        "Dem Mieter",
+        "Dem Nachbarn",
+        "Der Bank des Verkäufers",
+        "Dem Notar"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nach § 577 BGB hat der Mieter ein Vorkaufsrecht, wenn die Mietwohnung nach Überlassung in Wohnungseigentum umgewandelt und dann erstmals verkauft wird. Der Verkäufer muss den Mieter über den Kauf informieren, und der Mieter kann in den Vertrag eintreten.",
+      "wrongExplanations": [
+        null,
+        "Nachbarn haben im Allgemeinen kein Vorkaufsrecht.",
+        "Die Bank hat nur ein Recht aus der Grundschuld, kein Vorkaufsrecht.",
+        "Der Notar ist neutral und hat kein eigenes Recht am Objekt."
+      ],
+      "practiceTip": "Wenn du vermietete Wohnungen verkaufst, prüfe früh, ob das Mieter-Vorkaufsrecht gilt. Ein vergessener Hinweis kann den Kaufvertrag angreifbar machen."
+    },
+    {
+      "id": "we-17",
+      "difficulty": 3,
+      "question": "Was ist ein „zertifizierter Verwalter“?",
+      "options": [
+        "Ein Verwalter, der eine Prüfung vor der IHK abgelegt hat und dessen Bestellung Eigentümer verlangen können",
+        "Ein Verwalter, der nur in Neubauten arbeitet",
+        "Ein Verwalter, der kostenlos arbeitet",
+        "Ein Notar für Wohnungseigentum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Seit dem 1. Dezember 2023 können Eigentümer die Bestellung eines zertifizierten Verwalters verlangen (§ 26a WEG). Er hat eine Prüfung vor der IHK zu Rechts-, Bau- und Kaufmannswissen bestanden. Verwalter ohne Zertifikat dürfen aber weiter bestellt werden, wenn die Gemeinschaft das will.",
+      "wrongExplanations": [
+        null,
+        "Das Zertifikat sagt nichts über die Art des Objekts.",
+        "Die Verwaltung ist immer vergütungspflichtig. Ein kostenloser Verwalter wäre ungewöhnlich.",
+        "Der Notar ist ein ganz anderer Beruf. Er ist nicht für laufende Verwaltung zuständig."
+      ],
+      "practiceTip": "Für Berufseinsteiger: Die Prüfung zum zertifizierten Verwalter ist ein guter nächster Schritt nach der Ausbildung und macht dich auf dem Markt gefragt."
+    }
+  ]
+}
