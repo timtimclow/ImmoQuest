@@ -31,7 +31,7 @@ function Header() {
     <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-2.5">
         <Link to="/" className="flex items-center gap-2 font-extrabold text-indigo-700">
-          <img src="/favicon.svg" alt="" className="h-7 w-7" />
+          <img src="favicon.svg" alt="" className="h-7 w-7" />
           ImmoQuest
         </Link>
         <div className="flex items-center gap-2 text-sm font-bold">
