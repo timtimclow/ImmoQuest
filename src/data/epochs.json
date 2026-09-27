@@ -5,7 +5,7 @@
     "zeitraum": "bis ca. 1870",
     "signature": "Sichtbares Holzgerüst, dessen Felder mit Lehm oder Ziegeln gefüllt sind.",
     "photo": {
-      "src": "/images/epochs/fachwerk.jpg",
+      "src": "images/epochs/fachwerk.jpg",
       "alt": "Fachwerkhäuser mit Holzgerüst und Knaggen in der Celler Altstadt",
       "author": "Karsten Ratzke",
       "license": "CC0 1.0",
@@ -45,7 +45,7 @@
     "zeitraum": "ca. 1870–1914",
     "signature": "Repräsentative Stadthäuser mit Stuckfassade, hohen Fenstern und hohen Decken.",
     "photo": {
-      "src": "/images/epochs/gruenderzeit.jpg",
+      "src": "images/epochs/gruenderzeit.jpg",
       "alt": "Gründerzeit-Mietshaus mit gegliederter Fassade, Erkern und hohen Fenstern in Coswig",
       "author": "NoRud",
       "license": "CC BY-SA 4.0",
@@ -86,7 +86,7 @@
     "zeitraum": "ca. 1895–1914",
     "signature": "Geschwungene Linien und Pflanzenornamente statt strenger Formen.",
     "photo": {
-      "src": "/images/epochs/jugendstil.jpg",
+      "src": "images/epochs/jugendstil.jpg",
       "alt": "Wohnhaus mit Jugendstilfassade und Erker in Würzburg",
       "author": "Parklife",
       "license": "CC BY-SA 3.0",
@@ -126,7 +126,7 @@
     "zeitraum": "ca. 1919–1933",
     "signature": "Schlichte Kuben mit Flachdach, glatten weißen Wänden und Fensterbändern.",
     "photo": {
-      "src": "/images/epochs/bauhaus.jpg",
+      "src": "images/epochs/bauhaus.jpg",
       "alt": "Bauhaus-Meisterhaus Muche-Schlemmer in Dessau mit Flachdach und weißen Wänden",
       "author": "Martavictor",
       "license": "CC BY-SA 4.0",
@@ -201,7 +201,7 @@
     "zeitraum": "ca. 1960–1979",
     "signature": "Große Fertigteilblöcke aus Beton mit Flachdach, Waschbeton und Balkonreihen.",
     "photo": {
-      "src": "/images/epochs/grossiedlung.jpg",
+      "src": "images/epochs/grossiedlung.jpg",
       "alt": "Wohnblöcke der High-Deck-Siedlung in Berlin-Neukölln aus den 1970er/80er Jahren",
       "author": "Lienhard Schulz",
       "license": "CC BY-SA 3.0",
